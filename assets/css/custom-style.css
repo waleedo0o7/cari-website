@@ -1,0 +1,109 @@
+.switch-box {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 9999;
+}
+
+.go-top.active {
+  top: calc(100% - 60px);
+  transform: translateY(-95%);
+  opacity: 1;
+  left: 20px;
+  visibility: visible;
+  border-radius: 10px;
+}
+
+.about-play-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-play-btn {
+  display: inline-flex;
+  width: fit-content;
+  margin-left: 130px;
+  margin-top: -200px;
+}
+
+.switch-box input:checked + .slider {
+  background-color: #cc0271 !important;
+}
+
+.choose-slider.owl-carousel .owl-nav button.owl-next,
+.choose-slider.owl-carousel .owl-nav button.owl-prev,
+.choose-slider.owl-carousel button.owl-dot {
+  width: 45px;
+  height: 45px;
+  font-size: 28px !important;
+  border-radius: 100px !important;
+  background-color: rgba(204, 2, 113, 0.6274509804) !important;
+  color: #ffffff !important;
+  transition: var(--transition);
+}
+.choose-slider.owl-carousel .owl-nav button.owl-next:hover,
+.choose-slider.owl-carousel .owl-nav button.owl-prev:hover,
+.choose-slider.owl-carousel button.owl-dot:hover {
+  width: 55px;
+  height: 55px;
+  font-size: 34px !important;
+  background-color: #191f30 !important;
+}
+
+.event-content .content .event-date h2 {
+  font-size: 25px;
+  color: #fff;
+  margin-bottom: 0;
+  text-align: center;
+  line-height: 1.2;
+  padding: 25px;
+  rotate: -33deg;
+  margin-top: 20px;
+}
+
+.follow-us-wrapper {
+  background: #0a0f1f;
+  margin-bottom: 40px;
+}
+.follow-us-wrapper .section-title h2 {
+  color: #fff;
+}
+.follow-us-wrapper .footer-widget .social-link li a i {
+  font-size: 46px;
+}
+
+hr.white {
+  background-color: #fff;
+  opacity: 1;
+}
+
+.inner-banner .inner-title {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.about-area.no-bg::before {
+  content: none;
+}
+
+.article-social-icon {
+  justify-content: center;
+  align-items: center;
+  float: none !important;
+  display: flex;
+}
+
+.order-details-pref {
+  background: #fafafa;
+  border: 1px solid #ededed;
+  display: flex;
+  margin: 40px 0;
+}
+.order-details-pref .panel {
+  padding: 30px;
+  width: 33.333%;
+  border-left: 1px solid #ededed;
+}
+
+/*# sourceMappingURL=custom-style.css.map */
