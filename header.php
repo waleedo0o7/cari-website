@@ -29,13 +29,15 @@
     <!-- Style CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="assets/css/custom-style.css">
 
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="assets/css/responsive.css">
     <!-- Theme Dark CSS -->
     <link rel="stylesheet" href="assets/css/theme-dark.css">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/custom-style.css">
+
 
     <!-- Title -->
     <title> Cari Diet </title>
@@ -179,7 +181,7 @@
 
                         <div class="mobile-nav">
                             <div class="mobile-other d-flex align-items-center">
- 
+
                                 <div class="optional-item">
                                     <a target="_black" href="https://play.google.com/store/apps/details?id=get.cari.bestfooddelivery.app&hl=en&gl=US" class="default-btn two"> Download App </a>
                                 </div>

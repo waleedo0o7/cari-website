@@ -111,6 +111,47 @@ hr.white {
     margin-top: 20px;
 }
 
+.banner-area-for {
+    padding: 50px 0 0 0;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background: #cc0271;
+    max-height: 70vh;
+    margin-bottom: 20vh;
+    .banner-content-two {
+        background: none;
+    }
+}
+
+.color-white {
+    color: #fff !important;
+}
+
+html.theme-dark {
+    .bg-white {
+        background-color: var(--bgColor) !important;
+    }
+
+    .choose-area::after {
+        opacity: 0 !important;
+    }
+
+    .follow-us-wrapper {
+        background: #0e0e0e;
+    }
+
+    .order-details-pref {
+        background: #0e0e0e;
+        border: 1px solid #eaeaea1a;
+        display: flex;
+        margin: 40px 0;
+        .panel {
+            border-color: #eaeaea1a;
+        }
+    }
+}
+
 @media all and (max-width: 1024px) {
     .event-content .content .event-date {
         display: none;
