@@ -437,7 +437,7 @@ Navbar Area
   padding-left: 0;
 }
 .desktop-nav .navbar .navbar-nav .nav-item a {
-  font-size: 22px;
+  font-size: 20px;
   color: var(--bodyColor);
   position: relative;
   z-index: 1;

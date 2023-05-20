@@ -24,10 +24,17 @@
                         <p>
                             If you're looking to make a positive change in your life, a diet program could be the perfect solution. By committing to a structured and comprehensive program, you can make significant changes to your eating habits and overall health in just 90 days.
                         </p>
+
+                        <p>
+                            If you're looking to make a positive change in your life, a diet program could be the perfect solution. By committing to a structured and comprehensive program, you can make significant changes to your eating habits and overall health in just 90 days.
+                        </p>
+
+
+
                     </div>
 
                     <h3>Nutrition Special Features</h3>
-                    <div class="row">
+                    <div class="row mb-4">
                         <div class="col-lg-6 col-sm-6">
                             <div class="about-list">
                                 <ul>
@@ -48,6 +55,13 @@
                             </div>
                         </div>
                     </div>
+
+
+                    <p>
+                        If you're looking to make a positive change in your life, a diet program could be the perfect solution. By committing to a structured and comprehensive program, you can make significant changes to your eating habits and overall health in just 90 days.
+                    </p>
+
+
                 </div>
             </div>
 

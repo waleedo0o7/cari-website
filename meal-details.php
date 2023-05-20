@@ -104,81 +104,81 @@
                         <h3 class="title">Recent meals</h3>
                         <div class="widget-popular-post">
                             <article class="item">
-                                <a href="blog-details.html" class="thumb">
+                                <a href="meal-details.php" class="thumb">
                                     <span class="full-image cover bg1" role="img"></span>
                                 </a>
                                 <div class="info">
                                     <h4 class="title-text">
-                                        <a href="blog-details.html">
+                                        <a href="meal-details.php">
                                             5 Tips For Making Delicious Food For all
                                         </a>
                                     </h4>
 
-                                    <a href="blog-details.html" class="read-btn" target="_blank">Read More</a>
+                                    <a href="meal-details.php" class="read-btn" target="_blank">Read More</a>
                                 </div>
                             </article>
 
                             <article class="item">
-                                <a href="blog-details.html" class="thumb">
+                                <a href="meal-details.php" class="thumb">
                                     <span class="full-image cover bg2" role="img"></span>
                                 </a>
                                 <div class="info">
                                     <h4 class="title-text">
-                                        <a href="blog-details.html">
+                                        <a href="meal-details.php">
                                             Top 15 Vegan Easy Recipe to Get More Details
                                         </a>
                                     </h4>
 
-                                    <a href="blog-details.html" class="read-btn" target="_blank">Read More</a>
+                                    <a href="meal-details.php" class="read-btn" target="_blank">Read More</a>
                                 </div>
                             </article>
 
 
 
                             <article class="item">
-                                <a href="blog-details.html" class="thumb">
+                                <a href="meal-details.php" class="thumb">
                                     <span class="full-image cover bg1" role="img"></span>
                                 </a>
                                 <div class="info">
                                     <h4 class="title-text">
-                                        <a href="blog-details.html">
+                                        <a href="meal-details.php">
                                             5 Tips For Making Delicious Food For all
                                         </a>
                                     </h4>
 
-                                    <a href="blog-details.html" class="read-btn" target="_blank">Read More</a>
+                                    <a href="meal-details.php" class="read-btn" target="_blank">Read More</a>
                                 </div>
                             </article>
 
                             <article class="item">
-                                <a href="blog-details.html" class="thumb">
+                                <a href="meal-details.php" class="thumb">
                                     <span class="full-image cover bg2" role="img"></span>
                                 </a>
                                 <div class="info">
                                     <h4 class="title-text">
-                                        <a href="blog-details.html">
+                                        <a href="meal-details.php">
                                             Top 15 Vegan Easy Recipe to Get More Details
                                         </a>
                                     </h4>
 
-                                    <a href="blog-details.html" class="read-btn" target="_blank">Read More</a>
+                                    <a href="meal-details.php" class="read-btn" target="_blank">Read More</a>
                                 </div>
                             </article>
 
 
                             
                             <article class="item">
-                                <a href="blog-details.html" class="thumb">
+                                <a href="meal-details.php" class="thumb">
                                     <span class="full-image cover bg1" role="img"></span>
                                 </a>
                                 <div class="info">
                                     <h4 class="title-text">
-                                        <a href="blog-details.html">
+                                        <a href="meal-details.php">
                                             5 Tips For Making Delicious Food For all
                                         </a>
                                     </h4>
 
-                                    <a href="blog-details.html" class="read-btn" target="_blank">Read More</a>
+                                    <a href="meal-details.php" class="read-btn" target="_blank">Read More</a>
                                 </div>
                             </article>
  

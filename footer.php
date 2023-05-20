@@ -84,7 +84,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="footer-widget">
                         <div class="footer-logo">
-                            <a href="index.html">
+                            <a href="homepage.php">
                                 <img src="assets/images/footer-logo.png" alt="Images">
                             </a>
                         </div>
@@ -100,30 +100,34 @@
                         <h3>Useful Links</h3>
                         <ul class="footer-list">
                             <li>
-                                <a href="index.html" target="_blank">
+                                <a href="homepage.php" target="_blank">
                                     Home
                                 </a>
                             </li>
                             <li>
-                                <a href="about.html" target="_blank">
+                                <a href="about-us.php" target="_blank">
                                     About Us
                                 </a>
                             </li>
+
                             <li>
-                                <a href="portfolio.html" target="_blank">
-                                    Portfolio
+                                <a href="menu.php" target="_blank">
+                                    menu
                                 </a>
                             </li>
+
                             <li>
-                                <a href="privacy-policy.html" target="_blank">
-                                    Privacy Policy
+                                <a href="plans.php" target="_blank">
+                                    plans
                                 </a>
                             </li>
+
                             <li>
-                                <a href="terms-condition.html" target="_blank">
-                                    Terms & Condition
+                                <a href="contact-us.php" target="_blank">
+                                    Contact Us
                                 </a>
                             </li>
+
                         </ul>
                     </div>
                 </div>

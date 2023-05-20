@@ -13,8 +13,8 @@
                             <h1>Good Nutrition Prevent Your Disease</h1>
                             <p> Transform Your Health with Our Nutritious and Delicious Recipes and our diet programs , so it will be a good point to change your life </p>
                             <div class="banner-btn">
-                                <a href="about.html" class="default-btn">Learn More</a>
-                                <a href="contact.html" class="default-btn two">Contact Us</a>
+                                <a href="about-us.php" class="default-btn">Learn More</a>
+                                <a href="contact.php" class="default-btn two">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -36,8 +36,8 @@
                             <h1>Healthy & Delicious Backed Pasta</h1>
                             <p> Transform Your Health with Our Nutritious and Delicious Recipes and our diet programs , so it will be a good point to change your life </p>
                             <div class="banner-btn">
-                                <a href="about.html" class="default-btn">Learn More</a>
-                                <a href="contact.html" class="default-btn two">Contact Us</a>
+                                <a href="about-us.php" class="default-btn">Learn More</a>
+                                <a href="contact.php" class="default-btn two">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -59,8 +59,8 @@
                             <h1> Nourishing with Healthy Food Choices </h1>
                             <p> Transform Your Health with Our Nutritious and Delicious Recipes and our diet programs , so it will be a good point to change your life </p>
                             <div class="banner-btn">
-                                <a href="about.html" class="default-btn">Learn More</a>
-                                <a href="contact.html" class="default-btn two">Contact Us</a>
+                                <a href="about-us.php" class="default-btn">Learn More</a>
+                                <a href="contact.php" class="default-btn two">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -82,8 +82,8 @@
                             <h1>Nourishing with Healthy Food Choices</h1>
                             <p> Transform Your Health with Our Nutritious and Delicious Recipes and our diet programs , so it will be a good point to change your life </p>
                             <div class="banner-btn">
-                                <a href="about.html" class="default-btn">Learn More</a>
-                                <a href="contact.html" class="default-btn two">Contact Us</a>
+                                <a href="about-us.php" class="default-btn">Learn More</a>
+                                <a href="contact.php" class="default-btn two">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -213,38 +213,38 @@
 
         <div class="choose-slider owl-carousel owl-theme pt-45">
             <div class="choose-item">
-                <a href="recipe-details.html">
+                <a href="meal-details.php">
                     <img src="assets/images/choose/choose-img1.png" alt="Images">
                 </a>
-                <h3><a href="recipe-details.html">Appetizers</a></h3>
+                <h3><a href="meal-details.php">Appetizers</a></h3>
             </div>
 
             <div class="choose-item">
-                <a href="recipe-details.html">
+                <a href="meal-details.php">
                     <img src="assets/images/choose/choose-img2.png" alt="Images">
                 </a>
-                <h3><a href="recipe-details.html">Fish</a></h3>
+                <h3><a href="meal-details.php">Fish</a></h3>
             </div>
 
             <div class="choose-item">
-                <a href="recipe-details.html">
+                <a href="meal-details.php">
                     <img src="assets/images/choose/choose-img3.png" alt="Images">
                 </a>
-                <h3><a href="recipe-details.html">Chicken</a></h3>
+                <h3><a href="meal-details.php">Chicken</a></h3>
             </div>
 
             <div class="choose-item">
-                <a href="recipe-details.html">
+                <a href="meal-details.php">
                     <img src="assets/images/choose/choose-img4.png" alt="Images">
                 </a>
-                <h3><a href="recipe-details.html">Vegetable</a></h3>
+                <h3><a href="meal-details.php">Vegetable</a></h3>
             </div>
 
             <div class="choose-item">
-                <a href="recipe-details.html">
+                <a href="meal-details.php">
                     <img src="assets/images/choose/choose-img1.png" alt="Images">
                 </a>
-                <h3><a href="recipe-details.html">Appetizers</a></h3>
+                <h3><a href="meal-details.php">Appetizers</a></h3>
             </div>
         </div>
     </div>

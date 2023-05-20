@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 
 <!-- Inner Banner -->
-<div class="inner-banner inner-bg1">
+<div class="inner-banner inner-bg3">
     <div class="container">
         <div class="inner-title text-center">
             <h3> Available Menu </h3>

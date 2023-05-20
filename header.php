@@ -38,7 +38,7 @@
     <link rel="stylesheet" href="assets/css/theme-dark.css">
 
     <!-- Title -->
-    <title>Arrola - Nutrition & Recipe HTML Template</title>
+    <title> Cari Diet </title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
@@ -48,7 +48,7 @@
 <body>
 
     <!-- Preloader -->
-    <div class="preloader d-none">
+    <div class="preloader">
         <div class="spinner">
             <div class="dot1"></div>
             <div class="dot2"></div>
@@ -62,7 +62,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-3 col-md-4">
                     <div class="header-left">
-                        <p>Welcome To Arrola Health!</p>
+                        <p>Welcome To Cari App!</p>
                     </div>
                 </div>
 
@@ -165,7 +165,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a href="#" class="nav-link "> Contact us </a>
+                                <a href="contact.php" class="nav-link "> Contact us </a>
                             </li>
 
                         </ul>
@@ -173,22 +173,15 @@
                         <div class="others-options d-flex align-items-center">
 
                             <div class="optional-item">
-                                <a href="appointment.html" class="default-btn two"> Download App</a>
+                                <a target="_black" href="https://play.google.com/store/apps/details?id=get.cari.bestfooddelivery.app&hl=en&gl=US" class="default-btn two"> Download App</a>
                             </div>
                         </div>
 
                         <div class="mobile-nav">
                             <div class="mobile-other d-flex align-items-center">
+ 
                                 <div class="optional-item">
-                                    <div class="search-btn">
-                                        <a class="#" href="#searchmodal" data-bs-toggle="modal" data-bs-target="#searchmodal">
-                                            <i class='bx bx-search'></i>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div class="optional-item">
-                                    <a href="appointment.html" class="default-btn two">Appointment</a>
+                                    <a target="_black" href="https://play.google.com/store/apps/details?id=get.cari.bestfooddelivery.app&hl=en&gl=US" class="default-btn two"> Download App </a>
                                 </div>
                             </div>
                         </div>
