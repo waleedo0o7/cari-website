@@ -4,16 +4,11 @@
 <div class="inner-banner inner-bg9">
     <div class="container">
         <div class="inner-title text-center">
-            <h3>  Contact Us  </h3>
+            <h3> Contact Us </h3>
         </div>
     </div>
 </div>
 <!-- Inner Banner End -->
-
-
-
-
-
 
 <!-- Contact Area -->
 <div class="contact-area pt-100 pb-70">
@@ -29,7 +24,7 @@
                             <div class="content">
                                 <i class='bx bx-phone-call'></i>
                                 <h3>Phone Number</h3>
-                                <a href="tel:+8245678924">+8245678924</a>
+                                <a href="tel:+96645678924">+96645678924</a>
                             </div>
                         </li>
 
@@ -37,7 +32,7 @@
                             <div class="content">
                                 <i class='bx bxs-map'></i>
                                 <h3>Address</h3>
-                                <span>5ut, Stamford South, Newzeland</span>
+                                <span> ksa makkah</span>
                             </div>
                         </li>
 
@@ -45,7 +40,7 @@
                             <div class="content">
                                 <i class='bx bx-message'></i>
                                 <h3>Contact Info</h3>
-                                <a href="mailto:hello@arrola.com">hello@arrola.com</a>
+                                <a href="mailto:info@cari.com">info@cari.com</a>
                             </div>
                         </li>
                     </ul>

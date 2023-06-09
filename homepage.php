@@ -1,377 +1,347 @@
 <?php include 'header.php'; ?>
 
-<!-- Banner Area -->
-<div class="banner-slider-area">
-    <div class="banner-slider owl-carousel owl-theme">
 
-
-        <div class="banner-item">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="banner-item-content">
-                            <h1>Good Nutrition Prevent Your Disease</h1>
-                            <p> Transform Your Health with Our Nutritious and Delicious Recipes and our diet programs , so it will be a good point to change your life </p>
-                            <div class="banner-btn">
-                                <a href="about-us.php" class="default-btn">Learn More</a>
-                                <a href="contact.php" class="default-btn two">Contact Us</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 pe-0">
-                        <div class="banner-item-img">
-                            <img src="assets/images/home-two/home-two-img1.jpg" alt="Banner Images">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="banner-item">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="banner-item-content">
-                            <h1>Healthy & Delicious Backed Pasta</h1>
-                            <p> Transform Your Health with Our Nutritious and Delicious Recipes and our diet programs , so it will be a good point to change your life </p>
-                            <div class="banner-btn">
-                                <a href="about-us.php" class="default-btn">Learn More</a>
-                                <a href="contact.php" class="default-btn two">Contact Us</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 pe-0">
-                        <div class="banner-item-img">
-                            <img src="assets/images/home-two/home-two-img2.jpg" alt="Banner Images">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="banner-item">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="banner-item-content">
-                            <h1> Nourishing with Healthy Food Choices </h1>
-                            <p> Transform Your Health with Our Nutritious and Delicious Recipes and our diet programs , so it will be a good point to change your life </p>
-                            <div class="banner-btn">
-                                <a href="about-us.php" class="default-btn">Learn More</a>
-                                <a href="contact.php" class="default-btn two">Contact Us</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 pe-0">
-                        <div class="banner-item-img">
-                            <img src="assets/images/home-two/home-two-img3.jpg" alt="Banner Images">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="banner-item">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="banner-item-content">
-                            <h1>Nourishing with Healthy Food Choices</h1>
-                            <p> Transform Your Health with Our Nutritious and Delicious Recipes and our diet programs , so it will be a good point to change your life </p>
-                            <div class="banner-btn">
-                                <a href="about-us.php" class="default-btn">Learn More</a>
-                                <a href="contact.php" class="default-btn two">Contact Us</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 pe-0">
-                        <div class="banner-item-img">
-                            <img src="assets/images/home-two/home-two-img4.jpg" alt="Banner Images">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-    </div>
-
-    <div class="banner-shape-two">
-        <img src="assets/images/shape/shape1.png" alt="Banner Images">
-        <img src="assets/images/shape/shape2.png" alt="Banner Images">
-        <img src="assets/images/shape/shape3.png" alt="Banner Images">
-    </div>
-</div>
-<!-- Banner Area End -->
-
-<!-- Banner Bottom Area -->
-<div class="banner-bottom-area pt-100 pb-70">
+<!-- Banner Area Three -->
+<div class="banner-area-for intro-with-bg" style="background-image: url(assets/images/slider-intro.jpg);">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-4 col-sm-6">
-                <div class="banner-bottom-card">
-                    <i class="flaticon-calendar-1"></i>
-                    <h3> Lose 10kg in 90 days </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p>
-                    <a href="https://www.instagram.com/p/CsMBkgcPpKD/" target="_black" class="learn-btn">Learn More</a>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="banner-content-two">
+
+                    <h1 class="wow animate__animated animate__fadeInUp" data-wow-delay="100ms" data-wow-duration="1000ms"> Deliciously Simple: Personalized Meal Plans, Delivered to Your Doorstep </h1>
+                    <p class="wow animate__animated animate__fadeInDown" data-wow-delay="200ms" data-wow-duration="1000ms"> Flexible and Convenient Options: Customize Your Meal Plan to Fit Your Schedule, Dietary Needs, and Taste Preferences </p>
+
+                    <div class="banner-btn wow animate__animated animate__fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
+                        <a href="#" class="default-btn three"> Build my meal plan </a>
+                    </div>
+
                 </div>
             </div>
-
-            <div class="col-lg-4 col-sm-6">
-                <div class="banner-bottom-card">
-                    <i class="flaticon-diet"></i>
-                    <h3>Natural Foods</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p>
-                    <a href="https://www.instagram.com/p/CsMBkgcPpKD/" target="_black" class="learn-btn">Learn More</a>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-sm-6">
-                <div class="banner-bottom-card">
-                    <i class="flaticon-plan"></i>
-                    <h3>Nutrition Plans</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p>
-                    <a href="https://www.instagram.com/p/CsMBkgcPpKD/" target="_black" class="learn-btn">Learn More</a>
-                </div>
+            <div class="col-md-4">
             </div>
         </div>
     </div>
 </div>
-<!-- Banner Bottom Area End -->
+<!-- Banner Area Three End -->
 
-<!-- About Area -->
-<div class="about-area pt-100 pb-70">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div class="about-content">
-                    <div class="section-title">
-                        <h1 class="color-primary"> About Us </h1>
-                        <h2>Change Your Life in the next 90 Days with <b> cari </b></h2>
-                        <p>
-                            If you're looking to make a positive change in your life, a diet program could be the perfect solution. By committing to a structured and comprehensive program, you can make significant changes to your eating habits and overall health in just 90 days.
-                        </p>
-                    </div>
-
-                    <h3>Nutrition Special Features</h3>
-                    <div class="row">
-                        <div class="col-lg-6 col-sm-6">
-                            <div class="about-list">
-                                <ul>
-                                    <li><i class='bx bx-chevrons-right'></i> Nutrient Requirements</li>
-                                    <li><i class='bx bx-chevrons-right'></i> Glyceraldehyde Load</li>
-                                    <li><i class='bx bx-chevrons-right'></i> Ways to Follow Diet</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-sm-6">
-                            <div class="about-list">
-                                <ul>
-                                    <li><i class='bx bx-chevrons-right'></i> Medicinal Circumstances</li>
-                                    <li><i class='bx bx-chevrons-right'></i> Glyceraldehyde Load</li>
-                                    <li><i class='bx bx-chevrons-right'></i> A Nutrition Lifestyle</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-6 about-play-btn-wrapper">
-                <div class="about-play-btn">
-                    <a href="./assets/about-us-video.mp4" class="play-btn">
-                        <i class='bx bxs-right-arrow'></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-
-        <a href="contact-us.php" class="default-btn">Read More</a>
-    </div>
-
-    <div class="about-shape">
-        <img src="assets/images/about/about-bg-shape.png" alt="About Images">
-        <img src="assets/images/shape/shape1.png" alt="About Images">
-        <img src="assets/images/shape/shape2.png" alt="About Images">
-        <img src="assets/images/shape/shape3.png" alt="About Images">
-    </div>
-</div>
-<!-- About Area End -->
-
-<!-- Choose Slider Area -->
-<div class="choose-slider-area pt-100">
+<!-- Top Local Restaurants Slider Area -->
+<div class="top-local-restaurants pt-100">
     <div class="container">
         <div class="section-title text-center">
-            <h2> Menu </h2>
+            <h2> Curated Meals from <b class="colored"> Top Local Restaurants </b> </h2>
         </div>
 
-        <div class="choose-slider owl-carousel owl-theme pt-45">
-            <div class="choose-item">
-                <a href="meal-details.php">
-                    <img src="assets/images/choose/choose-img1.png" alt="Images">
-                </a>
-                <h3><a href="meal-details.php">Appetizers</a></h3>
+        <div class="top-local-restaurants-slider owl-carousel owl-theme pt-45">
+
+            <div class="restaurants-item">
+                <img src="assets/images/brands-slider/image3.png" alt="Images">
             </div>
 
-            <div class="choose-item">
-                <a href="meal-details.php">
-                    <img src="assets/images/choose/choose-img2.png" alt="Images">
-                </a>
-                <h3><a href="meal-details.php">Fish</a></h3>
+            <div class="restaurants-item">
+                <img src="assets/images/brands-slider/image4.png" alt="Images">
             </div>
 
-            <div class="choose-item">
-                <a href="meal-details.php">
-                    <img src="assets/images/choose/choose-img3.png" alt="Images">
-                </a>
-                <h3><a href="meal-details.php">Chicken</a></h3>
+            <div class="restaurants-item">
+                <img src="assets/images/brands-slider/image5.png" alt="Images">
             </div>
 
-            <div class="choose-item">
-                <a href="meal-details.php">
-                    <img src="assets/images/choose/choose-img4.png" alt="Images">
-                </a>
-                <h3><a href="meal-details.php">Vegetable</a></h3>
+            <div class="restaurants-item">
+                <img src="assets/images/brands-slider/image6.png" alt="Images">
             </div>
 
-            <div class="choose-item">
-                <a href="meal-details.php">
-                    <img src="assets/images/choose/choose-img1.png" alt="Images">
-                </a>
-                <h3><a href="meal-details.php">Appetizers</a></h3>
+            <div class="restaurants-item">
+                <img src="assets/images/brands-slider/image7.png" alt="Images">
             </div>
+
+            <div class="restaurants-item">
+                <img src="assets/images/brands-slider/image8.png" alt="Images">
+            </div>
+
+
         </div>
     </div>
 </div>
-<!-- Choose Slider Area End -->
+<!-- Top Local Restaurants Slider End -->
 
-<!-- Event Area -->
-<div class="event-area pt-100 pb-70">
+<!-- Why Choose Our Meal Plan Area -->
+<div class="why-choose-our-meal-plan pt-100">
+    <div class="container">
+
+        <div class="section-title text-center mb-5">
+            <h2> Why <b class="colored"> Choose </b> Our Meal Plan Service? </h2>
+        </div>
+
+        <div class="row no-gutters why-choose-cards-row">
+            <div class="col-lg-4 p-0">
+                <div class="why-choose-card text-center">
+                    <i class="icon icon-smile-face"></i>
+                    <h5> Customizable Meal Selections </h5>
+                    <p> Enjoy the freedom to customize your meal selections according to your preferences, dietary restrictions, or specific nutritional goals. </p>
+                </div> <!-- why-choose-card -->
+            </div>
+
+
+            <div class="col-lg-4 p-0">
+                <div class="why-choose-card text-center">
+                    <i class="icon icon-fish"></i>
+                    <h5> Fresh and Nutritious Ingredients </h5>
+                    <p> We prioritize the use of fresh, high-quality ingredients in all our meals. Our team of culinary experts carefully curates each ingredient to ensure optimal nutrition and flavor. </p>
+                </div> <!-- why-choose-card -->
+            </div>
+
+
+
+
+            <div class="col-lg-4 p-0">
+                <div class="why-choose-card text-center">
+                    <i class="icon icon-drink"></i>
+                    <h5> Dietary Variety </h5>
+                    <p> We understand that everyone has different dietary needs. That's why we offer a diverse range of meal options, including vegetarian, vegan, gluten-free, and other specialized diets. </p>
+                </div> <!-- why-choose-card -->
+            </div>
+
+
+            <div class="col-lg-4 p-0">
+                <div class="why-choose-card text-center">
+                    <i class="icon icon-clock"></i>
+                    <h5> Convenience and Time-Saving </h5>
+                    <p> Save time and energy with our convenient meal plan service. Say goodbye to grocery shopping, meal prepping, and cooking. </p>
+                </div> <!-- why-choose-card -->
+            </div>
+
+
+            <div class="col-lg-4 p-0">
+                <div class="why-choose-card text-center">
+                    <i class="icon icon-chef-hat"></i>
+                    <h5> Expertly Curated Menus </h5>
+                    <p> Our team of talented chefs works diligently to curate menus that are not only nutritious but also bursting with flavors. </p>
+                </div> <!-- why-choose-card -->
+            </div>
+
+
+            <div class="col-lg-4 p-0">
+                <div class="why-choose-card text-center">
+                    <i class="icon icon-clock"></i>
+                    <h5> Flexible Subscription Options </h5>
+                    <p> We understand that life can be unpredictable, which is why we offer flexible subscription options. </p>
+                </div> <!-- why-choose-card -->
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+</div>
+<!-- Why Choose Our Meal Plan Area -->
+
+
+<!-- How It Works Area -->
+<div class="how-it-works pt-100 mb-5">
+    <div class="container">
+
+        <div class="section-title text-center mb-5">
+            <p class="lead"> Cari’s meal plan in 3 simple steps </p>
+            <h2> How it <b class="colored"> works </b> ?</h2>
+        </div>
+
+
+        <div class="row how-it-works-cards-row">
+            <div class="col-lg-4">
+                <div class="how-it-works-card">
+                    <h3> Choose and customize your meal plan </h3>
+                    <p> Explore different meal plan options and select the one that suits your needs. </p>
+                    <img src="assets/images/how-it-works-01.png" class="img-fluid" alt="">
+                </div>
+            </div>
+
+
+            <div class="col-lg-4">
+                <div class="how-it-works-card">
+                    <h3> Set your preferred delivery schedule </h3>
+                    <p> Learn about our reliable delivery service and the frequency of meal deliveries. </p>
+                    <img src="assets/images/how-it-works-02.png" class="img-fluid" alt="">
+                </div>
+            </div>
+
+
+            <div class="col-lg-4">
+                <div class="how-it-works-card">
+                    <h3> Enjoy Your Delicious Meals delivered to your doorstep </h3>
+                    <p> Experience the convenience of having fresh, chef-prepared meals delivered to your doorstep. </p>
+                    <img src="assets/images/how-it-works-03.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- How It Works Area -->
+
+
+
+
+<!-- Flexible Plans Area -->
+<div class="flexible-plans pt-100 mb-5">
+    <div class="container">
+
+        <div class="section-title text-center mb-5">
+            <h2> <b class="colored"> Flexible Plans </b> for </h2>
+            <h2 class="mb-0"> everyone to enjoy </h2>
+            <p> Choose from our affordable 3 packages </p>
+        </div>
+
+        <div class="row flexible-plans-row">
+
+            <div class="col-lg-4">
+                <div class="flexible-plans-card">
+                    <div class="image-wrapper">
+                        <img src="assets/images/plans-01.png" alt="">
+                    </div>
+
+                    <div class="flexible-plans-card-content p-3">
+                        <h5> 1 Meal </h5>
+                        <h1 class="price"> KD9 </h1>
+                        <p class="lead"> Perfect for those looking for a convenient and cost-effective option while still enjoying a satisfying and wholesome meal. </p>
+                        <a href="#" class="default-btn border-radius-sm for w-100"> Get Started </a>
+                    </div>
+
+                </div><!-- flexible-plans-card -->
+            </div>
+
+
+
+            <div class="col-lg-4">
+                <div class="flexible-plans-card recommended">
+                    <div class="image-wrapper">
+                        <img src="assets/images/plans-02.png" alt="">
+                        <p class="label"> Recommended </p>
+                    </div>
+
+                    <div class="flexible-plans-card-content p-3">
+                        <h5> 3 Meals </h5>
+                        <h1 class="price"> KD29 </h1>
+                        <p class="lead"> Ideal for individuals seeking complete nutrition and convenience, offering a variety of dishes to keep you energized and satisfied from morning to night. </p>
+                        <a href="#" class="default-btn border-radius-sm for w-100"> Get Started </a>
+                    </div>
+
+                </div><!-- flexible-plans-card -->
+            </div>
+
+
+
+            <div class="col-lg-4">
+                <div class="flexible-plans-card">
+                    <div class="image-wrapper">
+                        <img src="assets/images/plans-03.png" alt="">
+                    </div>
+
+                    <div class="flexible-plans-card-content p-3">
+                        <h5> 2 Meals </h5>
+                        <h1 class="price"> KD19 </h1>
+                        <p class="lead"> This plan provides a well-rounded eating experience, allowing you to maintain a healthy diet while saving time on meal preparation. </p>
+                        <a href="#" class="default-btn border-radius-sm for w-100"> Get Started </a>
+                    </div>
+
+                </div><!-- flexible-plans-card -->
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+</div>
+<!-- Flexible Plans Area -->
+
+
+
+
+
+
+<!-- Faq Area -->
+<div class="faq-area custom-faq-area pt-100 pb-70">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
-                <div class="event-content">
-                    <div class="section-title">
-                        <h2> What makes Cari <b> different </b></h2>
-                    </div>
+            <div class="col-lg-5">
 
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="content">
-                                <div class="event-date">
-                                    <h2> Planning </h2>
-                                    <img src="assets/images/event/event-bg.png" alt="Images">
-                                </div>
-                                <h3> Meal Planning Made Easy </h3>
-                                <p> Meal planning is an essential component of a healthy and balanced diet. It not only helps you save time and money, but also ensures that you are making </p>
-                            </div>
-                        </div>
 
-                        <div class="col-lg-12">
-                            <div class="content">
-                                <div class="event-date">
-                                    <h2> control </h2>
-                                    <img src="assets/images/event/event-bg.png" alt="Images">
-                                </div>
+                <div class="custom-faq-area-text color-white ">
+                    <p class="lead"> Support </p>
+                    <h1 class="title"> FAQs </h1>
+                    <p> Answers on meal selection, dietary restrictions, delivery, customization, and subscription management, ensuring a seamless experience. </p>
+                </div><!-- custom-faq-area-text -->
 
-                                <h3> Giving restaurants full control </h3>
-                                <p> Giving restaurants full control over their menu and ingredients is an important aspect of dining out. By having complete control </p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-12">
-                            <div class="content">
-                                <div class="event-date">
-                                    <h2> Access </h2>
-                                    <img src="assets/images/event/event-bg.png" alt="Images">
-                                </div>
-                                <h3> Access your customer database </h3>
-                                <p> Accessing your customer database is an important step in understanding your customers and their needs.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
 
-            <div class="col-lg-6">
-                <div class="event-img">
-                    <img src="assets/images/event/event-img.jpg" alt="Images">
-                    <div class="sub-img">
-                        <img src="assets/images/event/event-sub-img.png" alt="Images">
-                    </div>
+            <div class="col-lg-7">
+                <div class="faq-accordion">
+                    <ul class="accordion">
+                        <li class="accordion-item">
+                            <a class="accordion-title active" href="javascript:void(0)">
+                                <i class='bx bx-plus'></i>
+                                How does the meal selection process work?
+                            </a>
+
+                            <div class="accordion-content show">
+                                <p>
+                                    Our meal selection process is simple. Once you subscribe to our service, you'll have access to our user-friendly platform, where you can browse through our menu and choose your preferred meals for each day. You can customize your selections based on your dietary preferences and nutritional goals.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="accordion-item">
+                            <a class="accordion-title" href="javascript:void(0)">
+                                <i class='bx bx-plus'></i>
+                                Are the meals suitable for specific dietary restrictions, such as vegetarian or gluten-free?
+                            </a>
+
+                            <div class="accordion-content">
+                                <p>
+                                    Our meal selection process is simple. Once you subscribe to our service, you'll have access to our user-friendly platform, where you can browse through our menu and choose your preferred meals for each day. You can customize your selections based on your dietary preferences and nutritional goals.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="accordion-item">
+                            <a class="accordion-title" href="javascript:void(0)">
+                                <i class='bx bx-plus'></i>
+                                How are the meals delivered, and what is the delivery schedule?
+                            </a>
+
+                            <div class="accordion-content">
+                                <p>
+                                    Our meal selection process is simple. Once you subscribe to our service, you'll have access to our user-friendly platform, where you can browse through our menu and choose your preferred meals for each day. You can customize your selections based on your dietary preferences and nutritional goals.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="accordion-item">
+                            <a class="accordion-title" href="javascript:void(0)">
+                                <i class='bx bx-plus'></i>
+                                Can I customize my meal plan based on portion sizes or dietary preferences?
+                            </a>
+
+                            <div class="accordion-content">
+                                <p>
+                                    Our meal selection process is simple. Once you subscribe to our service, you'll have access to our user-friendly platform, where you can browse through our menu and choose your preferred meals for each day. You can customize your selections based on your dietary preferences and nutritional goals.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!-- Event Area End -->
+<!-- Faq Area End -->
 
-<!-- Testimonials Area -->
-<div class="testimonials-area ptb-100">
-    <div class="container">
-        <div class="testimonials-slider owl-carousel owl-theme">
-            <div class="testimonials-item">
-                <div class="section-title text-center">
-                    <span>Testimonials</span>
-                    <h2>Customer Satisfaction</h2>
-                </div>
-                <i class='bx bxs-quote-left'></i>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-                    gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
-                    labore et dolore magna aliqua quis ipsum
-                </p>
 
-                <div class="content">
-                    <h3>Selina Gomez</h3>
-                    <span>Artist</span>
-                </div>
-            </div>
 
-            <div class="testimonials-item">
-                <div class="section-title text-center">
-                    <span>Testimonials</span>
-                    <h2>Customer Satisfaction</h2>
-                </div>
-                <i class='bx bxs-quote-left'></i>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-                    gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
-                    labore et dolore magna aliqua quis ipsum
-                </p>
 
-                <div class="content">
-                    <h3>Aruna Malis</h3>
-                    <span>Designer</span>
-                </div>
-            </div>
 
-            <div class="testimonials-item">
-                <div class="section-title text-center">
-                    <span>Testimonials</span>
-                    <h2>Customer Satisfaction</h2>
-                </div>
-                <i class='bx bxs-quote-left'></i>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-                    gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
-                    labore et dolore magna aliqua quis ipsum
-                </p>
-
-                <div class="content">
-                    <h3>Pritula Juli</h3>
-                    <span>Nutritionist</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Testimonials Area End -->
 
 <?php include 'footer.php'; ?>
