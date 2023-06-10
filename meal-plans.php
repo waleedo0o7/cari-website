@@ -79,53 +79,95 @@
 
                     <div class="d-block mb-4">
 
-                        <div class="flexible-plans-card style-2 mb-4">
 
-                            <div class="flexible-plans-card-content p-3">
-                                <div class="d-flex d-flex justify-content-between align-items-center">
-                                    <h5> 1 Meal </h5>
-                                    <h2> KD9 </h2>
+                        <div class="flexible-plans-card-wrapper">
+
+                            <div class="option-container">
+                                <input type="radio" id="product-01" name="select-product" class="radio-with-select-item" value="1">
+                                <span class="checkmark"></span>
+                            </div>
+
+                            <label for="product-01" class="flexible-plans-card style-2 mb-4">
+
+                                <div class="flexible-plans-card-content p-3">
+                                    <div class="d-flex d-flex justify-content-between align-items-center">
+                                        <h5> 1 Meal </h5>
+                                        <h2> KD9 </h2>
+                                    </div>
+                                    <p class="lead"> Perfect for those looking for a convenient and cost-effective option while still enjoying a satisfying and wholesome meal. </p>
                                 </div>
-                                <p class="lead"> Perfect for those looking for a convenient and cost-effective option while still enjoying a satisfying and wholesome meal. </p>
-                            </div>
 
-                            <div class="image-wrapper">
-                                <img src="assets/images/plans-01.png" alt="">
-                            </div>
-
-                        </div> <!-- flexible-plans-card -->
-
-                        <div class="flexible-plans-card style-2 recommended mb-4">
-
-                            <div class="flexible-plans-card-content p-3">
-                                <div class="d-flex d-flex justify-content-between align-items-center">
-                                    <h5> 1 Meal </h5>
-                                    <h2> KD9 </h2>
+                                <div class="image-wrapper">
+                                    <img src="assets/images/plans-01.png" alt="">
                                 </div>
-                                <p class="lead"> Perfect for those looking for a convenient and cost-effective option while still enjoying a satisfying and wholesome meal. </p>
+
+                            </label> <!-- flexible-plans-card -->
+
+
+                        </div><!-- flexible-plans-card-wrapper -->
+
+
+
+
+                        <div class="flexible-plans-card-wrapper ">
+
+                            <div class="option-container">
+                                <input type="radio" id="product-02" name="select-product" class="radio-with-select-item" value="1">
+                                <span class="checkmark"></span>
                             </div>
 
-                            <div class="image-wrapper">
-                                <img src="assets/images/plans-01.png" alt="">
-                            </div>
+                            <label for="product-02" class="flexible-plans-card recommended style-2 mb-4">
 
-                        </div> <!-- flexible-plans-card -->
-
-                        <div class="flexible-plans-card style-2 mb-4">
-
-                            <div class="flexible-plans-card-content p-3">
-                                <div class="d-flex d-flex justify-content-between align-items-center">
-                                    <h5> 1 Meal </h5>
-                                    <h2> KD9 </h2>
+                                <div class="flexible-plans-card-content p-3">
+                                    <div class="d-flex d-flex justify-content-between align-items-center">
+                                        <h5> 1 Meal </h5>
+                                        <h2> KD9 </h2>
+                                    </div>
+                                    <p class="lead"> Perfect for those looking for a convenient and cost-effective option while still enjoying a satisfying and wholesome meal. </p>
                                 </div>
-                                <p class="lead"> Perfect for those looking for a convenient and cost-effective option while still enjoying a satisfying and wholesome meal. </p>
+
+                                <div class="image-wrapper">
+                                    <img src="assets/images/plans-01.png" alt="">
+                                </div>
+
+                            </label> <!-- flexible-plans-card -->
+
+
+                        </div><!-- flexible-plans-card-wrapper -->
+
+
+
+
+
+                        <div class="flexible-plans-card-wrapper">
+
+                            <div class="option-container">
+                                <input type="radio" id="product-03" name="select-product" class="radio-with-select-item" value="1">
+                                <span class="checkmark"></span>
                             </div>
 
-                            <div class="image-wrapper">
-                                <img src="assets/images/plans-01.png" alt="">
-                            </div>
+                            <label for="product-03" class="flexible-plans-card style-2 mb-4">
 
-                        </div> <!-- flexible-plans-card -->
+                                <div class="flexible-plans-card-content p-3">
+                                    <div class="d-flex d-flex justify-content-between align-items-center">
+                                        <h5> 1 Meal </h5>
+                                        <h2> KD9 </h2>
+                                    </div>
+                                    <p class="lead"> Perfect for those looking for a convenient and cost-effective option while still enjoying a satisfying and wholesome meal. </p>
+                                </div>
+
+                                <div class="image-wrapper">
+                                    <img src="assets/images/plans-01.png" alt="">
+                                </div>
+
+                            </label> <!-- flexible-plans-card -->
+
+
+                        </div><!-- flexible-plans-card-wrapper -->
+
+
+
+
 
                     </div> <!-- d-flex -->
 
@@ -139,7 +181,6 @@
                         <h6> <i class="icon icon-dishes me-1"></i> Customize your plan </h6>
 
                         <p class="color-gray small"> Select 2 meal types </p>
-
 
                         <div class="attributes-options default">
 

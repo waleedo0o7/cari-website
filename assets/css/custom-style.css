@@ -178,6 +178,18 @@
   color: var(--primaryColor);
 }
 
+.flexible-plans-card-wrapper {
+  position: relative;
+}
+.flexible-plans-card-wrapper .option-container {
+  position: absolute;
+  top: 30px;
+  left: 15px;
+}
+.flexible-plans-card-wrapper h5 {
+  margin-left: 25px;
+}
+
 .flexible-plans-card {
   border-radius: 10px;
   overflow: hidden;
@@ -542,6 +554,7 @@ hr.border-line {
 .option-container input:checked ~ .checkmark {
   background-color: var(--primaryColor);
   border: 2px solid var(--primaryColor);
+  box-shadow: 0 0 5px #FFF;
 }
 .option-container input:checked ~ .checkmark:after {
   display: block;
@@ -565,6 +578,7 @@ hr.border-line {
   font-size: 14px;
   padding-left: 0;
   margin-right: 5px;
+  flex-grow: 1;
 }
 .default .option-container .checkmark {
   min-width: 65px;
@@ -573,6 +587,7 @@ hr.border-line {
   border-radius: 500px;
   width: fit-content;
   padding: 10px;
+  width: 100%;
 }
 .default .option-container input[disabled] + .checkmark {
   opacity: 0.4 !important;
@@ -621,8 +636,10 @@ hr.border-line {
 
 .attributes-options {
   display: flex;
-  align-items: center;
   flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 .attributes-options .options {
   margin-bottom: 20px;
@@ -643,38 +660,43 @@ hr.border-line {
 
 /*  CUSTOM RADIO CSS START  */
 .counter {
-  width: fit-content;
+  width: 100%;
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  background: #f6f6f6;
+  justify-content: center;
+  align-items: center;
 }
 .counter input {
-  width: 30px;
-  border: 0;
+  width: 40px;
+  height: 40px;
+  border: 2px solid var(--gray);
   line-height: 0;
-  font-size: 14px;
+  font-size: 18px;
   text-align: center;
-  background: #f6f6f6;
+  background: #fff;
   color: #3f3f3f;
   appearance: none;
   outline: 0;
-  height: 30px;
+  flex-grow: 1;
+  border-radius: 200px;
+  margin: 0 5px;
 }
 .counter span {
   font-size: 18px;
   cursor: pointer;
   user-select: none;
   color: #6f6f6f;
-  background: #f6f6f6;
-  height: 30px;
-  width: 30px;
+  background: #fff;
+  height: 40px;
+  width: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 2px solid var(--gray);
+  border-radius: 300px;
 }
 .counter span i {
-  font-size: 10px;
+  font-size: 12px;
+  line-height: 0;
 }
 
 @media all and (min-width: 922px) {
