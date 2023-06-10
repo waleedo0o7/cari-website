@@ -749,103 +749,103 @@ Navbar Area
     }
 }
 
-.modal-content {
-    height: 100%;
-    border-radius: 0;
-    border: none;
-    display: table-cell;
-    vertical-align: middle;
-    background-color: #222;
-    opacity: .77;
-}
+// .modal-content {
+//     height: 100%;
+//     border-radius: 0;
+//     border: none;
+//     display: table-cell;
+//     vertical-align: middle;
+//     background-color: #222;
+//     opacity: .77;
+// }
 
-.modal-body {
-    max-width: 700px;
-    margin: auto;
-    padding: 0;
-}
+// .modal-body {
+//     max-width: 700px;
+//     margin: auto;
+//     padding: 0;
+// }
 
-.modal-header {
-    border: none;
-    button {
-        position: relative;
-        &.close {
-            position: absolute;
-            right: 25px;
-            top: 25px;
-            display: inline-block;
-            height: 50px;
-            width: 50px;
-            line-height: 55px;
-            background-color: var(--whiteColor);
-            border-radius: 5px;
-            color: var(--greenColor);
-            border: none;
-            font-size: 35px;
-            transition: .6s;
-            &:hover, &:focus {
-                background-color: var(--greenColor);
-                color: var(--whiteColor);
-            }
-        }
-    }
-}
+// .modal-header {
+//     border: none;
+//     button {
+//         position: relative;
+//         &.close {
+//             position: absolute;
+//             right: 25px;
+//             top: 25px;
+//             display: inline-block;
+//             height: 50px;
+//             width: 50px;
+//             line-height: 55px;
+//             background-color: var(--whiteColor);
+//             border-radius: 5px;
+//             color: var(--greenColor);
+//             border: none;
+//             font-size: 35px;
+//             transition: .6s;
+//             &:hover, &:focus {
+//                 background-color: var(--greenColor);
+//                 color: var(--whiteColor);
+//             }
+//         }
+//     }
+// }
 
-.modal-search-form {
-    position: relative;
-    .search-field {
-        background-color: transparent;
-        height: 60px;
-        padding: 8px 15px;
-        border: none;
-        border-bottom: 1px solid var(--whiteColor);
-        width: 100%;
-        display: block;
-        outline: 0;
-        transition: .6s;
-        border-radius: 0;
-        color: var(--whiteColor);
-        &::-webkit-input-placeholder, &:-ms-input-placeholder, &::-ms-input-placeholder, &::placeholder {
-            color: var(--whiteColor);
-            transition: .6s;
-        }
-        &:focus {
-            border-color: var(--greenColor);
-            &::-webkit-input-placeholder, &:-ms-input-placeholder, &::-ms-input-placeholder, &::placeholder {
-                color: transparent;
-            }
-        }
-    }
-    button {
-        border: none;
-        background-color: var(--whiteColor);
-        color: var(--greenColor);
-        height: 40px;
-        width: 40px;
-        position: absolute;
-        right: 10px;
-        padding: 0;
-        -webkit-transition: .6s;
-        transition: .6s;
-        top: 50%;
-        transform: translateY(-50%);
-        font-size: 20px;
-        border-radius: 5px;
-        cursor: pointer;
-        i {
-            position: absolute;
-            left: 0;
-            right: 0;
-            top: 52%;
-            transform: translateY(-52%);
-        }
+// .modal-search-form {
+//     position: relative;
+//     .search-field {
+//         background-color: transparent;
+//         height: 60px;
+//         padding: 8px 15px;
+//         border: none;
+//         border-bottom: 1px solid var(--whiteColor);
+//         width: 100%;
+//         display: block;
+//         outline: 0;
+//         transition: .6s;
+//         border-radius: 0;
+//         color: var(--whiteColor);
+//         &::-webkit-input-placeholder, &:-ms-input-placeholder, &::-ms-input-placeholder, &::placeholder {
+//             color: var(--whiteColor);
+//             transition: .6s;
+//         }
+//         &:focus {
+//             border-color: var(--greenColor);
+//             &::-webkit-input-placeholder, &:-ms-input-placeholder, &::-ms-input-placeholder, &::placeholder {
+//                 color: transparent;
+//             }
+//         }
+//     }
+//     button {
+//         border: none;
+//         background-color: var(--whiteColor);
+//         color: var(--greenColor);
+//         height: 40px;
+//         width: 40px;
+//         position: absolute;
+//         right: 10px;
+//         padding: 0;
+//         -webkit-transition: .6s;
+//         transition: .6s;
+//         top: 50%;
+//         transform: translateY(-50%);
+//         font-size: 20px;
+//         border-radius: 5px;
+//         cursor: pointer;
+//         i {
+//             position: absolute;
+//             left: 0;
+//             right: 0;
+//             top: 52%;
+//             transform: translateY(-52%);
+//         }
     
-        &:hover, &:focus {
-            background-color: var(--greenColor);
-            color: var(--whiteColor);
-        }
-    }
-}
+//         &:hover, &:focus {
+//             background-color: var(--greenColor);
+//             color: var(--whiteColor);
+//         }
+//     }
+// }
 
 .navbar-area {
     background-color: var(--whiteColor);
@@ -5811,13 +5811,7 @@ Contact Area
         }
         .form-control {
             height: 50px;
-            color: var(--bodyColor);
-            border: none;
-            background-color: #f4fbf4;
-            font-size: 15px;
-            padding: 15px 20px;
-            width: 100%;
-            border-radius: 0;
+ 
             &:focus {
                 outline: none;
                 box-shadow: none;
@@ -5900,11 +5894,13 @@ Contact Area
                 color: var(--titleColor);
             }
         }
-        .default-btn {
-            width: 100%;
-            text-align: center;
-            border-radius: 0;
-        }
+
+        // .default-btn {
+        //     width: 100%;
+        //     text-align: center;
+        //     border-radius: 0;
+        // }
+
         .account-desc {
             margin-top: 20px;
             font-weight: 500;

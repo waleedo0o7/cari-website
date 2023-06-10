@@ -136,9 +136,6 @@
                         </div><!-- flexible-plans-card-wrapper -->
 
 
-
-
-
                         <div class="flexible-plans-card-wrapper">
 
                             <div class="option-container">
@@ -164,9 +161,6 @@
 
 
                         </div><!-- flexible-plans-card-wrapper -->
-
-
-
 
 
                     </div> <!-- d-flex -->
@@ -290,7 +284,7 @@
                     </div><!-- d-block -->
 
                     <div class="d-block text-center py-3">
-                        <a href="#" class="default-btn one lg-btn"> next </a>
+                        <a href="meal-plans-delivery.php" class="default-btn one lg-btn"> next </a>
                     </div><!-- d-block -->
 
                     <p class="text-center w-lg-50  m-auto color-gray"> You can update your preferences and skip, pause, or cancel anytime </p>

@@ -684,103 +684,6 @@ Navbar Area
   display: table;
 }
 
-.modal-content {
-  height: 100%;
-  border-radius: 0;
-  border: none;
-  display: table-cell;
-  vertical-align: middle;
-  background-color: #222;
-  opacity: 0.77;
-}
-
-.modal-body {
-  max-width: 700px;
-  margin: auto;
-  padding: 0;
-}
-
-.modal-header {
-  border: none;
-}
-.modal-header button {
-  position: relative;
-}
-.modal-header button.close {
-  position: absolute;
-  right: 25px;
-  top: 25px;
-  display: inline-block;
-  height: 50px;
-  width: 50px;
-  line-height: 55px;
-  background-color: var(--whiteColor);
-  border-radius: 5px;
-  color: var(--greenColor);
-  border: none;
-  font-size: 35px;
-  transition: 0.6s;
-}
-.modal-header button.close:hover, .modal-header button.close:focus {
-  background-color: var(--greenColor);
-  color: var(--whiteColor);
-}
-
-.modal-search-form {
-  position: relative;
-}
-.modal-search-form .search-field {
-  background-color: transparent;
-  height: 60px;
-  padding: 8px 15px;
-  border: none;
-  border-bottom: 1px solid var(--whiteColor);
-  width: 100%;
-  display: block;
-  outline: 0;
-  transition: 0.6s;
-  border-radius: 0;
-  color: var(--whiteColor);
-}
-.modal-search-form .search-field::-webkit-input-placeholder, .modal-search-form .search-field:-ms-input-placeholder, .modal-search-form .search-field::-ms-input-placeholder, .modal-search-form .search-field::placeholder {
-  color: var(--whiteColor);
-  transition: 0.6s;
-}
-.modal-search-form .search-field:focus {
-  border-color: var(--greenColor);
-}
-.modal-search-form .search-field:focus::-webkit-input-placeholder, .modal-search-form .search-field:focus:-ms-input-placeholder, .modal-search-form .search-field:focus::-ms-input-placeholder, .modal-search-form .search-field:focus::placeholder {
-  color: transparent;
-}
-.modal-search-form button {
-  border: none;
-  background-color: var(--whiteColor);
-  color: var(--greenColor);
-  height: 40px;
-  width: 40px;
-  position: absolute;
-  right: 10px;
-  padding: 0;
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 20px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.modal-search-form button i {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 52%;
-  transform: translateY(-52%);
-}
-.modal-search-form button:hover, .modal-search-form button:focus {
-  background-color: var(--greenColor);
-  color: var(--whiteColor);
-}
-
 .navbar-area {
   background-color: var(--whiteColor);
 }
@@ -5514,13 +5417,6 @@ Contact Area
 }
 .contact-form .form-group .form-control {
   height: 50px;
-  color: var(--bodyColor);
-  border: none;
-  background-color: #f4fbf4;
-  font-size: 15px;
-  padding: 15px 20px;
-  width: 100%;
-  border-radius: 0;
 }
 .contact-form .form-group .form-control:focus {
   outline: none;
@@ -5593,11 +5489,6 @@ Contact Area
 .user-all-form .contact-form .form-group label {
   margin-bottom: 20px;
   color: var(--titleColor);
-}
-.user-all-form .contact-form .default-btn {
-  width: 100%;
-  text-align: center;
-  border-radius: 0;
 }
 .user-all-form .contact-form .account-desc {
   margin-top: 20px;

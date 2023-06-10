@@ -33,12 +33,40 @@
   --extraLightGray: #fcfdff;
 }
 
+a {
+  color: var(--primaryColor);
+  text-decoration: unset;
+}
+a:hover {
+  color: #000;
+  text-decoration: unset;
+}
+
+.btn-group-sm > .btn,
+.btn-sm {
+  padding: 6px 22px;
+}
+
+.modal-content {
+  border-radius: 25px;
+}
+
+.custom-badge {
+  padding: 8px 14px;
+  border-radius: 30px;
+  font-weight: normal;
+}
+
 .color-white {
   color: #fff;
 }
 
 .color-gray {
   color: #aaa8a9;
+}
+
+.color-dark-gray {
+  color: #636363;
 }
 
 .bg-gray {
@@ -49,9 +77,27 @@
   font-weight: bold;
 }
 
+.form-control {
+  border-radius: 8px;
+}
+
+.form-control:focus {
+  box-shadow: unset;
+  border-color: var(--primaryColor);
+}
+
 .default-btn,
 .default-btn::before {
   border-radius: 500px;
+}
+
+a.default-btn.tow {
+  background: var(--extraLightGray);
+  border: 1px solid var(--gray);
+  color: #000;
+}
+a.default-btn.tow:hover {
+  color: #fff;
 }
 
 .default-btn.three {
@@ -554,7 +600,7 @@ hr.border-line {
 .option-container input:checked ~ .checkmark {
   background-color: var(--primaryColor);
   border: 2px solid var(--primaryColor);
-  box-shadow: 0 0 5px #FFF;
+  box-shadow: 0 0 5px #fff;
 }
 .option-container input:checked ~ .checkmark:after {
   display: block;
@@ -641,21 +687,22 @@ hr.border-line {
   justify-content: center;
   align-items: center;
 }
+.attributes-options i {
+  line-height: 0;
+  margin-inline-end: 5px;
+}
 .attributes-options .options {
   margin-bottom: 20px;
 }
-
-.attributes .label {
-  font-weight: bold;
-  font-size: 14px !important;
+.attributes-options.fit-to-content {
   width: fit-content;
-  display: inline-flex;
-  justify-content: flex-start;
-  align-items: center;
-  border-radius: 15px;
-  margin-right: 10px;
-  margin-top: 5px;
-  width: 120px;
+}
+.attributes-options.fit-to-content .option-container {
+  flex-grow: unset;
+}
+.attributes-options.style-2 .option-container input:checked ~ .checkmark {
+  background: var(--primaryColor) !important;
+  color: #fff !important;
 }
 
 /*  CUSTOM RADIO CSS START  */
@@ -699,9 +746,62 @@ hr.border-line {
   line-height: 0;
 }
 
+.form-check-input:checked {
+  background-color: var(--primaryColor);
+  border-color: var(--primaryColor);
+}
+
+.one-meal-card-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+.one-meal-card-wrapper .radio-with-select-item,
+.one-meal-card-wrapper .checkmark {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.one-meal-card-wrapper .one-meal-card {
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid var(--gray);
+}
+
+input.radio-with-select-item:checked + span + label {
+  border: 2px solid var(--primaryColor) !important;
+  border-radius: 15px !important;
+}
+
+.subscription-details-card-wrapper {
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid var(--gray);
+}
+
+.dashboard-card {
+  background-color: var(--whiteColor);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 2px solid var(--greenColor);
+  border-bottom: 2px solid var(--greenColor);
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  display: block;
+}
+.dashboard-card i {
+  font-size: 35px;
+  margin: auto;
+}
+
 @media all and (min-width: 922px) {
   .w-lg-50 {
     width: 50% !important;
+  }
+  .w-lg-75 {
+    width: 75% !important;
   }
 }
 
