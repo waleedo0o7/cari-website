@@ -256,7 +256,7 @@ a.default-btn.tow {
     }
 
     h5 {
-        margin-left: 25px;
+        margin-left: 30px;
     }
 }
 
@@ -432,33 +432,60 @@ ul.steps {
     margin: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     list-style: none;
+    text-align: center;
 
     .step {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 25%;
+        width: 33%;
+        position: relative;
 
         &.active {
+            &:after {
+                background: var(--primaryColor);
+            }
             a {
                 border-color: var(--primaryColor);
                 color: var(--primaryColor);
-                &:after {
-                    background: var(--primaryColor);
-                }
             }
             p {
                 color: var(--primaryColor);
             }
         }
 
-        &:last-child {
-            a:after {
+        &.finished {
+            &:after {
+                background: var(--primaryColor);
+            }
+            a {
+                border-color: var(--primaryColor);
+                background-color: var(--primaryColor);
+                color: #fff;
+            }
+            p {
+                color: var(--primaryColor);
+            }
+        }
+
+        &:first-child {
+            &:after {
                 content: none;
             }
+        }
+
+        &:after {
+            content: "";
+            position: absolute;
+            top: 25px;
+            width: calc(100% - 50px);
+            height: 2px;
+            background: var(--gray);
+            cursor: auto;
+            right: calc(50% + 25px);
         }
 
         a {
@@ -473,17 +500,6 @@ ul.steps {
             margin-bottom: 10px;
             position: relative;
             color: var(--gray);
-
-            &:after {
-                content: "";
-                position: absolute;
-                top: 50%;
-                left: 100%;
-                width: 105px;
-                height: 2px;
-                background: var(--gray);
-                cursor: auto;
-            }
         }
 
         p {
@@ -853,6 +869,7 @@ hr.border-line {
 .one-meal-card-wrapper {
     overflow: hidden;
     position: relative;
+    padding: 0 !important;
 
     .radio-with-select-item,
     .checkmark {
@@ -897,6 +914,18 @@ input.radio-with-select-item:checked + span + label {
     }
 }
 
+.row-with-center-line {
+    margin-top: 30px;
+    .right-content {
+        padding: 0 30px;
+        border-right: 2px solid var(--gray);
+    }
+
+    .left-content {
+        padding: 0 30px;
+    }
+}
+
 ////////////////// media
 
 @media all and (min-width: 922px) {
@@ -907,5 +936,94 @@ input.radio-with-select-item:checked + span + label {
 
     .w-lg-75 {
         width: 75% !important;
+    }
+
+    .text-lg-end {
+        text-align: right !important;
+    }
+}
+
+@media all and (max-width: 922px) {
+    .banner-area-for {
+        .row {
+            margin: 0;
+        }
+
+        .banner-content-two {
+            width: 90%;
+            margin: auto;
+            h1 {
+                font-size: 22px;
+            }
+        }
+    }
+
+    .flexible-plans-card {
+        margin-bottom: 30px;
+    }
+
+    footer.footer-area {
+        .links-list {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+        .footer-logo {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            img {
+                margin-inline-end: 0 !important;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .main-page-wrapper .page-content {
+        padding: 10px;
+    }
+
+    .default-btn.lg-btn {
+        min-width: 180px;
+    }
+
+    .row-with-center-line .right-content,
+    .row-with-center-line .left-content {
+        padding: 0;
+        border: none !important;
+    }
+
+}
+
+// large and small phones
+@media all and (max-width: 650px) {
+    ul.steps {
+        .step {
+            a {
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+    .inline-inputs-group {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+// only small phone
+@media all and (max-width: 400px) {
+    ul.steps {
+        .step {
+            a {
+            }
+
+            p {
+                font-size: 12px;
+            }
+        }
     }
 }

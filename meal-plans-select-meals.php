@@ -15,15 +15,15 @@
                 <div class="col-lg-6">
                     <div class="steps-wrapper">
                         <ul class="steps">
-                            <li class="step active">
+                            <li class="step finished">
                                 <a href="#"> 1 </a>
                                 <p class="mb-0"> Meal Plan </p>
                             </li> <!-- step -->
-                            <li class="step">
+                            <li class="step finished">
                                 <a href="#"> 2 </a>
                                 <p class="mb-0"> Delivery information </p>
                             </li> <!-- step -->
-                            <li class="step">
+                            <li class="step active">
                                 <a href="#"> 3 </a>
                                 <p class="mb-0"> Pick my meals </p>
                             </li> <!-- step -->
@@ -244,9 +244,9 @@
                     </div> <!-- main-meals-wrapper -->
 
 
-                    <div class="text-end">
+                    <div class="text-center">
                         <a href="meal-plans-final-step.php" class="default-btn one lg-btn"> next </a>
-                    </div><!-- text-end -->
+                    </div><!-- text-lg-end -->
 
                 </div> <!-- col-lg-12 -->
 

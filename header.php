@@ -97,11 +97,11 @@
                             </li>
 
                             <li class="nav-item">
-                                <a href="#" class="nav-link "> About us </a>
+                                <a href="about-us.php" class="nav-link "> About us </a>
                             </li>
 
                             <li class="nav-item">
-                                <a href="#" class="nav-link "> Contact us </a>
+                                <a href="contact.php" class="nav-link "> Contact us </a>
                             </li>
 
 
