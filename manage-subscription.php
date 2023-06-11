@@ -21,7 +21,7 @@
                         <span class="badge bg-light text-dark custom-badge"> Weekly </span>
                     </div>
 
-                    <p> KD19 per person/week </p>
+                    <p> SAR19 per person/week </p>
 
                     <a href="#" class="default-btn one btn-sm"> Explore Plans </a>
 

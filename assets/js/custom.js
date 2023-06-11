@@ -1,7 +1,70 @@
 (function ($) {
     'use strict';
 
- 
+    function createWeek() {
+
+        let weekInDays = [];
+
+        let weekFullHTML = ''
+
+        function getdayName(date = new Date()) {
+            return date.toLocaleDateString('en-US', { weekday: 'long' });
+        }
+
+        function getMonthName(monthNumber) {
+
+            const date = new Date();
+
+            return date.toLocaleString('en-US', {
+                month: 'long',
+            });
+        }
+
+        for (let i = 0; i < 7; i++) {
+
+            let toDay = new Date();
+
+            let loopDay = new Date(toDay.getTime() + i * 24 * 60 * 60 * 1000);
+
+            let dayInObj = {
+                'month': getMonthName(loopDay.getMonth()),
+                'dayNum': loopDay.getDate(),
+                'dayName': getdayName(loopDay)
+            }
+
+            weekInDays.push(dayInObj);
+
+            let formatedDate = `${loopDay.getDate()}-${loopDay.getMonth() + 1}-${loopDay.getFullYear()}`
+
+            let html = `
+            <div class="one-day" data-day="${formatedDate}">
+                <p class="day-name"> ${getdayName(loopDay)} </p>
+                <p class="date">  ${getMonthName(loopDay.getMonth())}  ${loopDay.getDate()} </p>
+            </div>
+            `
+            weekFullHTML += html;
+
+        }
+
+        $(".days-wrapper").html(weekFullHTML);
+
+        $(".days-wrapper .one-day:first").addClass("active");
+    }
+
+
+    createWeek();
+
+
+
+    $(document).on("click", ".one-day", function () {
+
+        $(".one-day").removeClass("active");
+        $(this).addClass("active");
+
+        alert($(this).attr("data-day"))
+
+
+    })
 
     // Mean Menu
     $('.mean-menu').meanmenu({
@@ -394,6 +457,29 @@ function toggleTheme() {
         setTheme('theme-dark');
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Immediately invoked function to set the theme on initial load
 (function () {

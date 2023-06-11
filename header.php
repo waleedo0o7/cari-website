@@ -40,13 +40,13 @@
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="assets/css/custom-style.css">
-
-
+ 
     <!-- Title -->
     <title> Cari Diet </title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
 
 </head>
 

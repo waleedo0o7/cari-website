@@ -7,7 +7,7 @@
         <div class="page-content card">
 
 
-            <div class="row">
+            <div class="row mb-3">
                 <div class="col-lg-6">
                     <h4 class="mb-0"> Pick the type of meals you like </h4>
                     <p class="lead color-gray"> Select Your Meals </p>
@@ -32,14 +32,33 @@
                 </div>
             </div><!-- row -->
 
-            <div class="row">
+            <div class="row mb-3">
                 <div class="col-lg-12">
 
+                    <div class="calendar-wrapper mb-3">
 
-                    <div class="calendar-wrapper">
+                        <div class="days-wrapper">
 
-                        <h2> Calendar Wrapper </h2>
+                            <!-- <div class="one-day active" data-day="11-6-2013">
+                                <p class="day-name"> Monday </p>
+                                <p class="date"> March 16</p>
+                            </div>  
 
+                            <div class="one-day" data-day="11-6-2013">
+                                <p class="day-name"> Monday </p>
+                                <p class="date"> March 16</p>
+                            </div>   -->
+
+
+                        </div> <!-- days-wrapper -->
+
+
+                        <div class="nex-days">
+                            <p class="mb-0"> Upcoming... </p>
+                            <p class="mb-0"> Check back next week </p>
+                        </div>
+
+ 
                     </div><!-- calendar-wrapper -->
 
 
@@ -257,6 +276,3 @@
 </div><!-- main-page-wrapper -->
 
 <?php include 'footer.php'; ?>
-
-
- 

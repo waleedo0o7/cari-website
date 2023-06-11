@@ -6,7 +6,6 @@
 
         <div class="page-content card">
 
-
             <div class="row">
                 <div class="col-lg-6">
                     <h4 class="mb-0"> Create your own custom Meal plan </h4>
@@ -31,7 +30,6 @@
                     </div><!-- steps-wrapper -->
                 </div>
             </div><!-- row -->
-
 
             <div class="row row-with-center-line">
                 <div class="col-lg-6">
@@ -63,25 +61,31 @@
 
                         </div> <!-- d-flex -->
 
-
                         <div class="d-flex justify-content-center align-items-center mb-4">
-                            <div class="switches-container">
-                                <input type="radio" id="weekly" name="switchPlan" value="1" checked="checked" />
-                                <input type="radio" id="monthly" name="switchPlan" value="2" />
-                                <label for="weekly"> Weekly </label>
-                                <label for="monthly"> Monthly </label>
-                                <div class="switch-wrapper">
-                                    <div class="switch">
-                                        <div> Weekly </div>
-                                        <div> Monthly </div>
-                                    </div>
-                                </div>
-                            </div>
+
+                            <div class="attributes-options fit-to-content  default style-2">
+
+                                <label class="option-container option-inline">
+                                    <input type="radio" checked="checked" name="daily" value="1">
+                                    <span class="checkmark"> Daily </span>
+                                </label>
+
+                                <label class="option-container option-inline">
+                                    <input type="radio" name="daily" value="2">
+                                    <span class="checkmark"> Weekly </span>
+                                </label>
+
+                                <label class="option-container option-inline">
+                                    <input type="radio" name="daily" value="3">
+                                    <span class="checkmark"> Monthly </span>
+
+                                </label>
+
+                            </div> <!-- attributes-options -->
+
                         </div> <!-- d-flex -->
 
-
                         <div class="d-block mb-4">
-
 
                             <div class="flexible-plans-card-wrapper">
 
@@ -94,7 +98,7 @@
 
                                     <div class="flexible-plans-card-content p-3">
                                         <div class="d-flex d-flex justify-content-between align-items-center">
-                                            <h5> 1 Meal </h5>
+                                            <h5> 1 juices </h5>
                                             <h2> SAR9 </h2>
                                         </div>
                                         <p class="lead"> Perfect for those looking for a convenient and cost-effective option while still enjoying a satisfying and wholesome meal. </p>
@@ -108,9 +112,6 @@
 
 
                             </div><!-- flexible-plans-card-wrapper -->
-
-
-
 
                             <div class="flexible-plans-card-wrapper ">
 
@@ -123,7 +124,7 @@
 
                                     <div class="flexible-plans-card-content p-3">
                                         <div class="d-flex d-flex justify-content-between align-items-center">
-                                            <h5> 1 Meal </h5>
+                                            <h5> 3 juices </h5>
                                             <h2> SAR9 </h2>
                                         </div>
                                         <p class="lead"> Perfect for those looking for a convenient and cost-effective option while still enjoying a satisfying and wholesome meal. </p>
@@ -137,7 +138,6 @@
 
 
                             </div><!-- flexible-plans-card-wrapper -->
-
 
                             <div class="flexible-plans-card-wrapper">
 
@@ -150,7 +150,7 @@
 
                                     <div class="flexible-plans-card-content p-3">
                                         <div class="d-flex d-flex justify-content-between align-items-center">
-                                            <h5> 1 Meal </h5>
+                                            <h5> 5 juices </h5>
                                             <h2> SAR9 </h2>
                                         </div>
                                         <p class="lead"> Perfect for those looking for a convenient and cost-effective option while still enjoying a satisfying and wholesome meal. </p>
@@ -165,7 +165,6 @@
 
                             </div><!-- flexible-plans-card-wrapper -->
 
-
                         </div> <!-- d-flex -->
 
                     </div><!-- right-content -->
@@ -177,41 +176,18 @@
 
                     <div class="left-content">
 
-                        <div class="d-block customize-your-plan py-3">
-
-                            <h6> <i class="icon icon-dishes me-1"></i> Customize your plan </h6>
-
-                            <p class="color-gray small"> Select 2 meal types </p>
-
-                            <div class="attributes-options default">
-
-                                <label class="option-container option-inline">
-                                    <input type="checkbox" checked="checked" name="size" value="1">
-                                    <span class="checkmark"> Breakfast </span>
-                                </label>
-
-                                <label class="option-container option-inline">
-                                    <input type="checkbox" name="size" value="2">
-                                    <span class="checkmark"> Lunch </span>
-                                </label>
-
-                                <label class="option-container option-inline">
-                                    <input type="checkbox" name="size" value="3" disabled>
-                                    <span class="checkmark"> Dinner </span>
-
-                                </label>
-
-                            </div> <!-- attributes-options -->
 
 
+                        <div class="d-block  juices-text-wrapper py-3">
+
+                            <h6> <i class="icon icon-juices me-1"></i> About Our Juices : </h6>
+                            <p> Juices are a popular and refreshing beverage enjoyed by many people around the world. They are typically made by extracting the liquid from fruits or vegetables, and can be consumed either freshly squeezed or bottled. Juices come in a wide variety of flavors and can be made from a diverse range of ingredients</p>
                         </div><!-- d-block -->
-
                         <div class="d-block calories py-3">
 
                             <h6> <i class="icon icon-fire me-1"></i> Calories </h6>
 
                             <p class="color-gray small"> You’ll receive three full meals (Breakfast, lunch, dinner) everyday. </p>
-
 
                             <div class="attributes-options default">
 
@@ -228,7 +204,6 @@
 
                             </div> <!-- attributes-options -->
 
-
                         </div><!-- d-block -->
 
                         <div class="d-block number-of-servings py-3">
@@ -236,9 +211,6 @@
                             <h6> <i class="icon icon-user me-1"></i> Number of servings </h6>
 
                             <p class="color-gray small"> You’ll receive three full meals (Breakfast, lunch, dinner) everyday. </p>
-
-
-
 
                             <div class="change-quantity-wrapper">
                                 <div class="counter">

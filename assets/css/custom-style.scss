@@ -926,6 +926,43 @@ input.radio-with-select-item:checked + span + label {
     }
 }
 
+.calendar-wrapper {
+    display: flex;
+    width: 100%;
+    .days-wrapper {
+        display: flex;
+        width: 80%;
+
+        .one-day {
+            width: 14.2857%;
+            text-align: center;
+            border-bottom: 3px solid var(--gray);
+            padding-bottom: 10px;
+            cursor: pointer;
+
+            &.active {
+                border-color: var(--primaryColor);
+                p {
+                    color: var(--primaryColor);
+                }
+            }
+            p {
+                margin: 0;
+            }
+        }
+    }
+
+    .nex-days {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: var(--extraLightGray);
+        border: 1px solid var(--gray);
+    }
+}
+
 ////////////////// media
 
 @media all and (min-width: 922px) {
@@ -944,6 +981,22 @@ input.radio-with-select-item:checked + span + label {
 }
 
 @media all and (max-width: 922px) {
+    .nex-days {
+        display: none !important;
+    }
+
+    .days-wrapper {
+        width: 100% !important;
+        .one-day {
+            min-width: 90px;
+        }
+    }
+
+    .calendar-wrapper {
+        overflow: scroll;
+        padding-bottom: 20px;
+    }
+
     .banner-area-for {
         .row {
             margin: 0;
@@ -993,7 +1046,6 @@ input.radio-with-select-item:checked + span + label {
         padding: 0;
         border: none !important;
     }
-
 }
 
 // large and small phones

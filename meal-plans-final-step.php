@@ -106,7 +106,7 @@
 
                             <div class="d-flex justify-content-between align-items-center mb-2">
                                 <p class="m-0 bold"> Subscription Total : </p>
-                                <p class="m-0"> <span id="currency" class="bold"> KD </span> <span id="price" class="bold"> 955 </span> </p>
+                                <p class="m-0"> <span id="currency" class="bold"> SAR </span> <span id="price" class="bold"> 955 </span> </p>
                             </div> <!-- d-flex -->
 
                             <div class="d-flex justify-content-between align-items-center mb-2">
@@ -128,7 +128,7 @@
 
                             <div class="d-flex justify-content-between align-items-center">
                                 <p class="m-0 bold"> Weekly total : </p>
-                                <p class="m-0"> <span id="currency" class="bold"> KD </span> <span id="total-price" class="bold"> KD 19 </span> </p>
+                                <p class="m-0"> <span id="currency" class="bold"> SAR </span> <span id="total-price" class="bold"> SAR 19 </span> </p>
                             </div>
 
                         </div>

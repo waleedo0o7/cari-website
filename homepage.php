@@ -203,7 +203,7 @@
 
                     <div class="flexible-plans-card-content p-3">
                         <h5> 1 Meal </h5>
-                        <h1 class="price"> KD9 </h1>
+                        <h1 class="price"> SAR9 </h1>
                         <p class="lead"> Perfect for those looking for a convenient and cost-effective option while still enjoying a satisfying and wholesome meal. </p>
                         <a href="#" class="default-btn border-radius-sm for w-100"> Get Started </a>
                     </div>
@@ -222,7 +222,7 @@
 
                     <div class="flexible-plans-card-content p-3">
                         <h5> 3 Meals </h5>
-                        <h1 class="price"> KD29 </h1>
+                        <h1 class="price"> SAR29 </h1>
                         <p class="lead"> Ideal for individuals seeking complete nutrition and convenience, offering a variety of dishes to keep you energized and satisfied from morning to night. </p>
                         <a href="#" class="default-btn border-radius-sm for w-100"> Get Started </a>
                     </div>
@@ -240,7 +240,7 @@
 
                     <div class="flexible-plans-card-content p-3">
                         <h5> 2 Meals </h5>
-                        <h1 class="price"> KD19 </h1>
+                        <h1 class="price"> SAR19 </h1>
                         <p class="lead"> This plan provides a well-rounded eating experience, allowing you to maintain a healthy diet while saving time on meal preparation. </p>
                         <a href="#" class="default-btn border-radius-sm for w-100"> Get Started </a>
                     </div>
