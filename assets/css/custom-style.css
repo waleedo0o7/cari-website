@@ -155,11 +155,14 @@ a.default-btn.tow:hover {
 }
 
 .intro-with-bg {
-  background: url(../images/slider-intro.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
+  background-image: url("../images/slider-intro.jpg");
+  background-position: center;
+  background-attachment: fixed;
   -o-background-size: cover;
-  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .banner-area-for {
