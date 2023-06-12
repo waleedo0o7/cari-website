@@ -870,6 +870,9 @@ input.radio-with-select-item:checked + span + label {
   }
 }
 @media all and (max-width: 922px) {
+  .intro-with-bg {
+    background: var(--primaryColor);
+  }
   .why-choose-cards-row .col-lg-4 {
     border: none !important;
   }
