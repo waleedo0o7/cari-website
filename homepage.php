@@ -2,7 +2,7 @@
 
 
 <!-- Banner Area Three -->
-<div class="banner-area-for intro-with-bg" style="background-image: url(assets/images/slider-intro.jpg);">
+<div class="banner-area-for intro-with-bg">
     <div class="container">
 
         <div class="row">

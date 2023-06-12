@@ -165,6 +165,7 @@ a.default-btn.tow {
 }
 
 .intro-with-bg {
+    background: url(../images/slider-intro.jpg) no-repeat center center fixed;
     background: no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -981,6 +982,10 @@ input.radio-with-select-item:checked + span + label {
 }
 
 @media all and (max-width: 922px) {
+    .why-choose-cards-row .col-lg-4 {
+        border: none !important;
+    }
+
     .nex-days {
         display: none !important;
     }
