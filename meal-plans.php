@@ -261,7 +261,7 @@
 
                             <div class="form-group">
                                 <label for="exampleInputEmail1"> Starting Date </label>
-                                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Pick starting date">
+                                <input type="date" class="form-control" id="exampleInputEmail1" placeholder="Pick starting date">
                             </div>
 
                         </div><!-- d-block -->

@@ -119,8 +119,27 @@
  <script src="assets/js/custom.js"></script>
 
 
- 
 
+
+
+ <script type="text/javascript" src="assets/js/moment.min.js"></script>
+ <script type="text/javascript" src="assets/js/daterangepicker.js"></script>
+ <link rel="stylesheet" type="text/css" href="assets/css/daterangepicker.css" />
+
+
+
+
+
+
+ <script>
+
+    //  $(function() {
+    //     //  $('input[type="date"]').daterangepicker({
+    //     //      singleDatePicker: true
+    //     //  });
+    //  });
+
+ </script>
 
 
 

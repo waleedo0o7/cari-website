@@ -157,11 +157,10 @@ a.default-btn.tow:hover {
 .intro-with-bg {
   background-image: url("../images/slider-intro.jpg");
   background-position: center;
-  background-attachment: fixed;
   -o-background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -870,9 +869,6 @@ input.radio-with-select-item:checked + span + label {
   }
 }
 @media all and (max-width: 922px) {
-  .intro-with-bg {
-    background: var(--primaryColor);
-  }
   .why-choose-cards-row .col-lg-4 {
     border: none !important;
   }
