@@ -983,9 +983,19 @@ input.radio-with-select-item:checked + span + label {
 }
 
 @media all and (max-width: 922px) {
-    // .intro-with-bg {
-    //     background: var(--primaryColor);
-    // }
+
+
+    .intro-with-bg {
+        background-position: 42%;
+    }
+
+
+    .banner-area-for .banner-content-two {
+        h1 , p {
+            text-shadow: 0 0 3px #616161;
+        }
+    }
+
 
     .why-choose-cards-row .col-lg-4 {
         border: none !important;
