@@ -100,7 +100,7 @@
 
                                 <div class="col-lg-4">
 
-                                    <div class="one-meal-card-wrapper option-container p-0 ">
+                                    <div class="one-meal-card-wrapper option-container disabled p-0">
 
                                         <input type="checkbox" id="product-02" name="select-product" class="radio-with-select-item" value="1">
                                         <span class="checkmark"></span>
