@@ -587,6 +587,9 @@ hr.border-line {
   z-index: 3333;
   cursor: auto;
 }
+.option-container.disabled .checkmark {
+  border: 2px solid var(--gray) !important;
+}
 .option-container .option-icon {
   width: 25px;
 }

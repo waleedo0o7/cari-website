@@ -659,6 +659,10 @@ hr.border-line {
             z-index: 3333;
             cursor: auto;
         }
+
+        .checkmark {
+            border: 2px solid var(--gray) !important;
+        }
     }
 
     .option-icon {

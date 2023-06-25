@@ -185,8 +185,8 @@
 
                             <div class="attributes-options default">
 
-                                <label class="option-container option-inline">
-                                    <input type="checkbox" checked="checked" name="size" value="1">
+                                <label class="option-container disabled option-inline">
+                                    <input type="checkbox" name="size" value="1">
                                     <span class="checkmark"> Breakfast </span>
                                 </label>
 
@@ -196,7 +196,7 @@
                                 </label>
 
                                 <label class="option-container option-inline">
-                                    <input type="checkbox" name="size" value="3" disabled>
+                                    <input type="checkbox" name="size" value="3">
                                     <span class="checkmark"> Dinner </span>
 
                                 </label>
@@ -329,4 +329,8 @@
             input.value = value;
         }
     }
+
+
+
+
 </script>
