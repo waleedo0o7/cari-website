@@ -18,8 +18,8 @@
                          </div>
 
                          <ul class="links-list mb-5">
-                             <li> <a href="#"> How it works </a></li>
-                             <li> <a href="#"> Meal Plans </a></li>
+                             <li> <a href="#"> Home </a></li>
+                             <li> <a href="#"> Subscription plans </a></li>
                              <li> <a href="#"> About us </a></li>
                              <li> <a href="#"> Contact us </a></li>
                          </ul>

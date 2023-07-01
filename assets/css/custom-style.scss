@@ -39,6 +39,10 @@
     --extraLightGray: #fcfdff;
 }
 
+.relative {
+    position: relative;
+}
+
 a {
     color: var(--primaryColor);
     text-decoration: unset;
@@ -76,7 +80,7 @@ a {
 }
 
 .bg-gray {
-    background-color: var(--extraLightGray);
+    background-color: #F5F6F7;
 }
 
 .bold {
@@ -109,6 +113,7 @@ a.default-btn.tow {
 .default-btn.three {
     background-color: #fff;
     color: #cc0071;
+    border: 1px solid var(--primaryColor);
 
     &:hover {
         color: #fff;
@@ -154,10 +159,21 @@ a.default-btn.tow {
     .nav-item a i {
         transform: unset !important;
     }
+
+    .nav-item a.active {
+        border-bottom: 2px solid var(--primaryColor);
+    }
+
+    .ar-link {
+        border: 1px solid #d4d4d4;
+        border-radius: 500px;
+        display: flex;
+        padding: 0 20px !important;
+    }
 }
 
 .navbar-light .navbar-brand img {
-    width: 140px;
+    width: 100px;
 }
 
 .navbar-expand-md .navbar-collapse {
@@ -165,7 +181,8 @@ a.default-btn.tow {
 }
 
 .intro-with-bg {
-    background-image: url("../images/slider-intro.jpg");
+    background-color: var(--primaryColor);
+    // background-image: url("../images/slider-intro.jpg");
     background-position: center;
     -o-background-size: cover;
     -moz-background-size: cover;
@@ -175,24 +192,30 @@ a.default-btn.tow {
 }
 
 .banner-area-for {
+    background-color: var(--primaryColor);
     height: calc(100vh - 80px);
+    position: relative;
 
-    .container,
-    .row,
-    .row > div {
-        height: 100%;
-        padding: 0;
-    }
     .row > div {
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 0;
+    }
+
+    .banner-col-absolute {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
     }
 
     .banner-content-two {
         padding: 0;
         background-color: transparent;
         max-width: 100%;
+        position: relative;
+
         h1,
         p {
             color: #fff;
@@ -203,6 +226,24 @@ a.default-btn.tow {
         }
         p {
             font-size: 20px;
+        }
+    }
+
+    .cari-delivery-wrapper {
+        width: 50%;
+        position: absolute;
+        bottom: 30px;
+        left: 0;
+    }
+
+    .banner-image {
+        height: 100%;
+        overflow: hidden;
+        width: 100%;
+        text-align: end;
+        img {
+            max-width: 100%;
+            max-height: 100%;
         }
     }
 }
@@ -216,15 +257,13 @@ a.default-btn.tow {
 
 .why-choose-cards-row {
     .col-lg-4:nth-child(1) {
-        border-bottom: 1px solid var(--gray);
         border-right: 1px solid var(--gray);
     }
     .col-lg-4:nth-child(2) {
-        border-bottom: 1px solid var(--gray);
     }
+
     .col-lg-4:nth-child(3) {
         border-left: 1px solid var(--gray);
-        border-bottom: 1px solid var(--gray);
     }
 
     .col-lg-4:nth-child(4) {
@@ -274,14 +313,9 @@ a.default-btn.tow {
     }
 
     &.recommended {
-        background: var(--primaryColor);
-
-        * {
-            color: #fff;
-        }
-
         .default-btn {
-            color: var(--primaryColor);
+            color: #fff;
+            background-color: var(--primaryColor);
             border-color: var(--primaryColor);
             &:hover {
                 color: #fff;
@@ -317,6 +351,24 @@ a.default-btn.tow {
     .flexible-plans-card-content {
         p {
             min-height: 170px;
+        }
+    }
+}
+
+.products-section {
+    padding-bottom: 60px;
+    .owl-carousel .owl-dots.disabled {
+        display: block !important;
+        .owl-dot {
+            span {
+                background: #343434;
+            }
+
+            &.active {
+                span {
+                    background: #fff !important;
+                }
+            }
         }
     }
 }
@@ -424,6 +476,16 @@ a.default-btn.tow {
     }
 }
 
+.dashboard-header {
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.dashboard-custom-card {
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #fff;
+}
 .card {
     border-radius: 0.8rem;
     border-color: var(--gray);
@@ -883,6 +945,17 @@ hr.border-line {
     border-color: var(--primaryColor);
 }
 
+.products-section {
+    background: url(../images/products-shape-01.png) right top no-repeat,
+    url(../images/products-shape-02.png) left bottom no-repeat,
+    url(../images/yall.png) 90% 95% no-repeat;
+    background-color: #246a58;
+
+    .section-title h2 {
+        color: #fff;
+    }
+}
+
 .one-meal-card-wrapper {
     overflow: hidden;
     position: relative;
@@ -902,6 +975,21 @@ hr.border-line {
         overflow: hidden;
         border: 2px solid var(--gray);
         cursor: pointer;
+    }
+
+    &.green-bg-card {
+        .one-meal-card {
+            background-color: #3b806a;
+            border: unset;
+            box-shadow: 0 0 2px #0006;
+        }
+        h6 {
+            color: #fff !important;
+        }
+
+        p {
+            color: #fff !important;
+        }
     }
 }
 
@@ -985,7 +1073,7 @@ input.radio-with-select-item:checked + span + label {
 
 ////////////////// media
 
-@media all and (min-width: 922px) {
+@media all and (min-width: 1200px) {
     // lg screens and larger
     .w-lg-50 {
         width: 50% !important;
@@ -1000,15 +1088,36 @@ input.radio-with-select-item:checked + span + label {
     }
 }
 
-@media all and (max-width: 922px) {
-    .intro-with-bg {
-        background-position: 42%;
-    }
+@media all and (max-width: 1200px) {
+    .banner-area-for {
+        height: auto;
 
-    .banner-area-for .banner-content-two {
-        h1,
-        p {
-            text-shadow: 0 0 3px #616161;
+        > .row {
+            flex-direction: column-reverse;
+            padding: 0 !important;
+        }
+
+        .banner-col-absolute {
+            position: relative;
+
+            .banner-col-absolute-child-row {
+                text-align: center;
+
+                .banner-col-absolute-child-col {
+                    flex-direction: column;
+                }
+            }
+
+            .cari-delivery-wrapper {
+                position: relative;
+                width: 100%;
+                bottom: unset;
+                left: unset;
+            }
+        }
+
+        .banner-content-two {
+            padding: 30px 0 0 0;
         }
     }
 
@@ -1030,20 +1139,6 @@ input.radio-with-select-item:checked + span + label {
     .calendar-wrapper {
         overflow: scroll;
         padding-bottom: 20px;
-    }
-
-    .banner-area-for {
-        .row {
-            margin: 0;
-        }
-
-        .banner-content-two {
-            width: 90%;
-            margin: auto;
-            h1 {
-                font-size: 22px;
-            }
-        }
     }
 
     .flexible-plans-card {
@@ -1081,6 +1176,12 @@ input.radio-with-select-item:checked + span + label {
         padding: 0;
         border: none !important;
     }
+
+    
+    .products-section{
+        background-size: 50% , 50% , 20%;
+    }
+
 }
 
 // large and small phones
@@ -1098,6 +1199,11 @@ input.radio-with-select-item:checked + span + label {
     .inline-inputs-group {
         display: flex;
         flex-direction: column;
+    }
+
+
+    .products-section{
+        background-size: 60% , 60% , 30%;
     }
 }
 

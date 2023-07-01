@@ -1,201 +1,87 @@
 <?php include 'header.php'; ?>
 
-
 <!-- Banner Area Three -->
-<div class="banner-area-for intro-with-bg">
-    <div class="container">
+<div class="banner-area-for">
 
-        <div class="row">
-            <div class="col-md-6">
-                <div class="banner-content-two">
+    <div class="row p-0 m-0 h-100">
 
-                    <h1 class="wow animate__animated animate__fadeInUp" data-wow-delay="100ms" data-wow-duration="1000ms"> Deliciously Simple: Personalized Meal Plans, Delivered to Your Doorstep </h1>
-                    <p class="wow animate__animated animate__fadeInDown" data-wow-delay="200ms" data-wow-duration="1000ms"> Flexible and Convenient Options: Customize Your Meal Plan to Fit Your Schedule, Dietary Needs, and Taste Preferences </p>
 
-                    <div class="banner-btn wow animate__animated animate__fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
-                        <a href="#" class="default-btn three"> Build my meal plan </a>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-md-4">
+        <div class="col-lg-12 h-100">
+            <div class="banner-image">
+                <img src="assets/images/intro-01.png" class="img-fluid" alt="">
             </div>
         </div>
+
+        <div class="col-lg-12 banner-col-absolute">
+
+
+            <div class="container h-100">
+                <div class="row p-0 m-0 h-100 banner-col-absolute-child-row">
+                    <div class="col-lg-6 h-100 relative banner-col-absolute-child-col">
+                        <div class="banner-content-two">
+                            <h1 class="wow animate__animated animate__fadeInUp" data-wow-delay="50ms" data-wow-duration="1000ms"> Your shortcut to healthy meal plans with Cari </h1>
+                            <p class="wow animate__animated animate__fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms"> Choose from a variety of meal plans tailored to your health goals, select your meals in one go and have them delivered fresh to your doorstep everyday </p>
+                            <div class="banner-btn wow animate__animated animate__fadeInUp" data-wow-delay="350ms" data-wow-duration="1000ms">
+                                <a href="#" class="default-btn three"> Select Your plan </a>
+                            </div>
+                        </div> <!-- banner-content-two -->
+                        <div class="cari-delivery-wrapper">
+                            <img src="assets/images/cari-delivery.png" class="img-fluid wow animate__animated animate__fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms" alt="">
+                        </div>
+                    </div> <!-- col-lg-6 -->
+                </div> <!-- row -->
+            </div> <!-- container -->
+
+
+        </div> <!-- col-lg-12 -->
     </div>
 </div>
 <!-- Banner Area Three End -->
 
-<!-- Top Local Restaurants Slider Area -->
-<div class="top-local-restaurants pt-100">
+<!-- plans-section  Slider Area -->
+<div class="plans-section pt-100">
     <div class="container">
         <div class="section-title text-center">
-            <h2> Curated Meals from <b class="colored"> Top Local Restaurants </b> </h2>
+            <h2> Multiple plans to <b class="colored"> suit your needs </b> </h2>
         </div>
 
-        <div class="top-local-restaurants-slider owl-carousel owl-theme pt-45">
+        <div class="plans-slider owl-carousel owl-theme pt-45">
 
-            <div class="restaurants-item">
-                <img src="assets/images/brands-slider/image3.png" alt="Images">
+            <div class="slider-item">
+                <div class="flexible-plans-card  ">
+                    <div class="image-wrapper">
+                        <img src="assets/images/plans-01.png" alt="">
+                    </div>
+
+                    <div class="flexible-plans-card-content p-3">
+                        <h5> 1 Meal </h5>
+                        <h1 class="price"> SAR9 </h1>
+                        <p class="lead"> Perfect for those looking for a convenient and cost-effective option while still enjoying a satisfying and wholesome meal. </p>
+                        <a href="#" class="default-btn border-radius-sm for w-100"> Subscribe Now </a>
+                    </div>
+
+                </div><!-- flexible-plans-card -->
             </div>
 
-            <div class="restaurants-item">
-                <img src="assets/images/brands-slider/image4.png" alt="Images">
+            <div class="slider-item">
+                <div class="flexible-plans-card recommended">
+                    <div class="image-wrapper">
+                        <img src="assets/images/plans-01.png" alt="">
+                        <p class="label"> Recommended </p>
+                    </div>
+
+                    <div class="flexible-plans-card-content p-3">
+                        <h5> 1 Meal </h5>
+                        <h1 class="price"> SAR9 </h1>
+                        <p class="lead"> Perfect for those looking for a convenient and cost-effective option while still enjoying a satisfying and wholesome meal. </p>
+                        <a href="#" class="default-btn border-radius-sm for w-100"> Subscribe Now </a>
+                    </div>
+
+                </div><!-- flexible-plans-card -->
+
             </div>
 
-            <div class="restaurants-item">
-                <img src="assets/images/brands-slider/image5.png" alt="Images">
-            </div>
-
-            <div class="restaurants-item">
-                <img src="assets/images/brands-slider/image6.png" alt="Images">
-            </div>
-
-            <div class="restaurants-item">
-                <img src="assets/images/brands-slider/image7.png" alt="Images">
-            </div>
-
-            <div class="restaurants-item">
-                <img src="assets/images/brands-slider/image8.png" alt="Images">
-            </div>
-
-
-        </div>
-    </div>
-</div>
-<!-- Top Local Restaurants Slider End -->
-
-<!-- Why Choose Our Meal Plan Area -->
-<div class="why-choose-our-meal-plan pt-100">
-    <div class="container">
-
-        <div class="section-title text-center mb-5">
-            <h2> Why <b class="colored"> Choose </b> Our Meal Plan Service? </h2>
-        </div>
-
-        <div class="row no-gutters why-choose-cards-row">
-            <div class="col-lg-4 p-0">
-                <div class="why-choose-card text-center">
-                    <i class="icon icon-smile-face"></i>
-                    <h5> Customizable Meal Selections </h5>
-                    <p> Enjoy the freedom to customize your meal selections according to your preferences, dietary restrictions, or specific nutritional goals. </p>
-                </div> <!-- why-choose-card -->
-            </div>
-
-
-            <div class="col-lg-4 p-0">
-                <div class="why-choose-card text-center">
-                    <i class="icon icon-fish"></i>
-                    <h5> Fresh and Nutritious Ingredients </h5>
-                    <p> We prioritize the use of fresh, high-quality ingredients in all our meals. Our team of culinary experts carefully curates each ingredient to ensure optimal nutrition and flavor. </p>
-                </div> <!-- why-choose-card -->
-            </div>
-
-
-
-
-            <div class="col-lg-4 p-0">
-                <div class="why-choose-card text-center">
-                    <i class="icon icon-drink"></i>
-                    <h5> Dietary Variety </h5>
-                    <p> We understand that everyone has different dietary needs. That's why we offer a diverse range of meal options, including vegetarian, vegan, gluten-free, and other specialized diets. </p>
-                </div> <!-- why-choose-card -->
-            </div>
-
-
-            <div class="col-lg-4 p-0">
-                <div class="why-choose-card text-center">
-                    <i class="icon icon-clock"></i>
-                    <h5> Convenience and Time-Saving </h5>
-                    <p> Save time and energy with our convenient meal plan service. Say goodbye to grocery shopping, meal prepping, and cooking. </p>
-                </div> <!-- why-choose-card -->
-            </div>
-
-
-            <div class="col-lg-4 p-0">
-                <div class="why-choose-card text-center">
-                    <i class="icon icon-chef-hat"></i>
-                    <h5> Expertly Curated Menus </h5>
-                    <p> Our team of talented chefs works diligently to curate menus that are not only nutritious but also bursting with flavors. </p>
-                </div> <!-- why-choose-card -->
-            </div>
-
-
-            <div class="col-lg-4 p-0">
-                <div class="why-choose-card text-center">
-                    <i class="icon icon-clock"></i>
-                    <h5> Flexible Subscription Options </h5>
-                    <p> We understand that life can be unpredictable, which is why we offer flexible subscription options. </p>
-                </div> <!-- why-choose-card -->
-            </div>
-
-
-
-
-        </div>
-
-    </div>
-</div>
-<!-- Why Choose Our Meal Plan Area -->
-
-
-<!-- How It Works Area -->
-<div class="how-it-works pt-100 mb-5">
-    <div class="container">
-
-        <div class="section-title text-center mb-5">
-            <p class="lead"> Cari’s meal plan in 3 simple steps </p>
-            <h2> How it <b class="colored"> works </b> ?</h2>
-        </div>
-
-
-        <div class="row how-it-works-cards-row">
-            <div class="col-lg-4">
-                <div class="how-it-works-card">
-                    <h3> Choose and customize your meal plan </h3>
-                    <p> Explore different meal plan options and select the one that suits your needs. </p>
-                    <img src="assets/images/how-it-works-01.png" class="img-fluid" alt="">
-                </div>
-            </div>
-
-
-            <div class="col-lg-4">
-                <div class="how-it-works-card">
-                    <h3> Set your preferred delivery schedule </h3>
-                    <p> Learn about our reliable delivery service and the frequency of meal deliveries. </p>
-                    <img src="assets/images/how-it-works-02.png" class="img-fluid" alt="">
-                </div>
-            </div>
-
-
-            <div class="col-lg-4">
-                <div class="how-it-works-card">
-                    <h3> Enjoy Your Delicious Meals delivered to your doorstep </h3>
-                    <p> Experience the convenience of having fresh, chef-prepared meals delivered to your doorstep. </p>
-                    <img src="assets/images/how-it-works-03.png" class="img-fluid" alt="">
-                </div>
-            </div>
-        </div>
-
-    </div>
-</div>
-<!-- How It Works Area -->
-
-
-
-
-<!-- Flexible Plans Area -->
-<div class="flexible-plans pt-100 mb-5">
-    <div class="container">
-
-        <div class="section-title text-center mb-5">
-            <h2> <b class="colored"> Flexible Plans </b> for </h2>
-            <h2 class="mb-0"> everyone to enjoy </h2>
-            <p> Choose from our affordable 3 packages </p>
-        </div>
-
-        <div class="row flexible-plans-row">
-
-            <div class="col-lg-4">
+            <div class="slider-item">
                 <div class="flexible-plans-card">
                     <div class="image-wrapper">
                         <img src="assets/images/plans-01.png" alt="">
@@ -205,44 +91,23 @@
                         <h5> 1 Meal </h5>
                         <h1 class="price"> SAR9 </h1>
                         <p class="lead"> Perfect for those looking for a convenient and cost-effective option while still enjoying a satisfying and wholesome meal. </p>
-                        <a href="#" class="default-btn border-radius-sm for w-100"> Get Started </a>
+                        <a href="#" class="default-btn border-radius-sm for w-100"> Subscribe Now </a>
                     </div>
 
                 </div><!-- flexible-plans-card -->
             </div>
 
-
-
-            <div class="col-lg-4">
-                <div class="flexible-plans-card recommended">
-                    <div class="image-wrapper">
-                        <img src="assets/images/plans-02.png" alt="">
-                        <p class="label"> Recommended </p>
-                    </div>
-
-                    <div class="flexible-plans-card-content p-3">
-                        <h5> 3 Meals </h5>
-                        <h1 class="price"> SAR29 </h1>
-                        <p class="lead"> Ideal for individuals seeking complete nutrition and convenience, offering a variety of dishes to keep you energized and satisfied from morning to night. </p>
-                        <a href="#" class="default-btn border-radius-sm for w-100"> Get Started </a>
-                    </div>
-
-                </div><!-- flexible-plans-card -->
-            </div>
-
-
-
-            <div class="col-lg-4">
+            <div class="slider-item">
                 <div class="flexible-plans-card">
                     <div class="image-wrapper">
-                        <img src="assets/images/plans-03.png" alt="">
+                        <img src="assets/images/plans-01.png" alt="">
                     </div>
 
                     <div class="flexible-plans-card-content p-3">
-                        <h5> 2 Meals </h5>
-                        <h1 class="price"> SAR19 </h1>
-                        <p class="lead"> This plan provides a well-rounded eating experience, allowing you to maintain a healthy diet while saving time on meal preparation. </p>
-                        <a href="#" class="default-btn border-radius-sm for w-100"> Get Started </a>
+                        <h5> 1 Meal </h5>
+                        <h1 class="price"> SAR9 </h1>
+                        <p class="lead"> Perfect for those looking for a convenient and cost-effective option while still enjoying a satisfying and wholesome meal. </p>
+                        <a href="#" class="default-btn border-radius-sm for w-100"> Subscribe Now </a>
                     </div>
 
                 </div><!-- flexible-plans-card -->
@@ -251,12 +116,154 @@
 
 
         </div>
+    </div>
+</div>
+<!-- plans-section  Slider End -->
+
+<!-- Why Choose Our Meal Plan Area -->
+<div class="why-choose-our-meal-plan pt-100">
+    <div class="container">
+
+        <div class="section-title text-center mb-5">
+            <h2> Why Should You Subscribe to <b class="colored"> Cari? </b> </h2>
+        </div>
+
+        <div class="row no-gutters why-choose-cards-row">
+
+            <div class="col-lg-4 p-0">
+                <div class="why-choose-card text-center">
+                    <i class="icon icon-delivery"></i>
+                    <h5> Quick delivery </h5>
+                    <p> You can trust that every delivery is accurate and on time either to your home or office </p>
+                </div> <!-- why-choose-card -->
+            </div>
+
+            <div class="col-lg-4 p-0">
+                <div class="why-choose-card text-center">
+                    <i class="icon icon-meals-002"></i>
+                    <h5> You have control </h5>
+                    <p> Customize your meals to your preferences. Skip days and change your meals anytime </p>
+                </div> <!-- why-choose-card -->
+            </div>
+
+            <div class="col-lg-4 p-0">
+                <div class="why-choose-card text-center">
+                    <i class="icon icon-meals-003"></i>
+                    <h5> Meals taste like home </h5>
+                    <p> Treat yourself to various meals that bring the comforting taste of home right to your table </p>
+                </div> <!-- why-choose-card -->
+            </div>
+
+        </div>
+
+    </div>
+
+</div> <!-- Why Choose Our Meal Plan Area -->
+
+
+<!-- How It Works Area -->
+<div class="how-it-works pt-100 mb-5">
+    <div class="container">
+
+        <div class="section-title text-center mb-5">
+            <h2> Easy plans, <b class="colored"> No complications </b> </h2>
+            <p class="lead"> Start your plan in minutes and relax for the rest of the month </p>
+        </div>
+
+
+        <div class="row how-it-works-cards-row">
+            <div class="col-lg-4">
+                <div class="how-it-works-card">
+                    <h3> Pick a Plan </h3>
+                    <p> Choose your plan that fits your goal </p>
+                    <img src="assets/images/how-it-works-01.png" class="img-fluid" alt="">
+                </div>
+            </div>
+
+
+            <div class="col-lg-4">
+                <div class="how-it-works-card">
+                    <h3> Choose the Meals </h3>
+                    <p> Select your preferred dishes from the menu </p>
+                    <img src="assets/images/how-it-works-02.png" class="img-fluid" alt="">
+                </div>
+            </div>
+
+
+            <div class="col-lg-4">
+                <div class="how-it-works-card">
+                    <h3> Bon Appétit </h3>
+                    <p> We'll deliver your meals right to your doorstep </p>
+                    <img src="assets/images/how-it-works-03.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- How It Works Area -->
+
+<!-- products-section  Slider Area -->
+<div class="products-section pt-100 ">
+    <div class="section-title text-center">
+        <h2> Take a Glimpse at Our Menu </h2>
+    </div>
+
+    <div class="products-slider owl-carousel owl-theme pt-45">
+
+        <div class="slider-item">
+            <div class="one-meal-card-wrapper green-bg-card p-0 ">
+                <div class="one-meal-card style-2 mb-4">
+                    <img src="assets/images/meal-001.jpg" class="img-fluid" alt="">
+                    <div class="p-3">
+                        <p> <span> Lunch </span> / <span> Dinner </span> </p>
+                        <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+                        <div class="d-flex justify-content-between align-items-canter">
+                            <p class="m-0 calory"> <i class="icon icon-fire"> </i> <span> 1,200   </p>
+                            <p class="m-0 category"> Vegetarian </p>
+                        </div>
+                    </div>
+                </div> <!-- flexible-plans-card -->
+            </div> <!-- one-meal-wrapper -->
+        </div> <!-- slider-item -->
+
+        <div class="slider-item">
+            <div class="one-meal-card-wrapper green-bg-card p-0 ">
+                <div class="one-meal-card style-2 mb-4">
+                    <img src="assets/images/meal-002.jpg" class="img-fluid" alt="">
+                    <div class="p-3">
+                        <p> <span> Lunch </span> / <span> Dinner </span> </p>
+                        <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+                        <div class="d-flex justify-content-between align-items-canter">
+                            <p class="m-0 calory"> <i class="icon icon-fire"> </i> <span> 1,200   </p>
+                            <p class="m-0 category"> Vegetarian </p>
+                        </div>
+                    </div>
+                </div> <!-- flexible-plans-card -->
+            </div> <!-- one-meal-wrapper -->
+        </div> <!-- slider-item -->
+
+        <div class="slider-item">
+            <div class="one-meal-card-wrapper green-bg-card p-0 ">
+                <div class="one-meal-card style-2 mb-4">
+                    <img src="assets/images/meal-003.jpg" class="img-fluid" alt="">
+                    <div class="p-3">
+                        <p> <span> Lunch </span> / <span> Dinner </span> </p>
+                        <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+                        <div class="d-flex justify-content-between align-items-canter">
+                            <p class="m-0 calory"> <i class="icon icon-fire"> </i> <span> 1,200   </p>
+                            <p class="m-0 category"> Vegetarian </p>
+                        </div>
+                    </div>
+                </div> <!-- flexible-plans-card -->
+            </div> <!-- one-meal-wrapper -->
+        </div> <!-- slider-item -->
+
 
 
     </div>
 </div>
-<!-- Flexible Plans Area -->
-
+<!-- products-section  Slider End -->
 
 
 

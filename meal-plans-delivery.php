@@ -63,6 +63,17 @@
 
                         </div>
 
+
+
+
+
+
+
+
+
+
+
+
                         <div class="form-group mb-3">
                             <label> Address name (Optional) </label>
                             <input type="text" class="form-control" required="">
@@ -124,6 +135,16 @@
                             <label class="form-check-label" for="flexSwitchCheckDefault"> Leave order at the door </label>
                         </div>
 
+
+
+
+
+
+
+
+
+
+                        
                     </div><!-- right-content -->
                 </div> <!-- col-lg-6 -->
 

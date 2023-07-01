@@ -40,7 +40,7 @@
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="assets/css/custom-style.css">
- 
+
     <!-- Title -->
     <title> Cari Diet </title>
 
@@ -89,31 +89,25 @@
                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                         <ul class="navbar-nav ">
                             <li class="nav-item">
-                                <a href="homepage.php" class="nav-link active"> How it works </a>
+                                <a href="homepage.php" class="nav-link active"> Home </a>
                             </li>
 
                             <li class="nav-item">
-                                <a href="meal-plans.php" class="nav-link "> Meal Plans </a>
+                                <a href="meal-plans.php" class="nav-link "> Subscription plans </a>
                             </li>
 
-                            <li class="nav-item">
-                                <a href="about-us.php" class="nav-link "> About us </a>
-                            </li>
 
                             <li class="nav-item">
                                 <a href="contact.php" class="nav-link "> Contact us </a>
                             </li>
 
-
                             <li class="nav-item">
-                                <a href="#" class="nav-link "> <i class='bx bxl-instagram'></i> </a>
+                                <a href="#" class="nav-link ar-link "> عربي </a>
                             </li>
 
                             <li class="nav-item">
-                                <a href="#" class="nav-link "> <i class='bx bxl-tiktok'></i> </a>
+                                <a href="dashboard.php" class="nav-link "> <i class="icon icon-user-login"></i> Login </a>
                             </li>
-
-
 
 
                         </ul>

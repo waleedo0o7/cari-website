@@ -217,10 +217,42 @@
 
 
 
+ 
+
+    
+    // Choose Slider
+    $('.products-slider').owlCarousel({
+        loop: true,
+        margin: 30,
+        autoHeight: true,
+        nav: false,
+        dots: true,
+        autoplay: false,
+        autoplayHoverPause: false, 
+        navText: [
+            "<i class='bx bx-left-arrow-alt'></i>",
+            "<i class='bx bx-right-arrow-alt'></i>"
+        ],
+        responsive: {
+            0: {
+                items: 1.8,
+                center: true,
+            },
+            768: {
+                items: 3.8,
+                center: true,
+            },
+            1200: {
+                items: 3.8,
+                center: true,
+            },
+        }
+    })
+
 
 
     // Choose Slider
-    $('.top-local-restaurants-slider').owlCarousel({
+    $('.plans-slider').owlCarousel({
         loop: true,
         margin: 40,
         autoHeight: true,
@@ -234,14 +266,15 @@
         ],
         responsive: {
             0: {
-                items: 2,
+                items: 1.4,
+                center: true,
             },
             768: {
-                items: 3,
-                center: false,
+                items: 1.4,
+                center: true,
             },
-            1000: {
-                items: 7,
+            1200: {
+                items: 3,
             },
         }
     })

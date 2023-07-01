@@ -6,8 +6,6 @@
 
         <div class="page-content card">
 
-
-
             <div class="congratulations-wrapper w-lg-50 m-auto text-center">
                 <img src="assets/images/congratulations.png" class="img-fluid w-50 m-auto" alt="">
 
