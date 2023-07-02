@@ -55,13 +55,6 @@
 
 </div><!-- main-page-wrapper -->
 
-
-
-
-
-
-
-
 <!-- Modal  payment-method -->
 <div class="modal fade" id="verification-code-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -124,10 +117,7 @@
 
 
             </div>
-            <div class="modal-footer">
-                <button type="button" class="default-btn two btn-sm me-2" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="default-btn one btn-sm me-2"> Save Changes </button>
-            </div>
+
         </div>
     </div>
 </div>
