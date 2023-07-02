@@ -81,7 +81,7 @@
                             <p class="bold"> <i class="icon icon-payment"></i> Payment Options </p>
 
 
-                            <div class="options-wrapper ">
+                            <div class="options-wrapper">
 
                                 <label class="option-container">
                                     <input type="radio" checked="checked" name="report-reason" value="1">

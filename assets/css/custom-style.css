@@ -33,6 +33,39 @@
   --extraLightGray: #fcfdff;
 }
 
+@media (min-width: 1200px) {
+  .container-sm-custom {
+    max-width: 1200px !important;
+  }
+}
+.activate-inputs-container {
+  width: fit-content;
+  margin: auto;
+}
+.activate-inputs-container .activate-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  width: fit-content;
+  margin: auto;
+}
+.activate-inputs-container .activate-inputs input {
+  width: 70px;
+  height: 70px;
+  border-radius: 15px;
+  border: none;
+  margin: 5px;
+  text-align: center;
+  color: var(--secondaryColor);
+  font-size: 38px;
+  font-weight: bold;
+  border: 1px solid var(--gray);
+}
+.activate-inputs-container .activate-inputs input:focus {
+  border-color: var(--secondaryColor);
+}
+
 .relative {
   position: relative;
 }
@@ -74,7 +107,7 @@ a:hover {
 }
 
 .bg-gray {
-  background-color: #F5F6F7;
+  background-color: #f5f6f7;
 }
 
 .bold {
@@ -176,6 +209,20 @@ a.default-btn.tow:hover {
   -webkit-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.form-group {
+  position: relative;
+}
+.form-group label {
+  text-transform: capitalize;
+}
+
+.card-number-form-group::after {
+  content: url(../images/card-number-icons.png);
+  position: absolute;
+  top: 32px;
+  right: 10px;
 }
 
 .banner-area-for {
@@ -697,31 +744,6 @@ hr.border-line {
   font-size: 11px;
 }
 
-.default .option-container {
-  font-size: 14px;
-  padding-left: 0;
-  margin-right: 5px;
-  flex-grow: 1;
-}
-.default .option-container .checkmark {
-  min-width: 65px;
-  height: 35px;
-  position: relative;
-  border-radius: 500px;
-  width: fit-content;
-  padding: 10px;
-  width: 100%;
-}
-.default .option-container input[disabled] + .checkmark {
-  opacity: 0.4 !important;
-}
-.default .option-container input:checked ~ .checkmark {
-  background-color: transparent;
-}
-.default .option-container .checkmark:after {
-  background: unset;
-}
-
 .colors .option-container {
   padding-left: 0;
   margin-right: 10px;
@@ -780,6 +802,42 @@ hr.border-line {
 .attributes-options.style-2 .option-container input:checked ~ .checkmark {
   background: var(--primaryColor) !important;
   color: #fff !important;
+}
+.attributes-options.style-3 .option-container {
+  font-size: 16px;
+}
+.attributes-options.style-3 .option-container input ~ .checkmark {
+  height: 40px;
+  padding: 10px 30px;
+}
+.attributes-options.style-3 .option-container input:checked ~ .checkmark {
+  background: rgba(204, 2, 113, 0.1098039216) !important;
+  color: var(--primaryColor) !important;
+}
+
+.default .option-container {
+  font-size: 14px;
+  padding-left: 0;
+  margin-right: 5px;
+  flex-grow: 1;
+}
+.default .option-container .checkmark {
+  min-width: 65px;
+  height: 35px;
+  position: relative;
+  border-radius: 500px;
+  width: fit-content;
+  padding: 10px 20px;
+  width: 100%;
+}
+.default .option-container input[disabled] + .checkmark {
+  opacity: 0.4 !important;
+}
+.default .option-container input:checked ~ .checkmark {
+  background-color: transparent;
+}
+.default .option-container .checkmark:after {
+  background: unset;
 }
 
 /*  CUSTOM RADIO CSS START  */
@@ -953,6 +1011,11 @@ input.radio-with-select-item:checked + span + label {
   }
 }
 @media all and (max-width: 1200px) {
+  .activate-inputs-container .activate-inputs input {
+    width: 50px;
+    height: 50px;
+    font-size: 28px;
+  }
   .banner-area-for {
     height: auto;
   }

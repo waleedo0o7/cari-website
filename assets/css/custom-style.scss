@@ -39,6 +39,64 @@
     --extraLightGray: #fcfdff;
 }
 
+@media (min-width: 1200px) {
+    .container-sm-custom {
+        max-width: 1200px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.activate-inputs-container {
+    width: fit-content;
+    margin: auto;
+    .activate-inputs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0;
+        width: fit-content;
+        margin: auto;
+        input {
+            width: 70px;
+            height: 70px;
+            border-radius: 15px;
+            border: none;
+            margin: 5px;
+            text-align: center;
+            color: var(--secondaryColor);
+            font-size: 38px;
+            font-weight: bold;
+            border: 1px solid var(--gray);
+            &:focus {
+                border-color: var(--secondaryColor);
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
 .relative {
     position: relative;
 }
@@ -80,7 +138,7 @@ a {
 }
 
 .bg-gray {
-    background-color: #F5F6F7;
+    background-color: #f5f6f7;
 }
 
 .bold {
@@ -189,6 +247,23 @@ a.default-btn.tow {
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.form-group {
+    position: relative;
+
+    label {
+        text-transform: capitalize;
+    }
+}
+
+.card-number-form-group {
+    &::after {
+        content: url(../images/card-number-icons.png);
+        position: absolute;
+        top: 32px;
+        right: 10px;
+    }
 }
 
 .banner-area-for {
@@ -486,6 +561,7 @@ a.default-btn.tow {
     border-radius: 20px;
     background-color: #fff;
 }
+
 .card {
     border-radius: 0.8rem;
     border-color: var(--gray);
@@ -734,6 +810,7 @@ hr.border-line {
     &:hover input ~ .checkmark {
         background-color: #fff;
     }
+
     input {
         position: absolute;
         opacity: 0;
@@ -793,37 +870,6 @@ hr.border-line {
                 font-size: 11px;
             }
         }
-    }
-}
-
-.default {
-    .option-container {
-        font-size: 14px;
-        padding-left: 0;
-        margin-right: 5px;
-        flex-grow: 1;
-
-        .checkmark {
-            min-width: 65px;
-            height: 35px;
-            position: relative;
-            border-radius: 500px;
-            width: fit-content;
-            padding: 10px;
-            width: 100%;
-        }
-
-        input[disabled] + .checkmark {
-            opacity: 0.4 !important;
-        }
-    }
-
-    .option-container input:checked ~ .checkmark {
-        background-color: transparent;
-    }
-
-    .option-container .checkmark:after {
-        background: unset;
     }
 }
 
@@ -895,6 +941,51 @@ hr.border-line {
             color: #fff !important;
         }
     }
+
+    &.style-3 {
+        .option-container {
+            font-size: 16px;
+            input ~ .checkmark {
+                height: 40px;
+                padding: 10px 30px;
+            }
+            input:checked ~ .checkmark {
+                background: #cc02711c !important;
+                color: var(--primaryColor) !important;
+            }
+        }
+    }
+}
+
+.default {
+    .option-container {
+        font-size: 14px;
+        padding-left: 0;
+        margin-right: 5px;
+        flex-grow: 1;
+
+        .checkmark {
+            min-width: 65px;
+            height: 35px;
+            position: relative;
+            border-radius: 500px;
+            width: fit-content;
+            padding: 10px 20px;
+            width: 100%;
+        }
+
+        input[disabled] + .checkmark {
+            opacity: 0.4 !important;
+        }
+    }
+
+    .option-container input:checked ~ .checkmark {
+        background-color: transparent;
+    }
+
+    .option-container .checkmark:after {
+        background: unset;
+    }
 }
 
 /*  CUSTOM RADIO CSS START  */
@@ -947,8 +1038,7 @@ hr.border-line {
 
 .products-section {
     background: url(../images/products-shape-01.png) right top no-repeat,
-    url(../images/products-shape-02.png) left bottom no-repeat,
-    url(../images/yall.png) 90% 95% no-repeat;
+        url(../images/products-shape-02.png) left bottom no-repeat, url(../images/yall.png) 90% 95% no-repeat;
     background-color: #246a58;
 
     .section-title h2 {
@@ -1089,6 +1179,13 @@ input.radio-with-select-item:checked + span + label {
 }
 
 @media all and (max-width: 1200px) {
+
+    .activate-inputs-container .activate-inputs input {
+        width: 50px;
+        height: 50px;
+        font-size: 28px;
+    }
+
     .banner-area-for {
         height: auto;
 
@@ -1177,11 +1274,9 @@ input.radio-with-select-item:checked + span + label {
         border: none !important;
     }
 
-    
-    .products-section{
-        background-size: 50% , 50% , 20%;
+    .products-section {
+        background-size: 50%, 50%, 20%;
     }
-
 }
 
 // large and small phones
@@ -1201,9 +1296,8 @@ input.radio-with-select-item:checked + span + label {
         flex-direction: column;
     }
 
-
-    .products-section{
-        background-size: 60% , 60% , 30%;
+    .products-section {
+        background-size: 60%, 60%, 30%;
     }
 }
 

@@ -132,7 +132,7 @@
 
                     </div>
 
-                    <a href="#" class="default-btn tow btn-sm" data-bs-toggle="modal" data-bs-target="#update-delivery-address "> Update delivery address </a>
+                    <a href="#" class="default-btn tow btn-sm" data-bs-toggle="modal" data-bs-target="#"> Update delivery address </a>
 
 
 
@@ -161,9 +161,6 @@
     </div> <!-- container -->
 
 </div><!-- main-page-wrapper -->
-
-
-
 
 <!-- Modal  contact-info-->
 <div class="modal fade" id="update-contact-info" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -395,7 +392,7 @@
 
                         <div class="col-lg-12">
 
-                            <div class="form-group mb-3">
+                            <div class="form-group mb-3 card-number-form-group">
                                 <label> card number </label>
                                 <input type="text" class="form-control" required="">
                             </div>
@@ -438,7 +435,6 @@
         </div>
     </div>
 </div>
-
 
 
 <?php include 'footer.php'; ?>

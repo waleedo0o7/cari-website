@@ -4,12 +4,12 @@
 
     <div class="container">
 
-        <div class="page-content  ">
+        <div class="page-content">
 
             <div class="row">
                 <div class="col-lg-6 ">
                     <img src="assets/images/subscription-request-received.jpg" class="img-fluid mb-3" alt="">
-                </div> 
+                </div>
 
                 <div class="col-lg-6 d-flex justify-content-center align-items-start flex-column">
                     <h1> Subscription request received. </h1>

@@ -1,6 +1,75 @@
 (function ($) {
     'use strict';
 
+    //////////// Activate page start
+
+    $(document).on("click", ".activate-inputs input", function () {
+        $(this).select();
+    })
+
+    $(".activate-inputs input").on("keyup", function () {
+        if ($(this).val()) {
+            $(this).next().focus();
+            $(this).next().select();
+        }
+        if ($(this).index() == 3) {
+            $(this).blur();
+
+            let activateCode = '';
+
+            $(".activate-inputs input").each(function () {
+                activateCode += $(this).val();
+            });
+
+            $("#activate-code-input").val(activateCode);
+
+            setTimeout(() => {
+                $("#activate-code").submit();
+            }, 200);
+
+        }
+    })
+
+    // Resend Code
+    let counterDownTwoMinutes = () => {
+
+        let minutesLabel = document.getElementById("minutes");
+        let secondsLabel = document.getElementById("seconds");
+        let totalSeconds = 120;
+
+        setInterval(setTime, 1000);
+
+        function setTime() {
+            if (totalSeconds > 0) {
+
+                // console.log(totalSeconds);
+                --totalSeconds;
+                secondsLabel.innerHTML = pad(totalSeconds % 60);
+                minutesLabel.innerHTML = pad(parseInt(totalSeconds / 60));
+
+                if (totalSeconds == 0) {
+                    $(".count-down-numbers-wrapper").html(`<a href="#" class="default-btn one " id="resend-code" > Resend New Code </a>`);
+                }
+            }
+        }
+
+        function pad(val) {
+            var valString = val + "";
+            if (valString.length < 2) {
+                return "0" + valString;
+            } else {
+                return valString;
+            }
+        }
+
+
+
+    }
+
+    counterDownTwoMinutes();
+
+    //////////// Activate page end
+
     function createWeek() {
 
         let weekInDays = [];
@@ -217,9 +286,9 @@
 
 
 
- 
 
-    
+
+
     // Choose Slider
     $('.products-slider').owlCarousel({
         loop: true,
@@ -228,7 +297,7 @@
         nav: false,
         dots: true,
         autoplay: false,
-        autoplayHoverPause: false, 
+        autoplayHoverPause: false,
         navText: [
             "<i class='bx bx-left-arrow-alt'></i>",
             "<i class='bx bx-right-arrow-alt'></i>"
@@ -376,25 +445,25 @@
     });
 
     // Count Time JS
-    function makeTimer() {
-        var endTime = new Date("October 30, 2022 17:00:00 PDT");
-        var endTime = (Date.parse(endTime)) / 1000;
-        var now = new Date();
-        var now = (Date.parse(now) / 1000);
-        var timeLeft = endTime - now;
-        var days = Math.floor(timeLeft / 86400);
-        var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
-        var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600)) / 60);
-        var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
-        if (hours < "10") { hours = "0" + hours; }
-        if (minutes < "10") { minutes = "0" + minutes; }
-        if (seconds < "10") { seconds = "0" + seconds; }
-        $("#days").html(days + "<span>Days</span>");
-        $("#hours").html(hours + "<span>Hours</span>");
-        $("#minutes").html(minutes + "<span>Minutes</span>");
-        $("#seconds").html(seconds + "<span>Seconds</span>");
-    }
-    setInterval(function () { makeTimer(); }, 300);
+    // function makeTimer() {
+    //     var endTime = new Date("October 30, 2022 17:00:00 PDT");
+    //     var endTime = (Date.parse(endTime)) / 1000;
+    //     var now = new Date();
+    //     var now = (Date.parse(now) / 1000);
+    //     var timeLeft = endTime - now;
+    //     var days = Math.floor(timeLeft / 86400);
+    //     var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
+    //     var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600)) / 60);
+    //     var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
+    //     if (hours < "10") { hours = "0" + hours; }
+    //     if (minutes < "10") { minutes = "0" + minutes; }
+    //     if (seconds < "10") { seconds = "0" + seconds; }
+    //     $("#days").html(days + "<span>Days</span>");
+    //     $("#hours").html(hours + "<span>Hours</span>");
+    //     $("#minutes").html(minutes + "<span>Minutes</span>");
+    //     $("#seconds").html(seconds + "<span>Seconds</span>");
+    // }
+    // setInterval(function () { makeTimer(); }, 300);
 
     // Subscribe form
     $(".newsletter-form").validator().on("submit", function (event) {

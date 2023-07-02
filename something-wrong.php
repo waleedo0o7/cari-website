@@ -1,14 +1,12 @@
 <?php include 'header.php'; ?>
 
-<div class="main-page-wrapper bg-gray">
+<div class="main-page-wrapper bg-gray action something-wrong">
 
     <div class="container">
 
         <div class="page-content card">
 
-
-
-            <div class="congratulations-wrapper w-lg-50 m-auto text-center">
+            <div class="w-lg-50 m-auto text-center">
                 <img src="assets/images/something-wrong.png" class="img-fluid w-50 m-auto" alt="">
 
                 <h4> Something went wrong </h4>
