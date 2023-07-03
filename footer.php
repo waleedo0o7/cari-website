@@ -115,30 +115,40 @@
  <script src="assets/js/form-validator.min.js"></script>
  <!-- Contact Form JS -->
  <script src="assets/js/contact-form-script.js"></script>
+
+ <script src="assets/flatpickr/flatpickr.js"></script>
+
  <!-- Custom  JS -->
  <script src="assets/js/custom.js"></script>
 
-
-
-
-
- <script type="text/javascript" src="assets/js/moment.min.js"></script>
- <script type="text/javascript" src="assets/js/daterangepicker.js"></script>
- <link rel="stylesheet" type="text/css" href="assets/css/daterangepicker.css" />
-
-
-
-
-
+ <script src="assets/tel-input/js/intlTelInput.js"></script>
 
  <script>
-
-    //  $(function() {
-    //     //  $('input[type="date"]').daterangepicker({
-    //     //      singleDatePicker: true
-    //     //  });
-    //  });
-
+     var input = document.querySelector("#phone");
+     window.intlTelInput(input, {
+         // allowDropdown: true,
+         // autoInsertDialCode: true,
+         // autoPlaceholder: "on",
+         // dropdownContainer: document.body,
+         // excludeCountries: ["us"],
+         // formatOnDisplay: false,
+         // geoIpLookup: function(callback) {
+         //   fetch("https://ipapi.co/json")
+         //     .then(function(res) { return res.json(); })
+         //     .then(function(data) { callback(data.country_code); })
+         //     .catch(function() { callback("us"); });
+         // },
+         // hiddenInput: "full_number",
+         // initialCountry: "auto",
+         // localizedCountries: { 'de': 'Deutschland' },
+         // nationalMode: false,
+         // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+         // placeholderNumberType: "MOBILE",
+         // preferredCountries: ['ksa', 'jp'],
+         // separateDialCode: true,
+         // showFlags: false,
+         utilsScript: "assets/tel-input/js/utils.js"
+     });
  </script>
 
 

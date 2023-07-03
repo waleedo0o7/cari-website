@@ -30,6 +30,9 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
 
+    <link rel="stylesheet" href="assets/flatpickr/flatpickr.min.css">
+
+
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="assets/css/responsive.css">
     <!-- Theme Dark CSS -->
@@ -47,6 +50,7 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
 
+    <link rel="stylesheet" href="assets/tel-input/css/intlTelInput.css" />
 
 </head>
 

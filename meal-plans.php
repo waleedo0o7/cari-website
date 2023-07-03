@@ -185,7 +185,7 @@
 
                             <div class="attributes-options default">
 
-                                <label class="option-container disabled option-inline">
+                                <label class="option-container option-inline">
                                     <input type="checkbox" name="size" value="1">
                                     <span class="checkmark"> Breakfast </span>
                                 </label>
@@ -195,8 +195,8 @@
                                     <span class="checkmark"> Lunch </span>
                                 </label>
 
-                                <label class="option-container option-inline">
-                                    <input type="checkbox" name="size" value="3">
+                                <label class="option-container disabled option-inline">
+                                    <input type="checkbox" name="size" value="3" disabled="disabled">
                                     <span class="checkmark"> Dinner </span>
 
                                 </label>
@@ -261,7 +261,7 @@
 
                             <div class="form-group">
                                 <label for="exampleInputEmail1"> Starting Date </label>
-                                <input type="date" class="form-control" id="exampleInputEmail1" placeholder="Pick starting date">
+                                <input type="date" class="form-control flatpickr" id="exampleInputEmail1" placeholder="Pick starting date">
                             </div>
 
                         </div><!-- d-block -->

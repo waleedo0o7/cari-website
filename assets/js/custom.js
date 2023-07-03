@@ -1,5 +1,8 @@
 (function ($) {
+    
     'use strict';
+
+    $('.flatpickr').flatpickr();
 
     //////////// Activate page start
 

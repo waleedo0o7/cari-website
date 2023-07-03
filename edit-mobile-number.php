@@ -6,10 +6,11 @@
 
         <div class="page-content">
 
-
             <div class="row">
                 <div class="col-lg-6 ">
-                    <img src="assets/images/subscription-request-received.jpg" class="img-fluid mb-3" alt="">
+                    <div class="image-with-pink-bg-wrapper">
+                        <img src="assets/images/contact.png" class="img-fluid" alt="">
+                    </div><!-- image-with-pink-bg-wrapper -->
                 </div>
 
                 <div class="col-lg-6 d-flex justify-content-center align-items-start flex-column">
@@ -19,7 +20,7 @@
 
                     <div class="form-group mb-3 w-100">
                         <label> Phone number </label>
-                        <input type="text" class="form-control" required="">
+                        <input type="text" class="form-control" id="phone">
                     </div>
 
 
@@ -109,7 +110,7 @@
 
                     <div class="buttons-wrapper">
                         <a href="#" class="default-btn three btn-sm me-2"> <i class="icon icon-sms me-2"></i> SMS </a>
-                        <a href="#" class="default-btn three btn-sm me-2"> <i class="icon icon-whatsapp"></i>  whatsapp </a>
+                        <a href="#" class="default-btn three btn-sm me-2"> <i class="icon icon-whatsapp"></i> whatsapp </a>
                     </div><!-- buttons-wrapper -->
 
                 </div>

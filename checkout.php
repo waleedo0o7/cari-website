@@ -93,7 +93,7 @@
                             <div class="col-lg-6 col-md-6">
                                 <div class="form-group">
                                     <label>Phone <span class="required">*</span></label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" id="phone">
                                 </div>
                             </div>
 

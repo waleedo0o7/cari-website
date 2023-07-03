@@ -23,11 +23,12 @@
     --bodyFonts: "Jost", sans-serif;
     --greenColor: #cc0271;
     --primaryColor: var(--greenColor);
+    --primaryColorDark: #a9005d;
+    --primaryColor50: #ffe9f6;
     --titleColor: #191f30;
     --bodyColor: #000;
     --whiteColor: #ffffff;
     --fontSize: 16px;
-    --transition: 0.5s;
 
     --switches-bg-color: #fff;
     --switches-label-color: #000;
@@ -37,32 +38,65 @@
     --gray: #e7e7e7;
 
     --extraLightGray: #fcfdff;
+
+    --transition: 0.2s;
 }
 
-@media (min-width: 1200px) {
-    .container-sm-custom {
-        max-width: 1200px !important;
+.flatpickr-day.selected,
+.flatpickr-day.startRange,
+.flatpickr-day.endRange,
+.flatpickr-day.selected.inRange,
+.flatpickr-day.startRange.inRange,
+.flatpickr-day.endRange.inRange,
+.flatpickr-day.selected:focus,
+.flatpickr-day.startRange:focus,
+.flatpickr-day.endRange:focus,
+.flatpickr-day.selected:hover,
+.flatpickr-day.startRange:hover,
+.flatpickr-day.endRange:hover,
+.flatpickr-day.selected.prevMonthDay,
+.flatpickr-day.startRange.prevMonthDay,
+.flatpickr-day.endRange.prevMonthDay,
+.flatpickr-day.selected.nextMonthDay,
+.flatpickr-day.startRange.nextMonthDay,
+.flatpickr-day.endRange.nextMonthDay {
+    background: var(--primaryColor) !important;
+    border-color: var(--primaryColor) !important;
+}
+
+.flatpickr-day:hover,
+.flatpickr-day:focus {
+    border-color: var(--primaryColor50) !important;
+    background: var(--primaryColor50) !important;
+    color: #000 !important;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+    background-color: #fff;
+}
+
+.image-with-pink-bg-wrapper {
+    position: relative;
+    text-align: right;
+    padding: 0 30px 30px 30px;
+
+    &:after {
+        content: "";
+        background: var(--primaryColor50);
+        width: 200%;
+        height: 80%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+        border-radius: 10px;
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.iti {
+    display: block !important;
+}
 .activate-inputs-container {
     width: fit-content;
     margin: auto;
@@ -90,12 +124,6 @@
         }
     }
 }
-
-
-
-
-
-
 
 .relative {
     position: relative;
@@ -153,44 +181,55 @@ a {
     border-color: var(--primaryColor);
 }
 
+.default-btn::before {
+    content: unset !important;
+}
+
 .default-btn,
 .default-btn::before {
     border-radius: 500px;
 }
 
-a.default-btn.tow {
+.default-btn {
+    background: var(--primaryColor);
+    border: 1px solid var(--primaryColor);
+    color: #fff;
+
+    &:hover {
+        background: var(--primaryColorDark);
+        border: 1px solid var(--primaryColorDark);
+        color: #fff;
+    }
+}
+
+.default-btn.tow,
+.default-btn.two {
     background: var(--extraLightGray);
     border: 1px solid var(--gray);
     color: #000;
 
     &:hover {
-        color: #fff;
+        background: var(--gray);
+        border: 1px solid var(--gray);
+        color: #000;
     }
 }
 
 .default-btn.three {
     background-color: #fff;
-    color: #cc0071;
+    color: var(--primaryColor);
     border: 1px solid var(--primaryColor);
 
     &:hover {
-        color: #fff;
-    }
-}
-
-.default-btn.for {
-    color: var(--titleColor);
-    border: 1px solid var(--titleColor);
-    background-color: #fff;
-
-    &:hover {
-        color: #fff;
+        color: var(--primaryColor);
+        background-color: var(--primaryColor50);
+        border: 1px solid var(--primaryColor);
     }
 }
 
 .default-btn.border-radius-sm,
 .default-btn.border-radius-sm::before {
-    border-radius: 10px;
+    border-radius: 500px;
 }
 
 .default-btn.lg-btn {
@@ -388,13 +427,10 @@ a.default-btn.tow {
     }
 
     &.recommended {
-        .default-btn {
-            color: #fff;
+
+        .default-btn.three {
             background-color: var(--primaryColor);
-            border-color: var(--primaryColor);
-            &:hover {
-                color: #fff;
-            }
+            color: #fff;
         }
 
         .price {
@@ -407,6 +443,7 @@ a.default-btn.tow {
             top: -10px;
             right: 0;
         }
+
     }
 
     .image-wrapper {
@@ -966,12 +1003,12 @@ hr.border-line {
 
         .checkmark {
             min-width: 65px;
-            height: 35px;
+            height: 40px;
             position: relative;
-            border-radius: 500px;
-            width: fit-content;
+            border-radius: 500px; 
             padding: 10px 20px;
             width: 100%;
+            font-size: 15px;
         }
 
         input[disabled] + .checkmark {
@@ -980,7 +1017,7 @@ hr.border-line {
     }
 
     .option-container input:checked ~ .checkmark {
-        background-color: transparent;
+        background-color: var(--primaryColor50);
     }
 
     .option-container .checkmark:after {
@@ -1055,9 +1092,35 @@ hr.border-line {
     .radio-with-select-item,
     .checkmark {
         position: absolute;
+        height: 28px;
+        width: 28px;
         top: 10px;
         left: 10px;
         cursor: pointer;
+        border-color: var(--primaryColor);
+        &::after {
+            content: "\43";
+            font-family: "cari-icons" !important;
+            font-style: normal !important;
+            font-weight: normal !important;
+            font-variant: normal !important;
+            text-transform: none !important;
+            speak: none;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            font-size: 14px;
+            color: var(--primaryColor);
+            position: absolute;
+            top: 6px;
+            left: 5px;
+        }
+    }
+
+    input:checked ~ .checkmark {
+        background-color: #fff !important;
+        border: 2px solid var(--primaryColor);
+        box-shadow: unset;
     }
 
     .one-meal-card {
@@ -1085,7 +1148,7 @@ hr.border-line {
 
 input.radio-with-select-item:checked + span + label {
     border: 2px solid var(--primaryColor) !important;
-    border-radius: 15px !important;
+    border-radius: 10px !important;
 }
 
 .subscription-details-card-wrapper {
@@ -1176,10 +1239,13 @@ input.radio-with-select-item:checked + span + label {
     .text-lg-end {
         text-align: right !important;
     }
+
+    .container-sm-custom {
+        max-width: 1200px !important;
+    }
 }
 
 @media all and (max-width: 1200px) {
-
     .activate-inputs-container .activate-inputs input {
         width: 50px;
         height: 50px;

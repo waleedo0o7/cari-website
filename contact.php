@@ -2,13 +2,15 @@
 
 <div class="main-page-wrapper contact-us">
 
-    <div class="container">
+    <div class="container container-sm-custom">
 
         <div class="page-content  ">
 
             <div class="row">
                 <div class="col-lg-6 ">
-                    <img src="assets/images/subscription-request-received.jpg" class="img-fluid mb-3" alt="">
+                    <div class="image-with-pink-bg-wrapper">
+                        <img src="assets/images/contact.png" class="img-fluid" alt="">
+                    </div><!-- image-with-pink-bg-wrapper -->
                 </div>
 
                 <div class="col-lg-6 d-flex justify-content-center align-items-start flex-column">
