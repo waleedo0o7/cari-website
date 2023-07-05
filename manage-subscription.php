@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
 
-<div class="main-page-wrapper bg-gray">
+<div class="main-page-wrapper bg-gray manage-subscription">
 
     <div class="container">
 

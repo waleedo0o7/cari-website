@@ -69,7 +69,11 @@
 
     }
 
-    counterDownTwoMinutes();
+    if ( $("#minutes").length) {
+
+        counterDownTwoMinutes();
+
+    }
 
     //////////// Activate page end
 

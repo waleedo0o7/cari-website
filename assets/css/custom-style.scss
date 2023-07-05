@@ -427,7 +427,6 @@ a {
     }
 
     &.recommended {
-
         .default-btn.three {
             background-color: var(--primaryColor);
             color: #fff;
@@ -443,7 +442,6 @@ a {
             top: -10px;
             right: 0;
         }
-
     }
 
     .image-wrapper {
@@ -1005,7 +1003,7 @@ hr.border-line {
             min-width: 65px;
             height: 40px;
             position: relative;
-            border-radius: 500px; 
+            border-radius: 500px;
             padding: 10px 20px;
             width: 100%;
             font-size: 15px;
@@ -1246,6 +1244,52 @@ input.radio-with-select-item:checked + span + label {
 }
 
 @media all and (max-width: 1200px) {
+
+    .manage-subscription .col-lg-4 {
+        margin-bottom: 15px;
+    }
+
+    .image-with-pink-bg-wrapper {
+        margin-top: 30px;
+    }
+
+    .flex-column-reverse-md {
+        flex-direction: column-reverse;
+    }
+
+    .flexible-plans-card-wrapper .option-container {
+        top: 25px;
+    }
+
+    .steps-wrapper{
+        margin-top: 10px;
+    }
+
+    .dashboard-custom-card {
+        padding: 15px;
+    }
+
+    .dashboard-header {
+        padding: 20px;
+
+        .pause-subscription-and-text-wrapper {
+            flex-direction: column;
+            justify-content: center !important;
+            align-items: flex-start !important;
+
+            a.default-btn.pause-subscription {
+                margin-top: 20px;
+            }
+        }
+
+        .buttons-wrapper {
+            justify-content: flex-start;
+            align-items: center;
+            display: flex;
+            margin-top: 20px;
+        }
+    }
+
     .activate-inputs-container .activate-inputs input {
         width: 50px;
         height: 50px;
@@ -1327,7 +1371,7 @@ input.radio-with-select-item:checked + span + label {
     }
 
     .main-page-wrapper .page-content {
-        padding: 10px;
+        padding: 15px;
     }
 
     .default-btn.lg-btn {
@@ -1347,6 +1391,7 @@ input.radio-with-select-item:checked + span + label {
 
 // large and small phones
 @media all and (max-width: 650px) {
+
     ul.steps {
         .step {
             a {
@@ -1357,6 +1402,7 @@ input.radio-with-select-item:checked + span + label {
             }
         }
     }
+
     .inline-inputs-group {
         display: flex;
         flex-direction: column;
@@ -1365,6 +1411,7 @@ input.radio-with-select-item:checked + span + label {
     .products-section {
         background-size: 60%, 60%, 30%;
     }
+
 }
 
 // only small phone

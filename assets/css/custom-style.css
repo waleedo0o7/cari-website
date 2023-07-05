@@ -1100,6 +1100,41 @@ input.radio-with-select-item:checked + span + label {
   }
 }
 @media all and (max-width: 1200px) {
+  .manage-subscription .col-lg-4 {
+    margin-bottom: 15px;
+  }
+  .image-with-pink-bg-wrapper {
+    margin-top: 30px;
+  }
+  .flex-column-reverse-md {
+    flex-direction: column-reverse;
+  }
+  .flexible-plans-card-wrapper .option-container {
+    top: 25px;
+  }
+  .steps-wrapper {
+    margin-top: 10px;
+  }
+  .dashboard-custom-card {
+    padding: 15px;
+  }
+  .dashboard-header {
+    padding: 20px;
+  }
+  .dashboard-header .pause-subscription-and-text-wrapper {
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: flex-start !important;
+  }
+  .dashboard-header .pause-subscription-and-text-wrapper a.default-btn.pause-subscription {
+    margin-top: 20px;
+  }
+  .dashboard-header .buttons-wrapper {
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+  }
   .activate-inputs-container .activate-inputs input {
     width: 50px;
     height: 50px;
@@ -1164,7 +1199,7 @@ input.radio-with-select-item:checked + span + label {
     margin-bottom: 20px;
   }
   .main-page-wrapper .page-content {
-    padding: 10px;
+    padding: 15px;
   }
   .default-btn.lg-btn {
     min-width: 180px;

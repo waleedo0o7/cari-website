@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
 
-<div class="main-page-wrapper bg-gray">
+<div class="main-page-wrapper bg-gray dashboard">
 
     <div class="container">
 
@@ -15,10 +15,10 @@
                         <span class="badge bg-light text-dark custom-badge"> Weekly </span>
 
                     </div>
-                    <div class="d-flex align-items-center mb-2">
+                    <div class="d-flex align-items-center pause-subscription-and-text-wrapper mb-2">
 
                         <p class="mb-0 me-4"> KD19 per person/week </p>
-                        <a href="#" class="default-btn tow btn-sm"> Pause subscription </a>
+                        <a href="#" class="default-btn tow btn-sm  pause-subscription "> Pause subscription </a>
 
                     </div>
                 </div>

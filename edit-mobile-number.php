@@ -6,7 +6,7 @@
 
         <div class="page-content">
 
-            <div class="row">
+            <div class="row flex-column-reverse-md">
                 <div class="col-lg-6 ">
                     <div class="image-with-pink-bg-wrapper">
                         <img src="assets/images/contact.png" class="img-fluid" alt="">
