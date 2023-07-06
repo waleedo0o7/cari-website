@@ -1,4 +1,12 @@
 (function ($) {
+
+
+    let isRTL = false;
+
+    if ($("html").attr("dir") === 'rtl' ) {
+        isRTL = true
+    }
+    // alert(isRTL);
     
     'use strict';
 
@@ -305,6 +313,7 @@
         dots: true,
         autoplay: false,
         autoplayHoverPause: false,
+        rtl : isRTL,
         navText: [
             "<i class='bx bx-left-arrow-alt'></i>",
             "<i class='bx bx-right-arrow-alt'></i>"
@@ -336,6 +345,7 @@
         dots: false,
         autoplay: true,
         autoplayHoverPause: false,
+        rtl : isRTL,
         navText: [
             "<i class='bx bx-left-arrow-alt'></i>",
             "<i class='bx bx-right-arrow-alt'></i>"

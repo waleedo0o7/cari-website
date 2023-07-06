@@ -1,5 +1,6 @@
 <!doctype html>
-<html lang="zxx">
+
+<html dir="<?php if (isset($_GET['dir']))   echo $_GET['dir']; ?>">
 
 <head>
     <!-- Required Meta Tags -->

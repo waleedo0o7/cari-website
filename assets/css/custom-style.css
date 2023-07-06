@@ -1,4 +1,55 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap");
+html[dir=rtl] .flexible-plans-card.recommended .price:after {
+  right: unset;
+  left: 0;
+}
+html[dir=rtl] .custom-faq-area:after {
+  transform: rotate(180deg);
+}
+html[dir=rtl] ul.steps .step:after {
+  right: unset;
+  left: calc(50% + 25px);
+}
+html[dir=rtl] .switches-container input:nth-of-type(2):checked ~ .switch-wrapper {
+  transform: translateX(-100%);
+}
+html[dir=rtl] .me-4 {
+  margin-right: unset !important;
+  margin-left: 1.5rem !important;
+}
+html[dir=rtl] .text-end {
+  text-align: left !important;
+}
+html[dir=rtl] .row-with-center-line .right-content {
+  border-right: unset !important;
+  border-left: 2px solid var(--gray);
+}
+html[dir=rtl] .image-with-pink-bg-wrapper:after {
+  right: unset !important;
+  left: 0 !important;
+}
+html[dir=rtl] .flexible-plans-card-wrapper h5 {
+  margin-left: unset !important;
+  margin-right: 30px !important;
+}
+html[dir=rtl] .flexible-plans-card-wrapper .option-container {
+  left: unset !important;
+  right: 5px !important;
+}
+html[dir=rtl] .one-meal-card-wrapper .radio-with-select-item,
+html[dir=rtl] .one-meal-card-wrapper .checkmark {
+  left: unset !important;
+  right: 10px;
+}
+html[dir=rtl] .options-wrapper .option-container {
+  padding-left: unset;
+  padding-right: 30px;
+}
+html[dir=rtl] .options-wrapper .option-container .checkmark {
+  left: unset;
+  right: 0;
+}
+
 .switch-box {
   position: fixed;
   bottom: 20px;
@@ -373,6 +424,7 @@ a:hover {
   position: absolute;
   top: 30px;
   left: 15px;
+  width: fit-content;
 }
 .flexible-plans-card-wrapper h5 {
   margin-left: 30px;
@@ -430,10 +482,20 @@ a:hover {
 }
 
 .custom-faq-area {
+  position: relative;
+}
+.custom-faq-area:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   background-color: var(--primaryColor);
   background-image: url(../images/shape-bg-002.svg);
   background-position: 0px 40px;
   background-repeat: no-repeat;
+  z-index: -1;
 }
 .custom-faq-area .accordion .accordion-item {
   background-color: transparent;

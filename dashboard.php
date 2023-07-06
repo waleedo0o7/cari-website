@@ -21,12 +21,23 @@
                         <a href="#" class="default-btn tow btn-sm  pause-subscription "> Pause subscription </a>
 
                     </div>
+
                 </div>
                 <div class="col-lg-6 ">
+
+
                     <div class="buttons-wrapper  w-100 text-end">
                         <a href="manage-subscription.php" class="default-btn me-2"> Manage subscription </a>
                         <a href="#" class="default-btn three"> Logout </a>
                     </div>
+
+
+                    <div class="buttons-wrapper  w-100 text-end">
+                        <a href="#" class="default-btn tow btn-sm"> Edit Information </a>
+                        <a href="#" class="default-btn tow btn-sm"> Change Phone </a>
+                    </div>
+
+
                 </div>
             </div>
         </div>

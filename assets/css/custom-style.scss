@@ -1,3 +1,6 @@
+@use "rtl.scss";
+
+
 .switch-box {
     position: fixed;
     bottom: 20px;
@@ -408,6 +411,7 @@ a {
         position: absolute;
         top: 30px;
         left: 15px;
+        width: fit-content;
     }
 
     h5 {
@@ -484,10 +488,21 @@ a {
 }
 
 .custom-faq-area {
-    background-color: var(--primaryColor);
-    background-image: url(../images/shape-bg-002.svg);
-    background-position: 0px 40px;
-    background-repeat: no-repeat;
+    position: relative;
+
+    &:after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: var(--primaryColor);
+        background-image: url(../images/shape-bg-002.svg);
+        background-position: 0px 40px;
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
 
     .accordion .accordion-item {
         background-color: transparent;
@@ -1427,3 +1442,7 @@ input.radio-with-select-item:checked + span + label {
         }
     }
 }
+
+
+
+

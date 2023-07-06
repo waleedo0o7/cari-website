@@ -1,0 +1,68 @@
+html[dir="rtl"] {
+    .flexible-plans-card.recommended .price:after {
+        right: unset;
+        left: 0;
+    }
+
+    .custom-faq-area:after {
+        transform: rotate(180deg);
+    }
+
+    ul.steps .step:after {
+        right: unset;
+        left: calc(50% + 25px);
+    }
+    .switches-container input:nth-of-type(2):checked ~ .switch-wrapper {
+        transform: translateX(-100%);
+    }
+
+    .me-4 {
+        margin-right: unset !important;
+        margin-left: 1.5rem !important;
+    }
+
+    .text-end {
+        text-align: left !important;
+    }
+
+    .row-with-center-line .right-content {
+        border-right: unset !important;
+        border-left: 2px solid var(--gray);
+    }
+
+    .image-with-pink-bg-wrapper:after {
+        right: unset !important;
+        left: 0 !important;
+    }
+
+    .flexible-plans-card-wrapper {
+        h5 {
+            margin-left: unset !important;
+            margin-right: 30px !important;
+        }
+
+        .option-container {
+            left: unset !important;
+            right: 5px !important;
+        }
+    }
+
+    .one-meal-card-wrapper .radio-with-select-item,
+    .one-meal-card-wrapper .checkmark {
+        left: unset !important;
+        right: 10px;
+    }
+
+    .options-wrapper {
+        .option-container {
+            padding-left: unset;
+            padding-right: 30px;
+            .checkmark {
+                left: unset;
+                right: 0;
+            }
+        }
+    }
+
+    
+}
