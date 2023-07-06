@@ -53,6 +53,12 @@ html[dir="rtl"] {
         right: 10px;
     }
 
+
+    .one-meal-card-wrapper .option-container input:checked ~ .checkmark:after {
+        left: unset;
+        right: 5px;
+    }
+
     .options-wrapper {
         .option-container {
             padding-left: unset;
@@ -64,5 +70,5 @@ html[dir="rtl"] {
         }
     }
 
-    
+
 }

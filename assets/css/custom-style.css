@@ -41,6 +41,10 @@ html[dir=rtl] .one-meal-card-wrapper .checkmark {
   left: unset !important;
   right: 10px;
 }
+html[dir=rtl] .one-meal-card-wrapper .option-container input:checked ~ .checkmark:after {
+  left: unset;
+  right: 5px;
+}
 html[dir=rtl] .options-wrapper .option-container {
   padding-left: unset;
   padding-right: 30px;
