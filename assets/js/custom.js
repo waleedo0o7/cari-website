@@ -12,6 +12,7 @@
 
             });
         }
+
         function preventUncheckInputs() {
 
             $(".customize-your-plan .attributes-options.default .option-container input").addClass("prevented");
@@ -31,6 +32,7 @@
             });
 
         }
+        
         function removePreventedClass() {
             $(".customize-your-plan .attributes-options.default .option-container input").removeClass("prevented");
         }
@@ -39,7 +41,7 @@
 
             setTimeout(() => {
 
-                if ($('.all-meals-selected').is(":checked")) {
+                if ($('.three-meals-plan input').is(":checked")) {
 
                     checkAllInputs();
 
@@ -90,7 +92,7 @@
 
     if ($("html").attr("dir") === 'rtl') {
         isRTL = true
-    } 
+    }
 
 
 

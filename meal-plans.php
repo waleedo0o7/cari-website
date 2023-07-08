@@ -135,10 +135,10 @@
 
                             </div><!-- flexible-plans-card-wrapper -->
 
-                            <div class="flexible-plans-card-wrapper">
+                            <div class="flexible-plans-card-wrapper three-meals-plan">
 
                                 <div class="option-container">
-                                    <input type="radio" id="product-03" name="select-product" class="radio-with-select-item all-meals-selected" value="1">
+                                    <input type="radio" id="product-03" name="select-product" class="radio-with-select-item" value="1">
                                     <span class="checkmark"></span>
                                 </div>
 
