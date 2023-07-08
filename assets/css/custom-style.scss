@@ -1,6 +1,5 @@
 @use "rtl.scss";
 
-
 .switch-box {
     position: fixed;
     bottom: 20px;
@@ -409,10 +408,49 @@ a {
 
     .option-container {
         position: absolute;
-        top: 30px;
+        top: 27px;
         left: 15px;
         width: fit-content;
+
+
+
+        .radio-with-select-item,
+        .checkmark {
+
+            border-color: var(--primaryColor);
+            background-color : #FFF !important;
+            height: 28px;
+            width: 28px;
+            top: 0;
+            left: 0;
+            cursor: pointer;
+            border-color: #c2c2c2;
+
+            &::after {
+                content: "\43";
+                font-family: "cari-icons" !important;
+                font-style: normal !important;
+                font-weight: normal !important;
+                font-variant: normal !important;
+                text-transform: none !important;
+                speak: none;
+                line-height: 1;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                font-size: 14px;
+                color: var(--primaryColor);
+                position: absolute;
+                top: 6px;
+                left: 5px;
+            }
+        } 
+
     }
+
+
+
+ 
+
 
     h5 {
         margin-left: 30px;
@@ -422,7 +460,11 @@ a {
 .flexible-plans-card {
     border-radius: 10px;
     overflow: hidden;
-    border: 1px solid var(--gray);
+    border: 2px solid var(--gray);
+
+    &.selected {
+        border: 2px solid var(--primaryColorDark);
+    }
 
     &.style-2 {
         .flexible-plans-card-content p {
@@ -467,6 +509,8 @@ a {
             min-height: 170px;
         }
     }
+
+
 }
 
 .products-section {
@@ -490,7 +534,7 @@ a {
 .custom-faq-area {
     position: relative;
 
-    &:after{
+    &:after {
         content: "";
         position: absolute;
         top: 0;
@@ -598,6 +642,16 @@ a {
 
     .page-content {
         padding: 25px;
+    }
+}
+
+.main-page-wrapper.custom-your-plan {
+    .flexible-plans-card-wrapper * {
+        cursor: pointer;
+    }
+
+    .flexible-plans-card-wrapper:hover .flexible-plans-card {
+        box-shadow: 0 0 10px #b4b4b465;
     }
 }
 
@@ -1208,7 +1262,7 @@ input.radio-with-select-item:checked + span + label {
         width: 80%;
 
         .one-day {
-            width: 14.2857%;
+            width: 100%;
             text-align: center;
             border-bottom: 3px solid var(--gray);
             padding-bottom: 10px;
@@ -1259,7 +1313,6 @@ input.radio-with-select-item:checked + span + label {
 }
 
 @media all and (max-width: 1200px) {
-
     .manage-subscription .col-lg-4 {
         margin-bottom: 15px;
     }
@@ -1276,7 +1329,7 @@ input.radio-with-select-item:checked + span + label {
         top: 25px;
     }
 
-    .steps-wrapper{
+    .steps-wrapper {
         margin-top: 10px;
     }
 
@@ -1354,7 +1407,7 @@ input.radio-with-select-item:checked + span + label {
     .days-wrapper {
         width: 100% !important;
         .one-day {
-            min-width: 90px;
+            min-width: 120px;
         }
     }
 
@@ -1406,7 +1459,6 @@ input.radio-with-select-item:checked + span + label {
 
 // large and small phones
 @media all and (max-width: 650px) {
-
     ul.steps {
         .step {
             a {
@@ -1426,7 +1478,6 @@ input.radio-with-select-item:checked + span + label {
     .products-section {
         background-size: 60%, 60%, 30%;
     }
-
 }
 
 // only small phone
@@ -1442,7 +1493,3 @@ input.radio-with-select-item:checked + span + label {
         }
     }
 }
-
-
-
-

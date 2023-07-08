@@ -426,9 +426,38 @@ a:hover {
 }
 .flexible-plans-card-wrapper .option-container {
   position: absolute;
-  top: 30px;
+  top: 27px;
   left: 15px;
   width: fit-content;
+}
+.flexible-plans-card-wrapper .option-container .radio-with-select-item,
+.flexible-plans-card-wrapper .option-container .checkmark {
+  border-color: var(--primaryColor);
+  background-color: #FFF !important;
+  height: 28px;
+  width: 28px;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  border-color: #c2c2c2;
+}
+.flexible-plans-card-wrapper .option-container .radio-with-select-item::after,
+.flexible-plans-card-wrapper .option-container .checkmark::after {
+  content: "C";
+  font-family: "cari-icons" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  color: var(--primaryColor);
+  position: absolute;
+  top: 6px;
+  left: 5px;
 }
 .flexible-plans-card-wrapper h5 {
   margin-left: 30px;
@@ -437,7 +466,10 @@ a:hover {
 .flexible-plans-card {
   border-radius: 10px;
   overflow: hidden;
-  border: 1px solid var(--gray);
+  border: 2px solid var(--gray);
+}
+.flexible-plans-card.selected {
+  border: 2px solid var(--primaryColorDark);
 }
 .flexible-plans-card.style-2 .flexible-plans-card-content p {
   min-height: unset;
@@ -579,6 +611,13 @@ a:hover {
 }
 .main-page-wrapper .page-content {
   padding: 25px;
+}
+
+.main-page-wrapper.custom-your-plan .flexible-plans-card-wrapper * {
+  cursor: pointer;
+}
+.main-page-wrapper.custom-your-plan .flexible-plans-card-wrapper:hover .flexible-plans-card {
+  box-shadow: 0 0 10px rgba(180, 180, 180, 0.3960784314);
 }
 
 .dashboard-header {
@@ -1126,7 +1165,7 @@ input.radio-with-select-item:checked + span + label {
   width: 80%;
 }
 .calendar-wrapper .days-wrapper .one-day {
-  width: 14.2857%;
+  width: 100%;
   text-align: center;
   border-bottom: 3px solid var(--gray);
   padding-bottom: 10px;
@@ -1241,7 +1280,7 @@ input.radio-with-select-item:checked + span + label {
     width: 100% !important;
   }
   .days-wrapper .one-day {
-    min-width: 90px;
+    min-width: 120px;
   }
   .calendar-wrapper {
     overflow: scroll;

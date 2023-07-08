@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
 
-<div class="main-page-wrapper bg-gray">
+<div class="main-page-wrapper bg-gray custom-your-plan">
 
     <div class="container">
 
@@ -109,9 +109,6 @@
 
                             </div><!-- flexible-plans-card-wrapper -->
 
-
-
-
                             <div class="flexible-plans-card-wrapper ">
 
                                 <div class="option-container">
@@ -138,11 +135,10 @@
 
                             </div><!-- flexible-plans-card-wrapper -->
 
-
                             <div class="flexible-plans-card-wrapper">
 
                                 <div class="option-container">
-                                    <input type="radio" id="product-03" name="select-product" class="radio-with-select-item" value="1">
+                                    <input type="radio" id="product-03" name="select-product" class="radio-with-select-item all-meals-selected" value="1">
                                     <span class="checkmark"></span>
                                 </div>
 
@@ -195,8 +191,8 @@
                                     <span class="checkmark"> Lunch </span>
                                 </label>
 
-                                <label class="option-container disabled option-inline">
-                                    <input type="checkbox" name="size" value="3" disabled="disabled">
+                                <label class="option-container  option-inline">
+                                    <input type="checkbox" name="size" value="3">
                                     <span class="checkmark"> Dinner </span>
 
                                 </label>

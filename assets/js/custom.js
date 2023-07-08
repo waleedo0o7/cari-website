@@ -1,16 +1,98 @@
 (function ($) {
+    'use strict';
+
+    if ($(".customize-your-plan").length) {
+
+        let checkedInputs = $(".customize-your-plan .attributes-options.default .option-container input");
+
+        function checkAllInputs() {
+            checkedInputs.each(function (index) {
+
+                checkedInputs[index].checked = true
+
+            });
+        }
+        function preventUncheckInputs() {
+
+            $(".customize-your-plan .attributes-options.default .option-container input").addClass("prevented");
+
+            checkedInputs.each(function (e) {
+
+                console.log($(this));
+
+
+                $(this).click(function (event) {
+                    if ($(this).hasClass('prevented')) {
+                        event.preventDefault();
+                    }
+                });
+
+
+            });
+
+        }
+        function removePreventedClass() {
+            $(".customize-your-plan .attributes-options.default .option-container input").removeClass("prevented");
+        }
+
+        $(".flexible-plans-card").on("click", function () {
+
+            setTimeout(() => {
+
+                if ($('.all-meals-selected').is(":checked")) {
+
+                    checkAllInputs();
+
+                    preventUncheckInputs();
+
+                } else {
+
+                    removePreventedClass();
+
+                }
+
+            }, 50);
+
+        })
+
+        $(".flexible-plans-card").on("click", function () {
+            $(".flexible-plans-card").removeClass("selected");
+            $(this).addClass("selected");
+        })
+
+    }
+
+
+
+
+
+
+    if ($(".flatpickr").length) {
+
+        let date;
+
+        $('.flatpickr').flatpickr(
+            {
+                enable: [
+                    // Disable weekends
+                    function (date) {
+                        return (date.getDay() === 0);
+                    },
+                ]
+            }
+        );
+
+    }
+
 
 
     let isRTL = false;
 
-    if ($("html").attr("dir") === 'rtl' ) {
+    if ($("html").attr("dir") === 'rtl') {
         isRTL = true
-    }
-    // alert(isRTL);
-    
-    'use strict';
+    } 
 
-    $('.flatpickr').flatpickr();
+
 
     //////////// Activate page start
 
@@ -77,7 +159,7 @@
 
     }
 
-    if ( $("#minutes").length) {
+    if ($("#minutes").length) {
 
         counterDownTwoMinutes();
 
@@ -104,7 +186,7 @@
             });
         }
 
-        for (let i = 0; i < 7; i++) {
+        for (let i = 0; i < 5; i++) {
 
             let toDay = new Date();
 
@@ -313,7 +395,7 @@
         dots: true,
         autoplay: false,
         autoplayHoverPause: false,
-        rtl : isRTL,
+        rtl: isRTL,
         navText: [
             "<i class='bx bx-left-arrow-alt'></i>",
             "<i class='bx bx-right-arrow-alt'></i>"
@@ -345,7 +427,7 @@
         dots: false,
         autoplay: true,
         autoplayHoverPause: false,
-        rtl : isRTL,
+        rtl: isRTL,
         navText: [
             "<i class='bx bx-left-arrow-alt'></i>",
             "<i class='bx bx-right-arrow-alt'></i>"
