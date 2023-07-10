@@ -118,6 +118,13 @@
 
  <script src="assets/flatpickr/flatpickr.js"></script>
 
+
+ <!-- Google Map -->
+ <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCww7LGmRDuRkyImwuN0GJB8zE_2vW7AuI"></script>
+ <script type="text/javascript" src="assets/js/jquery.googlemap.js"></script>
+
+
+
  <!-- Custom  JS -->
  <script src="assets/js/custom.js"></script>
 
@@ -152,6 +159,152 @@
  </script>
 
 
+
+
+
+
+
+
+
+
+
+ <script>
+     let map;
+     let marker;
+     let lng;
+     let lat;
+     let populate; // DOM inputs
+
+
+     function initMap() {
+
+         navigator.geolocation.getCurrentPosition(currentLocation => {
+
+             lng = currentLocation.coords.longitude;
+             lat = currentLocation.coords.latitude;
+
+             map = new google.maps.Map(document.getElementById('map'), {
+                 zoom: 12,
+                 scrollwheel: true,
+                 center: new google.maps.LatLng(lat, lng),
+             });
+
+             marker = new google.maps.Marker({
+                 position: new google.maps.LatLng(lat, lng),
+                 map: map,
+                 draggable: true
+             });
+
+
+             populate = (lat, lng, addr) => {
+                 document.querySelector('input[id="address"]').value = addr;
+                 document.querySelector('input[id="latitude"]').value = lat.toFixed(6);
+                 document.querySelector('input[id="longitude"]').value = lng.toFixed(6);
+             };
+
+             const geocoder = new google.maps.Geocoder();
+             const infowindow = new google.maps.InfoWindow();
+
+             const findlocation = (e) => {
+                 geocoder.geocode({
+                     'location': e.latLng
+                 }, (results, status) => {
+                     return evtcallback(results, status, e.latLng);
+                 });
+             };
+
+             const mapclickhandler = function(e) {
+                 findlocation.call(this, e);
+             };
+
+
+             // respond to clicks on the marker
+             const markerclickhandler = function(e) {
+                 infowindow.open(map, this);
+                 infowindow.setContent(e.latLng.lat() + ', ' + e.latLng.lng());
+                 if (this.hasOwnProperty('address')) infowindow.setContent(this.address);
+             };
+
+             const draghandler = function(e) {
+                 findlocation.call(this, e);
+                 map.panTo(e.latLng);
+
+             };
+
+
+             const evtcallback = function(results, status) {
+                 let _address, _location;
+                 if (status == google.maps.GeocoderStatus.OK) {
+                     _address = results[0].formatted_address;
+                     _location = results[0].geometry.location;
+
+                     // set custom properties for the marker 
+                     // which are used to populate infowindow
+                     marker.address = _address;
+                     marker.location = _location;
+
+                     // populate the HTML form elements
+                     populate(_location.lat(), _location.lng(), _address);
+
+                     // open and set content for the infowindow
+                     infowindow.open(map, marker);
+                     infowindow.setContent(_address);
+
+
+                     latlng = new google.maps.LatLng(_location.lat(), _location.lng());
+                     marker.setPosition(latlng);
+                     map.setCenter(latlng);
+                     return true;
+                 }
+
+                 console.warn(status);
+             };
+
+
+             google.maps.event.addListener(map, 'click', mapclickhandler);
+             google.maps.event.addListener(marker, 'click', markerclickhandler);
+             google.maps.event.addListener(marker, 'dragend', draghandler);
+             map.setCenter(marker.position);
+
+         })
+     }
+
+
+     function getMyCurrentLocation() {
+         let currentLocation = new google.maps.LatLng(lat, lng)
+         map.setCenter(currentLocation);
+         marker.setPosition(currentLocation);
+         map.setZoom(12);
+
+         populate(lat, lng, "");
+
+     }
+
+
+
+     (function($) {
+
+         if ($("#get-current-location-button").length) {
+
+             setTimeout(() => {
+                 populate(lat, lng, "");
+             }, 1000);
+
+             $("#get-current-location-button").on("click", function() {
+                 getMyCurrentLocation();
+             })
+         }
+
+
+         if( $("#map").length ) {
+            initMap();
+         }
+
+
+         initMap();
+
+     })($);
+ </script>
 
  </body>
 

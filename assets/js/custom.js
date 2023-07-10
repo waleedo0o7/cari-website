@@ -1,5 +1,8 @@
 (function ($) {
     'use strict';
+    
+    let isRTL = false;
+    
 
     if ($(".customize-your-plan").length) {
 
@@ -64,11 +67,6 @@
 
     }
 
-
-
-
-
-
     if ($(".flatpickr").length) {
 
         let date;
@@ -86,9 +84,6 @@
 
     }
 
-
-
-    let isRTL = false;
 
     if ($("html").attr("dir") === 'rtl') {
         isRTL = true

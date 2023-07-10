@@ -6,7 +6,6 @@
 
         <div class="page-content card">
 
-
             <div class="row">
                 <div class="col-lg-6">
                     <h4 class="mb-0"> Enter your delivery information </h4>
@@ -37,6 +36,7 @@
                 <div class="col-lg-6">
 
                     <div class="right-content">
+
                         <p class="bold"> Add your address </p>
 
                         <div class="form-group mb-3">
@@ -64,6 +64,33 @@
                         </div>
 
 
+                        <div class="form-group mb-3">
+
+                            <div class="map-wrapper relative">
+
+                                <div id="map" style="width: 100%; height: 350px;"></div>
+
+                                <a href="#" id="get-current-location-button" class="default-btn three btn-sm"> Current Location </a>
+
+
+
+                                <!-- DO NOT FORGET TO ADD d-none FOR NEXT ROW TO HIDE ADDRESS , LAT , LNG INPUTS -->
+
+                                <div class="row mt-3 "> <!-- d-none HERE -->
+                                    <div class="col-lg-4">
+                                        <input type="text" class="form-control" id="address" placeholder="address">
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <input type="text" class="form-control" id="longitude" placeholder="longitude">
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <input type="text" class="form-control" id="latitude" placeholder="latitude">
+                                    </div>
+                                </div>
+
+
+
+                            </div><!-- map-wrapper -->
 
 
 
@@ -73,6 +100,7 @@
 
 
 
+                        </div>
 
                         <div class="form-group mb-3">
                             <label> Address name (Optional) </label>
@@ -144,7 +172,7 @@
 
 
 
-                        
+
                     </div><!-- right-content -->
                 </div> <!-- col-lg-6 -->
 

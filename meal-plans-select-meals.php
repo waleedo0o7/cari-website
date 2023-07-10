@@ -8,10 +8,12 @@
 
 
             <div class="row mb-3">
+
                 <div class="col-lg-6">
                     <h4 class="mb-0"> Pick the type of meals you like </h4>
                     <p class="lead color-gray"> Select Your Meals </p>
                 </div> <!-- col-lg-6 -->
+
                 <div class="col-lg-6">
                     <div class="steps-wrapper">
                         <ul class="steps">
@@ -30,6 +32,7 @@
                         </ul>
                     </div><!-- steps-wrapper -->
                 </div>
+
             </div><!-- row -->
 
             <div class="row mb-3">
@@ -58,16 +61,15 @@
                             <p class="mb-0"> Check back next week </p>
                         </div>
 
- 
+
                     </div><!-- calendar-wrapper -->
 
 
                     <div class="main-meals-wrapper">
 
+                        <div class="group-meals-wrapper" id="breakfast">
 
-                        <div class="group-meals-wrapper">
-
-                            <h5 class="mb-2"> Lunch </h5>
+                            <h5 class="mb-2"> Breakfast </h5>
 
                             <div class="row">
 
@@ -80,11 +82,13 @@
 
                                         <label for="product-01" class="one-meal-card style-2 mb-4">
 
-                                            <img src="assets/images/plans-01.png" class="img-fluid" alt="">
+                                            <img src="assets/images/001.jpg" class="img-fluid" alt="">
 
                                             <div class="p-3">
 
                                                 <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                <p class="color-gray description small">   Lamb Kebabs ,  Boiled  ,  sauce , Lamb Kebabs ,  Boiled  ,  sauce   </p>
 
                                                 <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
 
@@ -102,12 +106,12 @@
 
                                     <div class="one-meal-card-wrapper option-container disabled p-0">
 
-                                        <input type="checkbox" id="product-02" name="select-product" class="radio-with-select-item" disabled="disabled"  value="1">
+                                        <input type="checkbox" id="product-02" name="select-product" class="radio-with-select-item" disabled="disabled" value="1">
                                         <span class="checkmark"></span>
 
                                         <label for="product-02" class="one-meal-card style-2 mb-4">
 
-                                            <img src="assets/images/plans-01.png" class="img-fluid" alt="">
+                                            <img src="assets/images/004.jpg" class="img-fluid" alt="">
 
                                             <div class="p-3">
 
@@ -134,7 +138,7 @@
 
                                         <label for="product-04" class="one-meal-card style-2 mb-4">
 
-                                            <img src="assets/images/plans-01.png" class="img-fluid" alt="">
+                                            <img src="assets/images/003.jpg" class="img-fluid" alt="">
 
                                             <div class="p-3">
 
@@ -156,18 +160,7 @@
 
                         </div> <!-- group-meals-wrapper -->
 
-
-
-
-
-
-
-
-
-
-
-
-                        <div class="group-meals-wrapper">
+                        <div class="group-meals-wrapper" id="lunch">
 
                             <h5 class="mb-2"> Lunch </h5>
 
@@ -257,15 +250,124 @@
 
                         </div> <!-- group-meals-wrapper -->
 
+                        <div class="group-meals-wrapper" id="dinner">
+
+                            <h5 class="mb-2"> Dinner </h5>
+
+                            <div class="row">
+
+                                <div class="col-lg-4">
+
+                                    <div class="one-meal-card-wrapper option-container p-0 ">
+
+                                        <input type="checkbox" id="product-04" name="select-product" class="radio-with-select-item" value="1">
+                                        <span class="checkmark"></span>
+
+                                        <label for="product-04" class="one-meal-card style-2 mb-4">
+
+                                            <img src="assets/images/plans-01.png" class="img-fluid" alt="">
+
+                                            <div class="p-3">
+
+                                                <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                            </div>
+
+                                        </label> <!-- flexible-plans-card -->
+
+                                    </div> <!-- one-meal-wrapper -->
 
 
+                                </div> <!-- col-lg-4 -->
+
+
+                                <div class="col-lg-4">
+
+                                    <div class="one-meal-card-wrapper option-container p-0 ">
+
+                                        <input type="checkbox" id="product-05" name="select-product" class="radio-with-select-item" value="1">
+                                        <span class="checkmark"></span>
+
+                                        <label for="product-05" class="one-meal-card style-2 mb-4">
+
+                                            <img src="assets/images/plans-01.png" class="img-fluid" alt="">
+
+                                            <div class="p-3">
+
+                                                <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                            </div>
+
+                                        </label> <!-- flexible-plans-card -->
+
+                                    </div> <!-- one-meal-wrapper -->
+
+                                </div> <!-- col-lg-4 -->
+
+
+                                <div class="col-lg-4">
+
+                                    <div class="one-meal-card-wrapper option-container p-0 ">
+
+                                        <input type="checkbox" id="product-06" name="select-product" class="radio-with-select-item" value="1">
+                                        <span class="checkmark"></span>
+
+                                        <label for="product-06" class="one-meal-card style-2 mb-4">
+
+                                            <img src="assets/images/plans-01.png" class="img-fluid" alt="">
+
+                                            <div class="p-3">
+
+                                                <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                            </div>
+
+                                        </label> <!-- flexible-plans-card -->
+
+                                    </div> <!-- one-meal-wrapper -->
+
+
+                                </div> <!-- col-lg-4 -->
+
+
+                            </div> <!-- row -->
+
+                        </div> <!-- group-meals-wrapper -->
 
                     </div> <!-- main-meals-wrapper -->
 
 
-                    <div class="text-center">
-                        <a href="meal-plans-final-step.php" class="default-btn one lg-btn"> next </a>
-                    </div><!-- text-lg-end -->
+
+                    <div class="fixed-content-bottom">
+
+
+                        <div class="item">
+                            <a href="#breakfast" class="default-btn three "> Breakfast </a>
+                        </div><!-- item -->
+
+
+                        <div class="item">
+                            <a href="#lunch" class="default-btn three "> Lunch </a>
+                        </div><!-- item -->
+
+
+                        <div class="item">
+                            <a href="#dinner" class="default-btn three "> Dinner </a>
+                        </div><!-- item -->
+
+
+                        <div class="item">
+                            <a href="meal-plans-final-step.php" class="default-btn one lg-btn"> Next </a>
+                        </div><!-- item -->
+
+
+                    </div><!-- fixed-content-bottom -->
 
                 </div> <!-- col-lg-12 -->
 
