@@ -70,7 +70,7 @@
 
                                 <div id="map" style="width: 100%; height: 350px;"></div>
 
-                                <a href="#" id="get-current-location-button" class="default-btn three btn-sm"> Current Location </a>
+                                <a href="#" id="get-current-location-button" class="default-btn three btn-sm">  Current Location </a>
 
 
 

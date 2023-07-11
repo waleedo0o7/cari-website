@@ -75,7 +75,7 @@
 
                     </div>
 
-                    <a href="#" class="default-btn tow btn-sm" data-bs-toggle="modal" data-bs-target="#update-delivery-address "> Update delivery address </a>
+                    <a href="#" class="default-btn tow btn-sm update-delivery-address-btn" data-bs-toggle="modal" data-bs-target="#update-delivery-address"> Update delivery address </a>
 
 
 
@@ -238,10 +238,8 @@
                 <form id=" " novalidate="true">
                     <div class="row">
 
-
-
                         <div class="col-lg-12">
-                            <div class="form-group mb-3">
+                            <div class="form-group mb-0">
 
 
                                 <div class="attributes-options default fit-to-content style-2">
@@ -265,6 +263,63 @@
 
                             </div>
                         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <div class="form-group mb-3">
+
+                            <div class="map-wrapper relative">
+
+                                <div id="map" style="width: 100%; height: 350px;"></div>
+
+                                <a href="#" id="get-current-location-button" class="default-btn three btn-sm"> Current Location </a>
+
+
+
+                                <!-- DO NOT FORGET TO ADD d-none FOR NEXT ROW TO HIDE ADDRESS , LAT , LNG INPUTS -->
+
+                                <div class="row mt-3 "> <!-- d-none HERE -->
+                                    <div class="col-lg-4">
+                                        <input type="text" class="form-control" id="address" placeholder="address">
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <input type="text" class="form-control" id="longitude" placeholder="longitude">
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <input type="text" class="form-control" id="latitude" placeholder="latitude">
+                                    </div>
+                                </div>
+                            </div><!-- map-wrapper -->
+                        </div>
+
+
+
+
+
                         <div class="col-lg-12">
                             <div class="form-group mb-3">
                                 <label> Address name (Optional) </label>
@@ -419,7 +474,7 @@
                         <div class="col-lg-12">
                             <div class="form-check form-switch">
                                 <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
-                                <label class="form-check-label" for="flexSwitchCheckDefault">   Save card no. for future payments </label>
+                                <label class="form-check-label" for="flexSwitchCheckDefault"> Save card no. for future payments </label>
                             </div>
                         </div>
 
@@ -435,6 +490,8 @@
         </div>
     </div>
 </div>
+
+
 
 
 <?php include 'footer.php'; ?>
