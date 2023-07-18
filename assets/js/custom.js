@@ -536,8 +536,11 @@
         margin: 30,
         autoHeight: true,
         nav: false,
-        dots: true,
-        autoplay: false,
+        dots: true, 
+
+        autoplay:true,
+        autoplayTimeout:2000,
+
         autoplayHoverPause: false,
         rtl: isRTL,
         navText: [

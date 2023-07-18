@@ -308,9 +308,13 @@ a {
 }
 
 .banner-area-for {
-    background-color: var(--primaryColor);
     height: calc(100vh - 80px);
     position: relative;
+
+    background:
+        url(../images/intro-shape-002.png) right top no-repeat,
+        url(../images/intro-shape-001.png) left bottom no-repeat;
+    background-color: var(--primaryColor);
 
     .row > div {
         display: flex;
@@ -346,7 +350,7 @@ a {
     }
 
     .cari-delivery-wrapper {
-        width: 50%;
+        width: 70%;
         position: absolute;
         bottom: 30px;
         left: 0;
@@ -1130,8 +1134,10 @@ hr.border-line {
 }
 
 .products-section {
-    background: url(../images/products-shape-01.png) right top no-repeat,
-        url(../images/products-shape-02.png) left bottom no-repeat, url(../images/yall.png) 90% 95% no-repeat;
+    background:
+        url(../images/products-shape-01.png) right top no-repeat,
+        url(../images/products-shape-02.png) left bottom no-repeat,
+        url(../images/yall.png) 90% 95% no-repeat;
     background-color: #246a58;
 
     .section-title h2 {
