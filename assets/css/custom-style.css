@@ -53,6 +53,14 @@ html[dir=rtl] .options-wrapper .option-container .checkmark {
   left: unset;
   right: 0;
 }
+html[dir=rtl] .banner-area-for {
+  background: url(../images/intro-shape-002-ar.png) left top no-repeat, url(../images/intro-shape-001-ar.png) right bottom no-repeat;
+  background-color: var(--primaryColor);
+}
+html[dir=rtl] .banner-area-for .cari-delivery-wrapper {
+  right: 0;
+  left: unset;
+}
 
 .switch-box {
   position: fixed;
