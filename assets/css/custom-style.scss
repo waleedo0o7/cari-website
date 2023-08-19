@@ -1192,7 +1192,7 @@ hr.border-line {
         cursor: pointer;
 
         img {
-            aspect-ratio: 4/2.7;
+            aspect-ratio: 4/2.5;
             object-fit: cover;
         }
     }
@@ -1288,6 +1288,31 @@ input.radio-with-select-item:checked + span + label {
         flex-direction: column;
         background: var(--extraLightGray);
         border: 1px solid var(--gray);
+    }
+}
+
+.nav-and-meals-wrapper {
+    .nav-wrapper {
+        .nav {
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .default-btn.tow {
+                margin: 0 3px;
+            }
+
+            .default-btn.tow.active,
+            .default-btn.two.active {
+                background: var(--primaryColor50);
+                border: 2px solid var(--primaryColorDark);
+                color: #000000;
+            }
+        }
+    }
+
+    .main-meals-wrapper {
     }
 }
 
@@ -1500,6 +1525,79 @@ input.radio-with-select-item:checked + span + label {
     .products-section {
         background-size: 50%, 50%, 20%;
     }
+
+    .fixed-content-bottom {
+        .item {
+            margin: 6px 3px;
+            a.default-btn {
+                padding: 4px 8px !important;
+            }
+            .default-btn.lg-btn {
+                min-width: 120px;
+            }
+        }
+    }
+
+    .one-meal-card-wrapper {
+        .checkmark:after {
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            font-size: 14px;
+        }
+
+        .one-meal-card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 6px !important;
+            img {
+                width: 40%;
+            }
+
+            > div {
+                width: 60%;
+                padding: 10px !important;
+                h6 {
+                    font-size: 14px;
+                    margin-bottom: 3px !important;
+                }
+                p.color-gray {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .radio-with-select-item,
+    .one-meal-card-wrapper .checkmark {
+        height: 21px !important;
+        width: 21px !important;
+    }
+
+
+    .nav-wrapper {
+        background: rgb(222, 222, 222);
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 9;
+        width: 100%;
+        border-top: 2px solid var(--primaryColor);
+
+        .nav{
+            margin: 0px !important;
+
+            .default-btn {
+                padding: 3px 8px;
+                font-size: 14px;
+                margin: 5px 0;
+            }
+            
+        }
+    }
+
+
 }
 
 // large and small phones

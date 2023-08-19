@@ -1114,7 +1114,7 @@ hr.border-line {
   cursor: pointer;
 }
 .one-meal-card-wrapper .one-meal-card img {
-  aspect-ratio: 4/2.7;
+  aspect-ratio: 4/2.5;
   object-fit: cover;
 }
 .one-meal-card-wrapper.green-bg-card .one-meal-card {
@@ -1203,6 +1203,21 @@ input.radio-with-select-item:checked + span + label {
   border: 1px solid var(--gray);
 }
 
+.nav-and-meals-wrapper .nav-wrapper .nav {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-and-meals-wrapper .nav-wrapper .nav .default-btn.tow {
+  margin: 0 3px;
+}
+.nav-and-meals-wrapper .nav-wrapper .nav .default-btn.tow.active,
+.nav-and-meals-wrapper .nav-wrapper .nav .default-btn.two.active {
+  background: var(--primaryColor50);
+  border: 2px solid var(--primaryColorDark);
+  color: #000000;
+}
 .map-wrapper {
   margin-top: 30px;
 }
@@ -1371,6 +1386,63 @@ input.radio-with-select-item:checked + span + label {
   }
   .products-section {
     background-size: 50%, 50%, 20%;
+  }
+  .fixed-content-bottom .item {
+    margin: 6px 3px;
+  }
+  .fixed-content-bottom .item a.default-btn {
+    padding: 4px 8px !important;
+  }
+  .fixed-content-bottom .item .default-btn.lg-btn {
+    min-width: 120px;
+  }
+  .one-meal-card-wrapper .checkmark:after {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    font-size: 14px;
+  }
+  .one-meal-card-wrapper .one-meal-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6px !important;
+  }
+  .one-meal-card-wrapper .one-meal-card img {
+    width: 40%;
+  }
+  .one-meal-card-wrapper .one-meal-card > div {
+    width: 60%;
+    padding: 10px !important;
+  }
+  .one-meal-card-wrapper .one-meal-card > div h6 {
+    font-size: 14px;
+    margin-bottom: 3px !important;
+  }
+  .one-meal-card-wrapper .one-meal-card > div p.color-gray {
+    font-size: 14px;
+  }
+  .radio-with-select-item,
+  .one-meal-card-wrapper .checkmark {
+    height: 21px !important;
+    width: 21px !important;
+  }
+  .nav-wrapper {
+    background: rgb(222, 222, 222);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+    border-top: 2px solid var(--primaryColor);
+  }
+  .nav-wrapper .nav {
+    margin: 0px !important;
+  }
+  .nav-wrapper .nav .default-btn {
+    padding: 3px 8px;
+    font-size: 14px;
+    margin: 5px 0;
   }
 }
 @media all and (max-width: 650px) {

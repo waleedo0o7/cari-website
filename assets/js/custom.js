@@ -127,7 +127,7 @@
 
 
         $(".update-delivery-address-btn").on("click", function () {
-            setTimeout(() => { 
+            setTimeout(() => {
                 editMapLocation(24.088938, 32.899830);
             }, 200);
         })
@@ -238,6 +238,15 @@
 
 
 
+
+
+    if ($(".banner-area-for").length && $("html").attr("dir") === 'rtl') {
+        $(".cari-delivery-wrapper img").attr("src", "assets/images/cari-delivery-ar.png")
+    }
+
+
+
+    
     //////////// Activate page start
 
     $(document).on("click", ".activate-inputs input", function () {
@@ -536,10 +545,10 @@
         margin: 30,
         autoHeight: true,
         nav: false,
-        dots: true, 
+        dots: true,
 
-        autoplay:true,
-        autoplayTimeout:2000,
+        autoplay: true,
+        autoplayTimeout: 2000,
 
         autoplayHoverPause: false,
         rtl: isRTL,

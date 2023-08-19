@@ -65,309 +65,1357 @@
                     </div><!-- calendar-wrapper -->
 
 
-                    <div class="main-meals-wrapper">
 
-                        <div class="group-meals-wrapper" id="breakfast">
+                    <div class="nav-and-meals-wrapper">
 
-                            <h5 class="mb-2"> Breakfast </h5>
+                        <div class="nav-wrapper">
 
-                            <div class="row">
+                            <div class="nav nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                <button class="default-btn tow active" id="breakfast-tab" data-bs-toggle="pill" data-bs-target="#breakfast" type="button" role="tab" aria-controls="breakfast" aria-selected="true"> Breakfast </button>
+                                <button class="default-btn tow" id="lunch-tab" data-bs-toggle="pill" data-bs-target="#lunch" type="button" role="tab" aria-controls="lunch" aria-selected="false"> lunch </button>
+                                <button class="default-btn tow" id="dinner-tab" data-bs-toggle="pill" data-bs-target="#dinner" type="button" role="tab" aria-controls="dinner" aria-selected="false"> dinner </button>
+                                <button class="default-btn tow" id="snacks-tab" data-bs-toggle="pill" data-bs-target="#snacks" type="button" role="tab" aria-controls="snacks" aria-selected="false"> Snacks </button>
 
-                                <div class="col-lg-4">
+                                <a href="meal-plans-final-step.php" class="default-btn one mx-2"> Next </a>
 
-                                    <div class="one-meal-card-wrapper option-container p-0 ">
 
-                                        <input type="checkbox" id="product-01" name="select-product" class="radio-with-select-item" value="1">
-                                        <span class="checkmark"></span>
+                            </div>
 
-                                        <label for="product-01" class="one-meal-card style-2 mb-4">
+                        </div> <!-- nav-wrapper -->
 
-                                            <img src="assets/images/001.jpg" class="img-fluid" alt="">
+                        <div class="main-meals-wrapper">
 
-                                            <div class="p-3">
+                            <div class="d-flex align-items-start">
 
-                                                <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+                                <div class="tab-content" id="v-pills-tabContent">
 
-                                                <p class="color-gray description small">   Lamb Kebabs ,  Boiled  ,  sauce , Lamb Kebabs ,  Boiled  ,  sauce   </p>
 
-                                                <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+                                    <!-- breakfast TAP -->
+                                    <div class="tab-pane fade show active" id="breakfast" role="tabpanel" aria-labelledby="breakfast-tab">
 
-                                            </div>
+                                        <div class="row">
 
-                                        </label> <!-- flexible-plans-card -->
+                                            <div class="col-lg-3">
 
-                                    </div> <!-- one-meal-wrapper -->
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
 
+                                                    <input type="checkbox" id="product-01" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
 
-                                </div> <!-- col-lg-4 -->
+                                                    <label for="product-01" class="one-meal-card style-2 mb-4">
 
+                                                        <img src="assets/images/001.jpg" class="img-fluid" alt="">
 
-                                <div class="col-lg-4">
+                                                        <div class="p-3">
 
-                                    <div class="one-meal-card-wrapper option-container disabled p-0">
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
 
-                                        <input type="checkbox" id="product-02" name="select-product" class="radio-with-select-item" disabled="disabled" value="1">
-                                        <span class="checkmark"></span>
+                                                            <p class="color-gray description small"> Lamb Kebabs , Boiled , sauce , Lamb Kebabs , Boiled , sauce </p>
 
-                                        <label for="product-02" class="one-meal-card style-2 mb-4">
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
 
-                                            <img src="assets/images/004.jpg" class="img-fluid" alt="">
+                                                        </div>
 
-                                            <div class="p-3">
+                                                    </label> <!-- flexible-plans-card -->
 
-                                                <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+                                                </div> <!-- one-meal-wrapper -->
 
-                                                <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
 
-                                            </div>
+                                            </div> <!-- col-lg-3 -->
 
-                                        </label> <!-- flexible-plans-card -->
+                                            <div class="col-lg-3">
 
-                                    </div> <!-- one-meal-wrapper -->
+                                                <div class="one-meal-card-wrapper option-container disabled p-0">
 
+                                                    <input type="checkbox" id="product-02" name="select-product" class="radio-with-select-item" disabled="disabled" value="1">
+                                                    <span class="checkmark"></span>
 
-                                </div> <!-- col-lg-4 -->
+                                                    <label for="product-02" class="one-meal-card style-2 mb-4">
 
+                                                        <img src="assets/images/004.jpg" class="img-fluid" alt="">
 
-                                <div class="col-lg-4">
+                                                        <div class="p-3">
 
-                                    <div class="one-meal-card-wrapper option-container p-0 ">
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
 
-                                        <input type="checkbox" id="product-04" name="select-product" class="radio-with-select-item" value="1">
-                                        <span class="checkmark"></span>
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
 
-                                        <label for="product-04" class="one-meal-card style-2 mb-4">
+                                                        </div>
 
-                                            <img src="assets/images/003.jpg" class="img-fluid" alt="">
+                                                    </label> <!-- flexible-plans-card -->
 
-                                            <div class="p-3">
+                                                </div> <!-- one-meal-wrapper -->
 
-                                                <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
 
-                                                <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+                                            </div> <!-- col-lg-3 -->
 
-                                            </div>
+                                            <div class="col-lg-3">
 
-                                        </label> <!-- flexible-plans-card -->
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
 
-                                    </div> <!-- one-meal-wrapper -->
+                                                    <input type="checkbox" id="product-04" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
 
+                                                    <label for="product-04" class="one-meal-card style-2 mb-4">
 
-                                </div> <!-- col-lg-4 -->
+                                                        <img src="assets/images/003.jpg" class="img-fluid" alt="">
 
+                                                        <div class="p-3">
 
-                            </div> <!-- row -->
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
 
-                        </div> <!-- group-meals-wrapper -->
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
 
-                        <div class="group-meals-wrapper" id="lunch">
+                                                        </div>
 
-                            <h5 class="mb-2"> Lunch </h5>
+                                                    </label> <!-- flexible-plans-card -->
 
-                            <div class="row">
+                                                </div> <!-- one-meal-wrapper -->
 
-                                <div class="col-lg-4">
 
-                                    <div class="one-meal-card-wrapper option-container p-0 ">
+                                            </div> <!-- col-lg-3 -->
 
-                                        <input type="checkbox" id="product-04" name="select-product" class="radio-with-select-item" value="1">
-                                        <span class="checkmark"></span>
+                                            <div class="col-lg-3">
 
-                                        <label for="product-04" class="one-meal-card style-2 mb-4">
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
 
-                                            <img src="assets/images/plans-01.png" class="img-fluid" alt="">
+                                                    <input type="checkbox" id="product-04" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
 
-                                            <div class="p-3">
+                                                    <label for="product-04" class="one-meal-card style-2 mb-4">
 
-                                                <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+                                                        <img src="assets/images/003.jpg" class="img-fluid" alt="">
 
-                                                <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+                                                        <div class="p-3">
 
-                                            </div>
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
 
-                                        </label> <!-- flexible-plans-card -->
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
 
-                                    </div> <!-- one-meal-wrapper -->
+                                                        </div>
 
+                                                    </label> <!-- flexible-plans-card -->
 
-                                </div> <!-- col-lg-4 -->
+                                                </div> <!-- one-meal-wrapper -->
 
 
-                                <div class="col-lg-4">
+                                            </div> <!-- col-lg-3 -->
 
-                                    <div class="one-meal-card-wrapper option-container p-0 ">
+                                            <div class="col-lg-3">
 
-                                        <input type="checkbox" id="product-05" name="select-product" class="radio-with-select-item" value="1">
-                                        <span class="checkmark"></span>
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
 
-                                        <label for="product-05" class="one-meal-card style-2 mb-4">
+                                                    <input type="checkbox" id="product-01" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
 
-                                            <img src="assets/images/plans-01.png" class="img-fluid" alt="">
+                                                    <label for="product-01" class="one-meal-card style-2 mb-4">
 
-                                            <div class="p-3">
+                                                        <img src="assets/images/001.jpg" class="img-fluid" alt="">
 
-                                                <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+                                                        <div class="p-3">
 
-                                                <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
 
-                                            </div>
+                                                            <p class="color-gray description small"> Lamb Kebabs , Boiled , sauce , Lamb Kebabs , Boiled , sauce </p>
 
-                                        </label> <!-- flexible-plans-card -->
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
 
-                                    </div> <!-- one-meal-wrapper -->
+                                                        </div>
 
-                                </div> <!-- col-lg-4 -->
+                                                    </label> <!-- flexible-plans-card -->
 
+                                                </div> <!-- one-meal-wrapper -->
 
-                                <div class="col-lg-4">
 
-                                    <div class="one-meal-card-wrapper option-container p-0 ">
+                                            </div> <!-- col-lg-3 -->
 
-                                        <input type="checkbox" id="product-06" name="select-product" class="radio-with-select-item" value="1">
-                                        <span class="checkmark"></span>
+                                            <div class="col-lg-3">
 
-                                        <label for="product-06" class="one-meal-card style-2 mb-4">
+                                                <div class="one-meal-card-wrapper option-container disabled p-0">
 
-                                            <img src="assets/images/plans-01.png" class="img-fluid" alt="">
+                                                    <input type="checkbox" id="product-02" name="select-product" class="radio-with-select-item" disabled="disabled" value="1">
+                                                    <span class="checkmark"></span>
 
-                                            <div class="p-3">
+                                                    <label for="product-02" class="one-meal-card style-2 mb-4">
 
-                                                <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+                                                        <img src="assets/images/004.jpg" class="img-fluid" alt="">
 
-                                                <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+                                                        <div class="p-3">
 
-                                            </div>
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
 
-                                        </label> <!-- flexible-plans-card -->
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
 
-                                    </div> <!-- one-meal-wrapper -->
+                                                        </div>
 
+                                                    </label> <!-- flexible-plans-card -->
 
-                                </div> <!-- col-lg-4 -->
+                                                </div> <!-- one-meal-wrapper -->
 
 
-                            </div> <!-- row -->
+                                            </div> <!-- col-lg-3 -->
 
-                        </div> <!-- group-meals-wrapper -->
+                                            <div class="col-lg-3">
 
-                        <div class="group-meals-wrapper" id="dinner">
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
 
-                            <h5 class="mb-2"> Dinner </h5>
+                                                    <input type="checkbox" id="product-04" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
 
-                            <div class="row">
+                                                    <label for="product-04" class="one-meal-card style-2 mb-4">
 
-                                <div class="col-lg-4">
+                                                        <img src="assets/images/003.jpg" class="img-fluid" alt="">
 
-                                    <div class="one-meal-card-wrapper option-container p-0 ">
+                                                        <div class="p-3">
 
-                                        <input type="checkbox" id="product-04" name="select-product" class="radio-with-select-item" value="1">
-                                        <span class="checkmark"></span>
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
 
-                                        <label for="product-04" class="one-meal-card style-2 mb-4">
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
 
-                                            <img src="assets/images/plans-01.png" class="img-fluid" alt="">
+                                                        </div>
 
-                                            <div class="p-3">
+                                                    </label> <!-- flexible-plans-card -->
 
-                                                <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+                                                </div> <!-- one-meal-wrapper -->
 
-                                                <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
 
-                                            </div>
+                                            </div> <!-- col-lg-3 -->
 
-                                        </label> <!-- flexible-plans-card -->
+                                            <div class="col-lg-3">
 
-                                    </div> <!-- one-meal-wrapper -->
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
 
+                                                    <input type="checkbox" id="product-01" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
 
-                                </div> <!-- col-lg-4 -->
+                                                    <label for="product-01" class="one-meal-card style-2 mb-4">
 
+                                                        <img src="assets/images/001.jpg" class="img-fluid" alt="">
 
-                                <div class="col-lg-4">
+                                                        <div class="p-3">
 
-                                    <div class="one-meal-card-wrapper option-container p-0 ">
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
 
-                                        <input type="checkbox" id="product-05" name="select-product" class="radio-with-select-item" value="1">
-                                        <span class="checkmark"></span>
+                                                            <p class="color-gray description small"> Lamb Kebabs , Boiled , sauce , Lamb Kebabs , Boiled , sauce </p>
 
-                                        <label for="product-05" class="one-meal-card style-2 mb-4">
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
 
-                                            <img src="assets/images/plans-01.png" class="img-fluid" alt="">
+                                                        </div>
 
-                                            <div class="p-3">
+                                                    </label> <!-- flexible-plans-card -->
 
-                                                <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+                                                </div> <!-- one-meal-wrapper -->
 
-                                                <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
 
-                                            </div>
+                                            </div> <!-- col-lg-3 -->
 
-                                        </label> <!-- flexible-plans-card -->
+                                            <div class="col-lg-3">
 
-                                    </div> <!-- one-meal-wrapper -->
+                                                <div class="one-meal-card-wrapper option-container disabled p-0">
 
-                                </div> <!-- col-lg-4 -->
+                                                    <input type="checkbox" id="product-02" name="select-product" class="radio-with-select-item" disabled="disabled" value="1">
+                                                    <span class="checkmark"></span>
 
+                                                    <label for="product-02" class="one-meal-card style-2 mb-4">
 
-                                <div class="col-lg-4">
+                                                        <img src="assets/images/004.jpg" class="img-fluid" alt="">
 
-                                    <div class="one-meal-card-wrapper option-container p-0 ">
+                                                        <div class="p-3">
 
-                                        <input type="checkbox" id="product-06" name="select-product" class="radio-with-select-item" value="1">
-                                        <span class="checkmark"></span>
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
 
-                                        <label for="product-06" class="one-meal-card style-2 mb-4">
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
 
-                                            <img src="assets/images/plans-01.png" class="img-fluid" alt="">
+                                                        </div>
 
-                                            <div class="p-3">
+                                                    </label> <!-- flexible-plans-card -->
 
-                                                <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+                                                </div> <!-- one-meal-wrapper -->
 
-                                                <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
 
-                                            </div>
+                                            </div> <!-- col-lg-3 -->
 
-                                        </label> <!-- flexible-plans-card -->
+                                            <div class="col-lg-3">
 
-                                    </div> <!-- one-meal-wrapper -->
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
 
+                                                    <input type="checkbox" id="product-04" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
 
-                                </div> <!-- col-lg-4 -->
+                                                    <label for="product-04" class="one-meal-card style-2 mb-4">
 
+                                                        <img src="assets/images/003.jpg" class="img-fluid" alt="">
 
-                            </div> <!-- row -->
+                                                        <div class="p-3">
 
-                        </div> <!-- group-meals-wrapper -->
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
 
-                    </div> <!-- main-meals-wrapper -->
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
 
+                                                        </div>
 
+                                                    </label> <!-- flexible-plans-card -->
 
-                    <div class="fixed-content-bottom">
+                                                </div> <!-- one-meal-wrapper -->
 
 
-                        <div class="item">
-                            <a href="#breakfast" class="default-btn three "> Breakfast </a>
-                        </div><!-- item -->
+                                            </div> <!-- col-lg-3 -->
 
+                                            <div class="col-lg-3">
 
-                        <div class="item">
-                            <a href="#lunch" class="default-btn three "> Lunch </a>
-                        </div><!-- item -->
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
 
+                                                    <input type="checkbox" id="product-04" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
 
-                        <div class="item">
-                            <a href="#dinner" class="default-btn three "> Dinner </a>
-                        </div><!-- item -->
+                                                    <label for="product-04" class="one-meal-card style-2 mb-4">
 
+                                                        <img src="assets/images/003.jpg" class="img-fluid" alt="">
 
-                        <div class="item">
-                            <a href="meal-plans-final-step.php" class="default-btn one lg-btn"> Next </a>
-                        </div><!-- item -->
+                                                        <div class="p-3">
 
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
 
-                    </div><!-- fixed-content-bottom -->
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
+
+                                                    <input type="checkbox" id="product-04" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-04" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/003.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                        </div> <!-- row -->
+
+                                    </div>
+
+                                    <!-- lunch TAP -->
+                                    <div class="tab-pane fade" id="lunch" role="tabpanel" aria-labelledby="lunch-tab">
+
+                                        <div class="row">
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
+
+                                                    <input type="checkbox" id="product-01" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-01" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/001.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray description small"> Lamb Kebabs , Boiled , sauce , Lamb Kebabs , Boiled , sauce </p>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container disabled p-0">
+
+                                                    <input type="checkbox" id="product-02" name="select-product" class="radio-with-select-item" disabled="disabled" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-02" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/004.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
+
+                                                    <input type="checkbox" id="product-04" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-04" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/003.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
+
+                                                    <input type="checkbox" id="product-04" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-04" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/003.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
+
+                                                    <input type="checkbox" id="product-01" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-01" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/001.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray description small"> Lamb Kebabs , Boiled , sauce , Lamb Kebabs , Boiled , sauce </p>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container disabled p-0">
+
+                                                    <input type="checkbox" id="product-02" name="select-product" class="radio-with-select-item" disabled="disabled" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-02" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/004.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
+
+                                                    <input type="checkbox" id="product-04" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-04" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/003.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
+
+                                                    <input type="checkbox" id="product-01" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-01" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/001.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray description small"> Lamb Kebabs , Boiled , sauce , Lamb Kebabs , Boiled , sauce </p>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container disabled p-0">
+
+                                                    <input type="checkbox" id="product-02" name="select-product" class="radio-with-select-item" disabled="disabled" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-02" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/004.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
+
+                                                    <input type="checkbox" id="product-04" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-04" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/003.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
+
+                                                    <input type="checkbox" id="product-04" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-04" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/003.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
+
+                                                    <input type="checkbox" id="product-04" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-04" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/003.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                        </div> <!-- row -->
+
+
+
+                                    </div>
+
+
+                                    <!-- dinner TAP -->
+                                    <div class="tab-pane fade" id="dinner" role="tabpanel" aria-labelledby="dinner-tab">
+
+
+                                        <div class="row">
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
+
+                                                    <input type="checkbox" id="product-01" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-01" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/001.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray description small"> Lamb Kebabs , Boiled , sauce , Lamb Kebabs , Boiled , sauce </p>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container disabled p-0">
+
+                                                    <input type="checkbox" id="product-02" name="select-product" class="radio-with-select-item" disabled="disabled" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-02" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/004.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
+
+                                                    <input type="checkbox" id="product-04" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-04" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/003.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
+
+                                                    <input type="checkbox" id="product-04" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-04" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/003.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
+
+                                                    <input type="checkbox" id="product-01" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-01" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/001.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray description small"> Lamb Kebabs , Boiled , sauce , Lamb Kebabs , Boiled , sauce </p>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container disabled p-0">
+
+                                                    <input type="checkbox" id="product-02" name="select-product" class="radio-with-select-item" disabled="disabled" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-02" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/004.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
+
+                                                    <input type="checkbox" id="product-04" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-04" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/003.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
+
+                                                    <input type="checkbox" id="product-01" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-01" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/001.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray description small"> Lamb Kebabs , Boiled , sauce , Lamb Kebabs , Boiled , sauce </p>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container disabled p-0">
+
+                                                    <input type="checkbox" id="product-02" name="select-product" class="radio-with-select-item" disabled="disabled" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-02" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/004.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
+
+                                                    <input type="checkbox" id="product-04" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-04" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/003.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
+
+                                                    <input type="checkbox" id="product-04" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-04" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/003.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
+
+                                                    <input type="checkbox" id="product-04" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-04" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/003.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                        </div> <!-- row -->
+
+
+
+                                    </div>
+
+
+                                    <!-- snacks TAP -->
+                                    <div class="tab-pane fade" id="snacks" role="tabpanel" aria-labelledby="snacks-tab">
+
+                                        <div class="row">
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
+
+                                                    <input type="checkbox" id="product-01" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-01" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/001.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray description small"> Lamb Kebabs , Boiled , sauce , Lamb Kebabs , Boiled , sauce </p>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container disabled p-0">
+
+                                                    <input type="checkbox" id="product-02" name="select-product" class="radio-with-select-item" disabled="disabled" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-02" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/004.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
+
+                                                    <input type="checkbox" id="product-04" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-04" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/003.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
+
+                                                    <input type="checkbox" id="product-04" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-04" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/003.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
+
+                                                    <input type="checkbox" id="product-01" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-01" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/001.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray description small"> Lamb Kebabs , Boiled , sauce , Lamb Kebabs , Boiled , sauce </p>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container disabled p-0">
+
+                                                    <input type="checkbox" id="product-02" name="select-product" class="radio-with-select-item" disabled="disabled" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-02" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/004.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
+
+                                                    <input type="checkbox" id="product-04" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-04" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/003.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
+
+                                                    <input type="checkbox" id="product-01" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-01" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/001.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray description small"> Lamb Kebabs , Boiled , sauce , Lamb Kebabs , Boiled , sauce </p>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container disabled p-0">
+
+                                                    <input type="checkbox" id="product-02" name="select-product" class="radio-with-select-item" disabled="disabled" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-02" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/004.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
+
+                                                    <input type="checkbox" id="product-04" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-04" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/003.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
+
+                                                    <input type="checkbox" id="product-04" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-04" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/003.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                            <div class="col-lg-3">
+
+                                                <div class="one-meal-card-wrapper option-container p-0 ">
+
+                                                    <input type="checkbox" id="product-04" name="select-product" class="radio-with-select-item" value="1">
+                                                    <span class="checkmark"></span>
+
+                                                    <label for="product-04" class="one-meal-card style-2 mb-4">
+
+                                                        <img src="assets/images/003.jpg" class="img-fluid" alt="">
+
+                                                        <div class="p-3">
+
+                                                            <h6> Steelhead Trout Fillets & Creamy Pesto </h6>
+
+                                                            <p class="color-gray"> <i class="icon icon-fire"> </i> <span> 1,200 </span> <span> Kcal </span> </p>
+
+                                                        </div>
+
+                                                    </label> <!-- flexible-plans-card -->
+
+                                                </div> <!-- one-meal-wrapper -->
+
+
+                                            </div> <!-- col-lg-3 -->
+
+                                        </div> <!-- row -->
+
+
+
+                                    </div>
+
+
+                                </div> <!-- main tab-content -->
+                            </div>
+
+
+
+                        </div> <!-- main-meals-wrapper -->
+
+                    </div>
 
                 </div> <!-- col-lg-12 -->
 
