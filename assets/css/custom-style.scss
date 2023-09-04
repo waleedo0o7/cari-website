@@ -777,6 +777,16 @@ hr.border-line {
     line-height: 2.5rem;
     border-radius: 3rem;
     border: 2px solid var(--gray);
+
+    &.one-item{
+        width: 8rem;
+
+        .switch-wrapper{
+            width: 100%;
+        }
+
+    }
+
 }
 
 /* input (radio) for toggling. hidden - use labels for clicking on */

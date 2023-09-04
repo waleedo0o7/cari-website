@@ -118,12 +118,9 @@
 
  <script src="assets/flatpickr/flatpickr.js"></script>
 
-
  <!-- Google Map -->
  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCww7LGmRDuRkyImwuN0GJB8zE_2vW7AuI"></script>
  <script type="text/javascript" src="assets/js/jquery.googlemap.js"></script>
-
-
 
  <!-- Custom  JS -->
  <script src="assets/js/custom.js"></script>

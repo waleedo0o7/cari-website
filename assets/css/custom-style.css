@@ -742,6 +742,12 @@ hr.border-line {
   border-radius: 3rem;
   border: 2px solid var(--gray);
 }
+.switches-container.one-item {
+  width: 8rem;
+}
+.switches-container.one-item .switch-wrapper {
+  width: 100%;
+}
 
 /* input (radio) for toggling. hidden - use labels for clicking on */
 .switches-container input {
