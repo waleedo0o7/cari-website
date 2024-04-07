@@ -57,7 +57,7 @@
                         <h5> 1 Meal </h5>
                         <h1 class="price"> SAR9 </h1>
                         <p class="lead"> Perfect for those looking for a convenient and cost-effective option while still enjoying a satisfying and wholesome meal. </p>
-                        <a href="#" class="default-btn  three w-100"> Subscribe Now </a>
+                        <a href="meal-plans.php"  class="default-btn  three w-100"> Subscribe Now </a>
                     </div>
 
                 </div><!-- flexible-plans-card -->
@@ -74,7 +74,7 @@
                         <h5> 1 Meal </h5>
                         <h1 class="price"> SAR9 </h1>
                         <p class="lead"> Perfect for those looking for a convenient and cost-effective option while still enjoying a satisfying and wholesome meal. </p>
-                        <a href="#" class="default-btn  three w-100"> Subscribe Now </a>
+                        <a href="meal-plans.php"  class="default-btn  three w-100"> Subscribe Now </a>
                     </div>
 
                 </div><!-- flexible-plans-card -->
@@ -91,7 +91,7 @@
                         <h5> 1 Meal </h5>
                         <h1 class="price"> SAR9 </h1>
                         <p class="lead"> Perfect for those looking for a convenient and cost-effective option while still enjoying a satisfying and wholesome meal. </p>
-                        <a href="#" class="default-btn  three w-100"> Subscribe Now </a>
+                        <a href="meal-plans.php" class="default-btn  three w-100"> Subscribe Now </a>
                     </div>
 
                 </div><!-- flexible-plans-card -->
@@ -107,7 +107,7 @@
                         <h5> 1 Meal </h5>
                         <h1 class="price"> SAR9 </h1>
                         <p class="lead"> Perfect for those looking for a convenient and cost-effective option while still enjoying a satisfying and wholesome meal. </p>
-                        <a href="#" class="default-btn  three w-100"> Subscribe Now </a>
+                        <a href="meal-plans.php" class="default-btn  three w-100"> Subscribe Now </a>
                     </div>
 
                 </div><!-- flexible-plans-card -->
@@ -155,10 +155,8 @@
             </div>
 
         </div>
-
     </div>
-
-</div> <!-- Why Choose Our Meal Plan Area -->
+</div>
 
 
 <!-- How It Works Area -->

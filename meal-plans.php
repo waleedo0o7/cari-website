@@ -79,20 +79,7 @@
                             </div>
                         </div> <!-- d-flex -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-                        <div class="d-flex justify-content-center align-items-center mb-4">
+                        <div class="d-flex justify-content-center align-items-center mb-4 d-none">
                             <div class="switches-container one-item">
                                 <input type="radio" id="weekly" name="switchPlan2" value="1" checked="checked" />
                                 <label for="weekly"> Weekly </label>
@@ -104,10 +91,7 @@
                             </div>
                         </div> <!-- d-flex -->
 
-
-
                         <div class="d-block mb-4">
-
 
                             <div class="flexible-plans-card-wrapper">
 

@@ -63,7 +63,6 @@
 
                         </div>
 
-
                         <div class="form-group mb-3">
 
                             <div class="map-wrapper relative">
@@ -163,16 +162,6 @@
                             <label class="form-check-label" for="flexSwitchCheckDefault"> Leave order at the door </label>
                         </div>
 
-
-
-
-
-
-
-
-
-
-
                     </div><!-- right-content -->
                 </div> <!-- col-lg-6 -->
 
@@ -181,7 +170,6 @@
 
                     <div class="left-content">
                         <p class="bold"> Add your information </p>
-
 
                         <div class="d-flex inline-inputs-group">
 
